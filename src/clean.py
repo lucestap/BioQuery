@@ -12,6 +12,7 @@ def simplify_paper(paper: dict[str, Any]) -> dict[str, Any]:
     return {
         "id": paper.get("pmid") or paper.get("doi") or paper.get("id"),
         "pmid": paper.get("pmid"),
+        "pmcid": paper.get("pmcid"),
         "doi": paper.get("doi"),
         "title": paper.get("title"),
         "authors": paper.get("authorString"),
