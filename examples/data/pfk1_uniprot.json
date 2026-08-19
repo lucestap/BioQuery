@@ -1,0 +1,381 @@
+{
+  "source": "UniProt",
+  "accession": "P17858",
+  "entry": "PFKAL_HUMAN",
+  "gene": "PFKL",
+  "protein_name": "ATP-dependent 6-phosphofructokinase, liver type",
+  "organism": "Homo sapiens",
+  "organism_id": 9606,
+  "function": [
+    "Catalyzes the phosphorylation of D-fructose 6-phosphate to fructose 1,6-bisphosphate by ATP, the first committing step of glycolysis (PubMed:22923583). Negatively regulates the phagocyte oxidative burst in response to bacterial infection by controlling cellular NADPH biosynthesis and NADPH oxidase-derived reactive oxygen species. Upon macrophage activation, drives the metabolic switch toward glycolysis, thus preventing glucose turnover that produces NADPH via pentose phosphate pathway (By similarity)"
+  ],
+  "catalytic_activity": [
+    {
+      "reaction": "beta-D-fructose 6-phosphate + ATP = beta-D-fructose 1,6-bisphosphate + ADP + H(+)",
+      "ec_number": "2.7.1.11"
+    }
+  ],
+  "functional_sites": [
+    {
+      "type": "Active site",
+      "start": 166,
+      "end": 166,
+      "description": "Proton acceptor",
+      "ligand": null,
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 25,
+      "end": 25,
+      "description": "",
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 88,
+      "end": 89,
+      "description": "",
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 118,
+      "end": 121,
+      "description": "",
+      "ligand": {
+        "name": "ATP",
+        "id": "ChEBI:CHEBI:30616"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 119,
+      "end": 119,
+      "description": "",
+      "ligand": {
+        "name": "Mg(2+)",
+        "id": "ChEBI:CHEBI:18420",
+        "note": "catalytic"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 164,
+      "end": 166,
+      "description": "in other chain",
+      "ligand": {
+        "name": "substrate",
+        "note": "ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 201,
+      "end": 201,
+      "description": "",
+      "ligand": {
+        "name": "substrate",
+        "note": "ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 208,
+      "end": 210,
+      "description": "in other chain",
+      "ligand": {
+        "name": "substrate",
+        "note": "ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 264,
+      "end": 264,
+      "description": "in other chain",
+      "ligand": {
+        "name": "substrate",
+        "note": "ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 292,
+      "end": 292,
+      "description": "",
+      "ligand": {
+        "name": "substrate",
+        "note": "ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 298,
+      "end": 301,
+      "description": "in other chain",
+      "ligand": {
+        "name": "substrate",
+        "note": "ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 470,
+      "end": 470,
+      "description": "in other chain",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 527,
+      "end": 531,
+      "description": "in other chain",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 565,
+      "end": 565,
+      "description": "",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 572,
+      "end": 574,
+      "description": "in other chain",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 628,
+      "end": 628,
+      "description": "in other chain",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 654,
+      "end": 654,
+      "description": "",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 660,
+      "end": 663,
+      "description": "in other chain",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "start": 734,
+      "end": 734,
+      "description": "in other chain",
+      "ligand": {
+        "name": "beta-D-fructose 2,6-bisphosphate",
+        "id": "ChEBI:CHEBI:58579",
+        "note": "allosteric activator; ligand shared between dimeric partners"
+      },
+      "evidence": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "HAMAP-Rule",
+          "id": "MF_03184"
+        }
+      ]
+    }
+  ],
+  "pdb_structures": [
+    {
+      "pdb_id": "7LW1",
+      "method": "EM",
+      "resolution": "2.90 A",
+      "chains": "A/D/E/F=1-780"
+    },
+    {
+      "pdb_id": "8W2G",
+      "method": "EM",
+      "resolution": "3.00 A",
+      "chains": "A/B/C/D=1-780"
+    },
+    {
+      "pdb_id": "8W2H",
+      "method": "EM",
+      "resolution": "2.60 A",
+      "chains": "A/B/C/D=1-780"
+    },
+    {
+      "pdb_id": "8W2I",
+      "method": "EM",
+      "resolution": "3.60 A",
+      "chains": "A/B/C/D/E/F/G/H=1-780"
+    },
+    {
+      "pdb_id": "8W2J",
+      "method": "EM",
+      "resolution": "3.10 A",
+      "chains": "A/B/C/D/E/F/G/H=1-780"
+    }
+  ]
+}
