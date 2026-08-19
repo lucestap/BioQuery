@@ -1,0 +1,119 @@
+[
+  {
+    "paper_id": "39183237",
+    "claim": "Human liver PFK1 (PFKL) undergoes a conformational transition between an active R-state and an inactive T-state, analogous to but structurally distinct from bacterial PFK1 allostery.",
+    "question_aspect": "General mechanism of R-state/T-state allosteric transition in PFK-1",
+    "evidence_type": "structural",
+    "support": "CryoEM structures of human PFKL in R- and T-state were determined, revealing conformational differences between bacterial and eukaryotic enzyme.",
+    "limitations": "Abstract does not detail the specific residue-level conformational changes distinguishing R- and T-states beyond stating differences exist.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "39183237",
+    "claim": "ATP allosterically inhibits human PFKL by binding at multiple distinct sites, stabilizing the T-state.",
+    "question_aspect": "Molecular mechanism of allosteric inhibition by ATP",
+    "evidence_type": "structural",
+    "support": "The T-state structure reveals mechanisms of allosteric inhibition by ATP binding at multiple sites.",
+    "limitations": "Abstract does not specify exact locations or number of ATP binding sites, nor the detailed structural consequences of ATP binding at each site.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "39183237",
+    "claim": "The C-terminus of PFKL plays an autoinhibitory role by stabilizing the inactive T-state conformation.",
+    "question_aspect": "Structural elements contributing to T-state stabilization and inhibition",
+    "evidence_type": "structural",
+    "support": "The abstract states the T-state structure reveals an autoinhibitory role of the C-terminus in stabilizing the T-state.",
+    "limitations": "No mechanistic detail on how the C-terminus interacts with other domains is provided beyond this general statement.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "39183237",
+    "claim": "PFKL forms higher-order filament assemblies whose structural basis was determined, and these structures are necessary for higher-order assembly of PFKL in cells.",
+    "question_aspect": "Role of oligomerization/filament formation in PFK-1 regulation",
+    "evidence_type": "structural",
+    "support": "The study determined structures of PFKL filaments defining the mechanism of higher-order assembly and demonstrated necessity of these structures for cellular assembly.",
+    "limitations": "Abstract does not clarify how filament formation directly relates to allosteric activity regulation (e.g., whether filaments favor R- or T-state).",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "40329473",
+    "claim": "Canonical ATP-dependent PFKs (including human liver PFK) are allosterically regulated, in contrast to typically non-allosteric PPi-dependent PFKs.",
+    "question_aspect": "Comparative context for allosteric regulation across PFK superfamily members",
+    "evidence_type": "review",
+    "support": "The abstract states canonical PFK is ATP-dependent and allosterically regulated, while PPi-dependent PFKs are typically non-allosteric and catalyze a readily reversible reaction.",
+    "limitations": "This is a general comparative statement without mechanistic detail on the allosteric regulation itself.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "40329473",
+    "claim": "CryoEM and molecular dynamics simulations have been used to illuminate the structural basis of allosteric regulation in human liver PFK.",
+    "question_aspect": "Methodological basis for understanding molecular mechanism of PFK-1 allostery",
+    "evidence_type": "review",
+    "support": "The abstract highlights the use of cryoEM and molecular dynamics simulations as a recent highlight for understanding structural basis of allosteric regulation in human liver PFK.",
+    "limitations": "No specific mechanistic findings from these studies are detailed in this abstract beyond referencing their existence.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "40397908",
+    "claim": "Human PFK1 possesses catalytic binding sites that can be targeted by small molecules identified through virtual docking screening, which reduce cancer-specific modified PFK1 activity.",
+    "question_aspect": "Molecular basis of PFK-1 regulation/inhibition via ligand binding at catalytic sites",
+    "evidence_type": "computational",
+    "support": "The abstract describes using the atomic model of the crystal structure of human PFK1 for virtual screening of 4.5 million compounds by docking with the catalytic binding sites of the enzyme, which identified two compounds capable of reducing modified, cancer-specific PFK1 activity.",
+    "limitations": "The abstract does not specify the exact allosteric mechanism, binding site location relative to known allosteric sites (e.g., ATP inhibitory site), or structural details of how binding alters enzyme conformation/activity.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "40397908",
+    "claim": "Cancer-specific modification of PFK1 impairs the enzyme's normal regulatory capacity, leading to increased glycolytic flux.",
+    "question_aspect": "How dysregulation of normal allosteric/regulatory control of PFK-1 occurs in disease states",
+    "evidence_type": "other",
+    "support": "The abstract states that 'Cancer-specific modification of 6-phosphofructo-1-kinase (PFK) impairs its ability to regulate the enzyme's activity which increases glycolytic flux.'",
+    "limitations": "The abstract does not specify the molecular nature of this modification (e.g., post-translational modification, mutation) or how it mechanistically disrupts allosteric regulation at the structural level.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "36359000",
+    "claim": "Cooperative allosteric proteins can be classified along a mechanistic spectrum from the concerted (MWC) model to the sequential (KNF) model, distinguished by combined functional and structural analysis of tertiary versus quaternary structural changes and symmetry/asymmetry in the liganded state.",
+    "question_aspect": "General molecular mechanism of allosteric cooperativity applicable to enzymes like PFK-1",
+    "evidence_type": "review",
+    "support": "The abstract explains that the concerted model (Monod, Wyman, Changeux) and sequential model (Pauling; Koshland, Nemethy, Filmer) describe cooperative ligand binding and effector-based regulation of affinity, and that structural analysis of tertiary/quaternary changes and asymmetry in liganded states helps distinguish which mechanism applies to a given protein.",
+    "limitations": "The abstract discusses general cooperative proteins and does not mention PFK-1 specifically, so findings cannot be directly attributed to PFK-1 without further evidence linking it to one of these mechanisms.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "36359000",
+    "claim": "Isologous, mostly helical subunit interfaces are a common structural feature found in cooperative proteins regardless of whether they follow a concerted or sequential allosteric mechanism.",
+    "question_aspect": "Structural features underlying allosteric cooperativity relevant to multimeric enzymes like PFK-1",
+    "evidence_type": "structural",
+    "support": "The abstract states: 'We find that isologous, mostly helical interfaces are common in cooperative proteins regardless of their mechanism.'",
+    "limitations": "This is a general structural observation across examined cooperative proteins in the paper; the abstract does not confirm this feature specifically for PFK-1 or detail how it relates to substrate/effector binding at allosteric sites in PFK-1.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "33540748",
+    "claim": "Mycobacterium tuberculosis Pfk A is allosterically inhibited by excess of its own substrates (fructose-6-phosphate and ATP), reaction products (fructose-1,6-bisphosphate and ADP), and common metabolic allosteric regulators.",
+    "question_aspect": "Molecular mechanism of PFK-1 allosteric regulation by substrates, products, and effectors",
+    "evidence_type": "biochemical",
+    "support": "The abstract states that Pfk A activity 'is markedly inhibited by an excess of both substrates (fructose-6-phosphate and ATP), reaction products (fructose-1,6-bisphosphate and ADP) and common metabolic allosteric regulators.'",
+    "limitations": "The abstract does not specify the identity of the 'common metabolic allosteric regulators,' nor does it provide structural or mechanistic detail on how these molecules bind or induce conformational change; this is bacterial PFK, which may differ mechanistically from eukaryotic PFK-1.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "33540748",
+    "claim": "Pfk B, a second PFK isoenzyme in M. tuberculosis, is not regulated by higher levels of substrates and metabolites, unlike Pfk A, indicating isoenzyme-specific differences in allosteric control.",
+    "question_aspect": "Comparative allosteric regulation among PFK isoenzymes",
+    "evidence_type": "biochemical",
+    "support": "The abstract states 'synthesis of fructose-1,6-bisphosphatase catalyzed by Pfk B is not regulated by higher levels of substrates, and metabolites,' contrasting with Pfk A's marked inhibition.",
+    "limitations": "The abstract does not explain the molecular basis for this lack of regulation (e.g., absence of allosteric binding sites), and findings are specific to Mtb Pfk B, which may not generalize to canonical PFK-1 enzymes in other organisms.",
+    "source_scope": "abstract"
+  },
+  {
+    "paper_id": "33540748",
+    "claim": "The two PFK isoenzymes in M. tuberculosis show functional divergence relevant to metabolic flexibility, with Pfk A more susceptible to allosteric inhibition while Pfk B can catalyze the reverse gluconeogenic reaction to support glycolysis when Pfk A is inhibited.",
+    "question_aspect": "Physiological role of allosteric regulation in controlling glycolytic flux",
+    "evidence_type": "biochemical",
+    "support": "The abstract notes that 'only Pfk B can catalyze the reverse gluconeogenic reaction' and that 'Pfk B thus can support glycolysis under conditions inhibiting Pfk A function,' linking differential allosteric regulation to metabolic adaptability.",
+    "limitations": "The abstract does not provide direct evidence connecting allosteric inhibition of Pfk A to Pfk B's compensatory activation at a molecular level; the functional link is inferred rather than directly demonstrated by binding or structural data.",
+    "source_scope": "abstract"
+  }
+]
