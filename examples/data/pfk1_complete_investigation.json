@@ -1,0 +1,1526 @@
+{
+  "input": {
+    "topic": "PFK-1 allosteric regulation",
+    "question": "How does allosteric regulation of PFK-1 work at the molecular level?",
+    "existing_knowledge": "I understand basic enzyme kinetics, cooperativity, glycolysis, and allosteric regulation.",
+    "depth": "advanced undergraduate",
+    "gene": "PFKL",
+    "organism_id": 9606
+  },
+  "investigation_plan": {
+    "question_interpretation": "The question asks for a mechanistic, molecular-level explanation of how allosteric effectors (ATP, AMP, ADP, F2,6BP, citrate, H+) and quaternary structural changes regulate PFK-1 activity, including how binding at regulatory sites is transmitted to the catalytic site to alter enzyme conformation and kinetics (T vs R state transitions).",
+    "investigation_dimensions": [
+      {
+        "dimension": "PFK-1 quaternary structure and allosteric site architecture",
+        "why_it_matters": "Understanding the tetrameric structure, the location of catalytic vs allosteric sites, and subunit interfaces is essential to explain how effector binding at one site influences activity at a distant catalytic site (structural basis of allostery).",
+        "search_queries": [
+          "PFK-1 crystal structure allosteric site tetramer",
+          "phosphofructokinase quaternary structure catalytic allosteric site interface"
+        ]
+      },
+      {
+        "dimension": "Effector-specific binding and conformational mechanisms (ATP, AMP, F2,6BP, citrate)",
+        "why_it_matters": "Each allosteric effector binds distinct sites and triggers specific conformational shifts; detailing these individual mechanisms is necessary to explain the molecular basis of activation vs inhibition.",
+        "search_queries": [
+          "ATP inhibition PFK-1 allosteric site conformational change",
+          "fructose-2,6-bisphosphate activation PFK-1 mechanism",
+          "AMP citrate allosteric regulation phosphofructokinase structure"
+        ]
+      },
+      {
+        "dimension": "T-state to R-state transition and cooperativity model",
+        "why_it_matters": "PFK-1 regulation is explained through concerted (MWC) allosteric transitions between low-affinity (T) and high-affinity (R) states; evidence on how effector binding shifts this equilibrium is central to the molecular mechanism.",
+        "search_queries": [
+          "MWC model PFK-1 T state R state transition",
+          "cooperative kinetics phosphofructokinase allosteric transition"
+        ]
+      },
+      {
+        "dimension": "pH sensitivity and physiological integration",
+        "why_it_matters": "PFK-1 is also regulated by protons (pH), linking allosteric regulation to metabolic and physiological states (e.g., muscle activity), providing mechanistic and functional context.",
+        "search_queries": [
+          "pH regulation phosphofructokinase allosteric mechanism",
+          "proton inhibition PFK-1 muscle glycolysis"
+        ]
+      },
+      {
+        "dimension": "Comparative and mutational structural studies",
+        "why_it_matters": "Site-directed mutagenesis and comparative structural studies (bacterial vs mammalian PFK-1) reveal which residues and interactions mediate allosteric communication, strengthening mechanistic claims.",
+        "search_queries": [
+          "site-directed mutagenesis phosphofructokinase allosteric residues",
+          "bacterial versus mammalian PFK-1 structural comparison allostery"
+        ]
+      }
+    ]
+  },
+  "retrieval": {
+    "raw_paper_count": 55,
+    "unique_paper_count": 35,
+    "search_queries": [
+      "PFK-1 crystal structure allosteric site tetramer",
+      "phosphofructokinase quaternary structure catalytic allosteric site interface",
+      "ATP inhibition PFK-1 allosteric site conformational change",
+      "fructose-2,6-bisphosphate activation PFK-1 mechanism",
+      "AMP citrate allosteric regulation phosphofructokinase structure",
+      "MWC model PFK-1 T state R state transition",
+      "cooperative kinetics phosphofructokinase allosteric transition",
+      "pH regulation phosphofructokinase allosteric mechanism",
+      "proton inhibition PFK-1 muscle glycolysis",
+      "site-directed mutagenesis phosphofructokinase allosteric residues",
+      "bacterial versus mammalian PFK-1 structural comparison allostery"
+    ]
+  },
+  "ranked_papers": [
+    {
+      "id": "39183237",
+      "pmid": "39183237",
+      "pmcid": "PMC11345425",
+      "doi": "10.1038/s41467-024-51808-6",
+      "title": "Structural basis for allosteric regulation of human phosphofructokinase-1.",
+      "authors": "Lynch EM, Hansen H, Salay L, Cooper M, Timr S, Kollman JM, Webb BA.",
+      "journal": "Nature communications",
+      "year": "2024",
+      "abstract": "Phosphofructokinase-1 (PFK1) catalyzes the rate-limiting step of glycolysis, committing glucose to conversion into cellular energy. PFK1 is highly regulated to respond to the changing energy needs of the cell. In bacteria, the structural basis of PFK1 regulation is a textbook example of allostery; molecular signals of low and high cellular energy promote transition between an active R-state and inactive T-state conformation, respectively. Little is known, however, about the structural basis for regulation of eukaryotic PFK1. Here, we determine structures of the human liver isoform of PFK1 (PFKL) in the R- and T-state by cryoEM, providing insight into eukaryotic PFK1 allosteric regulatory mechanisms. The T-state structure reveals conformational differences between the bacterial and eukaryotic enzyme, the mechanisms of allosteric inhibition by ATP binding at multiple sites, and an autoinhibitory role of the C-terminus in stabilizing the T-state. We also determine structures of PFKL filaments that define the mechanism of higher-order assembly and demonstrate that these structures are necessary for higher-order assembly of PFKL in cells.",
+      "publication_type": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 44,
+      "relevance_score": 3,
+      "relevance_reason": "Directly determines cryoEM structures of human PFK1 in R- and T-states, revealing molecular mechanisms of allosteric inhibition by ATP, autoinhibitory C-terminus, and filament assembly, providing highly relevant mechanistic evidence."
+    },
+    {
+      "id": "41247276",
+      "pmid": "41247276",
+      "pmcid": "PMC12670391",
+      "doi": "10.1021/acs.jpcb.5c05346",
+      "title": "Multiscale Simulation of Phosphofructokinase-1 Assemblies: Capturing the Interplay between Specific and Transient Interactions.",
+      "authors": "Hazrati MK, Miclot T, Timr S.",
+      "journal": "The journal of physical chemistry. B",
+      "year": "2025",
+      "abstract": "Human phosphofructokinase-1 (PFK1) forms filaments and organizes into large-scale assemblies that are thought to play a key role in the spatial organization of glycolysis. However, the molecular interactions driving this assembly and the isoform-specific tendencies to form such structures remain poorly understood. In this work, we combine coarse-grained and all-atom molecular dynamics simulations to characterize interactions between PFK1 tetramers. Using the Martini and OPEPv7 coarse-grained force fields, we identify key regions mediating transient PFK1-PFK1 interactions and show that these include experimentally identified filament-forming interfaces. At the same time, we find that current coarse-grained models\u2500optimized for nonspecific, transient contacts\u2500lack the resolution to capture the specific side-chain interactions critical for filament stability, as revealed by previous experiments and our all-atom simulations. To address this, we propose enhancing the coarse-grained representation of filament-forming interfaces by introducing additional hydrogen-bonding terms for key residues. This modification improves filament stability and more accurately reproduces the effects of the filament-disrupting Asn-to-Thr mutation. Overall, our work provides a foundation for molecular-level modeling of glycolytic enzyme assemblies and offers a strategy to improve the accuracy of coarse-grained models in capturing the delicate interplay between specific and transient interactions in dynamic protein complexes.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 3,
+      "relevance_reason": "Directly examines molecular interactions and dynamics underlying PFK1 filament and higher-order assembly, which relates to structural aspects of PFK1 regulation and quaternary structure formation relevant to allosteric behavior."
+    },
+    {
+      "id": "40329473",
+      "pmid": "40329473",
+      "pmcid": "PMC12203962",
+      "doi": "10.1042/bcj20253024",
+      "title": "The more we learn, the more diverse it gets: structures, functions and evolution in the Phosphofructokinase Superfamily.",
+      "authors": "Compton JA, Patrick WM.",
+      "journal": "The Biochemical journal",
+      "year": "2025",
+      "abstract": "The enzyme 6-phosphofructokinase (PFK) phosphorylates d-fructose 6-phosphate, producing d-fructose 1,6-bisphosphate. The canonical version-discovered almost 90 years ago-is ATP-dependent, allosterically regulated and catalyses the first committed step in glycolysis. However, beyond this textbook enzyme, there is fascinating functional and structural variety among PFKs across the tree of life. While PFKs are found in two non-homologous superfamilies, here, we review the universally distributed enzymes in one, the Phosphofructokinase Superfamily. We focus on summarising the diversity within this superfamily. A key partition regards the identity of the phosphate donor, which can be ATP or inorganic pyrophosphate (PPi). Considerable insights into functional and evolutionary aspects of the ATP- and PPi-dependent PFKs have come through structural biology, with 45 structures now available in the Protein Data Bank. One recent highlight was the use of cryoEM and molecular dynamics simulations to illuminate the structural basis of allosteric regulation in human liver PFK. Others were to explore interactions of drug-like small molecules with the PFKs from Trypanosoma brucei and human liver, revealing new routes to antibiotics and immune modulators, respectively. In contrast with the ATP-dependent enzymes, PPi-dependent PFKs are typically non-allosteric and catalyse a readily reversible reaction. Some also play an additional physiological role by phosphorylating d-sedoheptulose 7-phosphate. We discuss why these properties are plausibly ancestral. Finally, we also emphasise how much remains to be discovered. For example, the 45 experimentally determined structures are from only 14 species. Nine decades in, it is still a great time to be studying PFK.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 5,
+      "relevance_score": 3,
+      "relevance_reason": "Directly reviews PFK structures and function, explicitly discusses cryoEM/molecular dynamics studies elucidating the structural basis of allosteric regulation in human liver PFK, highly relevant mechanistic evidence."
+    },
+    {
+      "id": "40186355",
+      "pmid": "40186355",
+      "pmcid": "PMC12256850",
+      "doi": "10.1016/j.bpj.2025.03.037",
+      "title": "Glycolysis model shows that allostery maintains high ATP and limits accumulation of intermediates.",
+      "authors": "Choe M, Einav T, Phillips R, Titov DV.",
+      "journal": "Biophysical journal",
+      "year": "2025",
+      "abstract": "Glycolysis is a conserved metabolic pathway that produces ATP and biosynthetic precursors. It is not well understood how the control of mammalian glycolytic enzymes through allosteric feedback and mass action accomplishes various tasks of ATP homeostasis, such as controlling the rate of ATP production, maintaining high and stable ATP levels, ensuring that ATP hydrolysis generates a net excess of energy, and maintaining glycolytic intermediate concentrations within physiological levels. To investigate these questions, we developed a biophysical model of glycolysis based on enzyme rate equations derived from in vitro kinetic data. This is the first biophysical model of human glycolysis that successfully recapitulates the above tasks of ATP homeostasis and predicts absolute concentrations of glycolytic intermediates and isotope tracing kinetics that align with experimental measurements in human cells. We use the model to show that mass action alone is sufficient to control the ATP production rate and maintain the high energy of ATP hydrolysis. Meanwhile, allosteric regulation of hexokinase and phosphofructokinase by ATP, ADP, inorganic phosphate, and glucose-6-phosphate is required to maintain high ATP levels and to prevent uncontrolled accumulation of phosphorylated intermediates of glycolysis. Allosteric feedback achieves the latter by maintaining hexokinase and phosphofructokinase enzyme activity at one-half of ATP demand and, thus, inhibiting the reaction of Harden and Young, which otherwise converts glucose to supraphysiological levels of phosphorylated glycolytic intermediates at the expense of ATP. Our methodology provides a roadmap for a quantitative understanding of how metabolic homeostasis emerges from the activities of individual enzymes.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 8,
+      "relevance_score": 3,
+      "relevance_reason": "Presents a biophysical model of glycolysis explicitly detailing how allosteric regulation of PFK (and hexokinase) by ATP, ADP, Pi, and G6P controls enzyme activity and metabolic homeostasis, directly addressing molecular allosteric mechanism."
+    },
+    {
+      "id": "32478093",
+      "pmid": "32478093",
+      "pmcid": "PMC7240002",
+      "doi": "10.3389/fmolb.2020.00088",
+      "title": "Identification of Alternative Allosteric Sites in Glycolytic Enzymes for Potential Use as Species-Specific Drug Targets.",
+      "authors": "Ayyildiz M, Celiker S, Ozhelvaci F, Akten ED.",
+      "journal": "Frontiers in molecular biosciences",
+      "year": "2020",
+      "abstract": "Three allosteric glycolytic enzymes, phosphofructokinase, glyceraldehyde-3 phosphate dehydrogenase and pyruvate kinase, associated with bacterial, parasitic and human species, were explored to identify potential allosteric sites that would be used as prime targets for species-specific drug design purposes using a newly developed approach which incorporates solvent mapping, elastic network modeling, sequence and structural alignments. The majority of binding sites detected by solvent mapping overlapped with the interface regions connecting the subunits, thus appeared as promising target sites for allosteric regulation. Each binding site was then evaluated by its ability to alter the global dynamics of the receptor defined by the percentage change in the frequencies of the lowest-frequency modes most significantly and as anticipated, the most effective ones were detected in the vicinity of the well-reported catalytic and allosteric sites. Furthermore, some of our proposed regions intersected with experimentally resolved sites which are known to be critical for activity regulation, which further validated our approach. Despite the high degree of structural conservation encountered between bacterial/parasitic and human glycolytic enzymes, the majority of the newly presented allosteric sites exhibited a low degree of sequence conservation which further increased their likelihood to be used as species-specific target regions for drug design studies.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 23,
+      "relevance_score": 3,
+      "relevance_reason": "Directly studies phosphofructokinase allosteric sites using structural/dynamic modeling, providing molecular-level mechanistic insight into PFK allosteric regulation."
+    },
+    {
+      "id": "31838765",
+      "pmid": "31838765",
+      "pmcid": "PMC7383607",
+      "doi": "10.1111/febs.15177",
+      "title": "Kinetic and structural studies of Trypanosoma and Leishmania phosphofructokinases show evolutionary divergence and identify AMP as a switch regulating glycolysis versus gluconeogenesis.",
+      "authors": "Fernandes PM, Kinkead J, McNae IW, V\u00e1squez-Valdivieso M, Wear MA, Michels PAM, Walkinshaw MD.",
+      "journal": "The FEBS journal",
+      "year": "2020",
+      "abstract": "Trypanosomatids possess glycosome organelles that contain much of the glycolytic machinery, including phosphofructokinase (PFK). We present kinetic and structural data for PFK from three human pathogenic trypanosomatids, illustrating intriguing differences that may reflect evolutionary adaptations to differing ecological niches. The activity of Leishmania PFK - to a much larger extent than Trypanosoma PFK - is reliant on AMP for activity regulation, with 1\u00a0mm AMP increasing the L.\u00a0infantum PFK (LiPFK) kcat/K<sub>0.5</sub><sup>F6P</sup> value by 10-fold, compared to only a 1.3- and 1.4-fold increase for T.\u00a0cruzi and T.\u00a0brucei PFK, respectively. We also show that Leishmania PFK melts at a significantly lower (>\u00a015\u00a0\u00b0C) temperature than Trypanosoma PFKs and that addition of either AMP or ATP results in a marked stabilization of the protein. Sequence comparisons of Trypanosoma spp. and Leishmania spp. show that divergence of the two genera involved amino acid substitutions that occur in the enzyme's 'reaching arms' and 'embracing arms' that determine tetramer stability. The dramatic effects of AMP on Leishmania activity compared with the Trypanosoma PFKs may be explained by differences between the T-to-R equilibria for the two families, with the low-melting Leishmania PFK favouring the flexible inactive T-state in the absence of AMP. Sequence comparisons along with the enzymatic and structural data presented here also suggest there was a loss of AMP-dependent regulation in Trypanosoma species rather than gain of this characteristic in Leishmania species and that AMP acts as a key regulator in Leishmania governing the balance between glycolysis and gluconeogenesis.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 10,
+      "relevance_score": 3,
+      "relevance_reason": "Directly examines allosteric regulation of phosphofructokinase (PFK) by AMP, including kinetic parameters (kcat/K0.5), structural data on T-to-R state equilibria, and structural elements (reaching/embracing arms) affecting tetramer stability and allosteric activation, providing strong molecular-level mechanistic insight into PFK allostery."
+    },
+    {
+      "id": "40397908",
+      "pmid": "40397908",
+      "pmcid": "PMC12094722",
+      "doi": "10.1371/journal.pone.0321998",
+      "title": "Small-molecule inhibitors of 6-phosphofructo-1-kinase simultaneously suppress lactate and superoxide generation in cancer cells.",
+      "authors": "Le\u0161nik S, Konc J, Vodopivec T, \u010camernik K, Karolina Potokar U, Legi\u0161a M.",
+      "journal": "PloS one",
+      "year": "2025",
+      "abstract": "Deregulated energy metabolism is a hallmark of cancer, characterized by increased glycolytic flux. Cancer-specific modification of 6-phosphofructo-1-kinase (PFK) impairs its ability to regulate the enzyme's activity which increases glycolytic flux. Consequently, excessive cytosolic NADH formation triggers a harmful redox imbalance in cancer cells, which is rapidly neutralized by the formation of lactic acid and superoxide (SOX). To learn more about deregulated glycolysis in cancer cells, a supercomputer used the atomic model of the crystal structure of human PFK1 for virtual screening a database of 4.5 million compounds by docking with the catalytic binding sites of the enzyme. The screening revealed two compounds capable of reducing modified, cancer-specific PFK1 activity and simultaneously suppressing lactate and SOX formation. A dose-dependent inhibition was observed in the cells treated by compounds in the following tumorigenic cells: Jurkat (Acute T cells leukemia); Caco-2 (colorectal adenocarcinoma); COLO 829 (melanoma); and MDA-MB-231 (breast gland adenocarcinoma). In addition, two selected compounds assessed for cytostatic and cytotoxic activity showed no negative effects on tumorigenic cells. However, during incubation, the strengths of inhibitions continuously decreased, both during lactate and SOX formation. No such effects were observed if compounds were sequentially submitted to the cells at low concentrations every 24 hours. Additional experiments performed by Jurkat cells revealed reduced respiration and glycolysis rates in the cells treated with compounds concerning the untreated cells. Inhibition of modified cancer-specific PFK1 activity reduces deregulated glycolytic flux, prevents abundant cytosolic NADH formation, and restores redox balance thus simultaneously preventing the formation of deleterious effects of lactate and SOX, two crucial players in cancer initiation and development.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Uses PFK1 crystal structure for docking small-molecule inhibitors at catalytic sites affecting regulation of cancer-specific PFK activity, offering some supporting evidence on PFK1 functional modulation though not focused on classical allosteric mechanism."
+    },
+    {
+      "id": "42142286",
+      "pmid": "42142286",
+      "pmcid": "PMC13179880",
+      "doi": "10.1007/s10822-026-00830-5",
+      "title": "Breaking glycolysis: allosteric hotspots for multi-target drug repurposing.",
+      "authors": "Vural LS, Kahraman E, Mintemur S, Urhan S, Akten ED.",
+      "journal": "Journal of computer-aided molecular design",
+      "year": "2026",
+      "abstract": "Glycolysis is essential for cellular energy production, making its enzymes attractive antimicrobial targets. Traditional strategies targeting conserved catalytic sites risk host toxicity due to limited species specificity. Allosteric sites-spatially distinct, evolutionarily divergent regulatory regions-offer selective inhibition but are challenging to detect experimentally. Here, we systematically mapped allosteric sites across all ten glycolytic enzymes of Staphylococcus aureus and Plasmodium vivax using a multi-scale computational framework combining elastic network models, residue interaction networks, and complementary machine-learning algorithms. High-confidence allosteric sites were identified in fructose-1,6-bisphosphate aldolase, triosephosphate isomerase, and phosphoglycerate mutase, revealing diverse regulatory architectures, from interfacial network hubs to hinge-mediated dynamic control. Experimentally validated sites in pyruvate kinase and phosphofructokinase further reinforced the predictive framework. Comparative analysis with human homologs confirmed pronounced species-specific divergence, supporting selective targeting. Virtual screening 1,615 FDA-approved compounds across all ten enzymes identified multi-target ligands exhibiting amphiphilic, interface-stabilizing architectures capable of coordinated glycolytic modulation. Binding analyses revealed a balanced contribution of polar and hydrophobic interactions, consistent with robust allosteric modulation. This pathway-wide, network-informed approach demonstrates the feasibility of selective disruption of bacterial glycolysis and provides a blueprint for rational polypharmacology and next-generation antimicrobial design.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Computationally maps allosteric sites across glycolytic enzymes including phosphofructokinase, providing some relevant computational insight into PFK allosteric regulation, though broader in scope and not primarily mechanistic on PFK-1 itself."
+    },
+    {
+      "id": "42216562",
+      "pmid": "42216562",
+      "pmcid": "PMC13267639",
+      "doi": "10.1093/molbev/msag129",
+      "title": "Functional conservation with mechanistic drift: AMP activation in the evolution of archaeal sugar kinases.",
+      "authors": "M Herrera S, Vallejos-Baccelliere G, Malav\u00e9 D, Hern\u00e1ndez-Cabello L, Castro-Fernandez V, Guix\u00e9 V.",
+      "journal": "Molecular biology and evolution",
+      "year": "2026",
+      "abstract": "Although allosteric regulation has been pointed out as one of the cornerstones of biological function, it has been a scarcely studied phenomenon in Archaea carbohydrate metabolism. Given its central role in metabolism, we experimentally investigated how allosteric regulation and its underlying kinetic mechanism evolved along evolutionary pathways within the archaeal ADP-dependent kinase family. Using ancestral sequence reconstruction, we resurrected key ancestors of this family and show that AMP regulation is an ancestral feature retained exclusively in lineages encoding bifunctional ADP-dependent phosphofructokinase (PFK)/glucokinase (GK) enzymes, which are restricted to methanogenic organisms, whereas it is lost in lineage-specific PFK enzymes. Notably, although AMP-dependent allosteric regulation is conserved among bifunctional ADP-PFK/GK enzymes, the kinetic mechanisms underlying activation are not. Instead, we observed a diversity of activation mechanisms (increased affinity for substrates, enhanced catalytic efficiency, or a combination of both), distributed along a 2-billion-year evolutionary trajectory, and that persists across different temperatures studied, both in extant and ancestral enzymes. These results highlight that the structural scaffold of this protein family is evolutionarily robust, preserving function while allowing substantial diversification of the underlying activation mechanisms under sequence variation. Based on these findings, we propose the concept of mechanistic drift, in which evolutionary pressures primarily act on adaptive functional traits that confer an adaptive advantage, rather than on the specific molecular mechanisms by which they are achieved. This framework has broad implications for macromolecular evolution, illustrating how long-term functional conservation can coexist with extensive physicochemical mechanistic diversity.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Directly examines allosteric AMP regulation of ADP-dependent PFK/GK enzymes, providing mechanistic and evolutionary insight into how allosteric activation mechanisms function in a PFK-family enzyme, relevant to understanding molecular allostery in PFK, though not the canonical ATP-dependent PFK-1."
+    },
+    {
+      "id": "42358350",
+      "pmid": "42358350",
+      "pmcid": "PMC13291013",
+      "doi": "10.3389/fphar.2026.1844992",
+      "title": "Targeting phosphofructokinase in cancer: integrating natural products for metabolic reprogramming and therapeutic innovation.",
+      "authors": "Cao C, Lv C, ElFar A.",
+      "journal": "Frontiers in pharmacology",
+      "year": "2026",
+      "abstract": "The metabolism of cancer cells is reprogrammed toward aerobic glycolysis (the Warburg effect), which stimulates tumor growth. Phosphofructokinase (PFK) and its isoforms, PFKP, PFKM, and PFKL, are highly conserved central glycolytic controllers and a potential therapeutic intervention. This review discusses the complex functions of PFK in tumor biology, including its roles in regulating proliferation, invasion, metastasis, and therapy resistance. It further discusses the tumor microenvironmental role of PFK, which influences immune evasion, angiogenesis, and stromal interactions, as well as its non-metabolic signaling functions. The therapeutic approaches to PFK, such as synthetic (e.g., PFK15) and natural (e.g., curcumin) compounds, are considered alongside strategies to address specific difficulties. Lastly, the review is based on a combination of expression analysis of PFK isoforms and a closer analysis of synthetic and natural inhibitors, and it suggests a prospective framework for implementing PFK-targeted therapies in clinical practice that incorporates AI-based drug design, nanodelivery, and immune-metabolic modulation.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Reviews PFK isoforms and their targeting in cancer, including regulatory roles, but focuses more on therapeutic inhibitors and expression rather than detailed molecular allosteric mechanisms."
+    },
+    {
+      "id": "41900933",
+      "pmid": "41900933",
+      "pmcid": "PMC13027950",
+      "doi": "10.3390/life16030414",
+      "title": "Virtual Cell and Metabolic Control Analysis: Control Coefficients for Glycolytic Flux Are Highly Dependent on the Subsystem Selected for Analysis.",
+      "authors": "Martinov MV, Ataullakhanov FI, Protasov ES, Vitvitsky VM.",
+      "journal": "Life (Basel, Switzerland)",
+      "year": "2026",
+      "abstract": "The metabolic control analysis (MCA) was applied to several subsystems selected from the model of human erythrocyte energy metabolism. These subsystems represent varying degrees of simplification of energy metabolism, from the simplest subsystem of the first three glycolytic reactions that determine the steady-state rate of glycolysis, to an expanded subsystem that includes all glycolytic reactions plus passive and active ion transport across the cell membrane. The control coefficients of enzyme activities for the rate of glycolysis are found to be very different in different subsystems. However, no specific trend is observed in changes in control coefficients as the subsystem becomes more complex. Thus, in subsystems containing only glycolysis, the control coefficients of hexokinase (HK) and phosphofructokinase (PFK) together amount to 0.99. When ATPases are added, this value decreases to 0.18 and below, and the maximum control coefficient goes to ATPase (0.82-1.00). It would seem that there is a natural decrease in the contribution of HK and PFK to the regulation of the rate of glycolysis as the dimension of the system increases. However, disabling the allosteric regulation of PFK by AMP completely changes the picture. In a subsystem containing only glycolysis, disabling this regulation does not affect the control coefficients. After adding ATPase to such a subsystem, the HK and PFK control coefficients increase, and the control coefficient of ATPase takes on a negative value. Thus, we found that in extended subsystems involving glycolysis and ATPase or transmembrane ion transport, information on the initial regulation of glycolysis may not be revealed in the MCA results. It appears that the MCA alone cannot reveal regulatory mechanisms of metabolic systems in the presence of strong allosteric and feedback regulation.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Uses metabolic control analysis on a glycolysis model and explicitly examines effects of disabling allosteric regulation of PFK by AMP, providing systems-level context but not detailed molecular mechanism."
+    },
+    {
+      "id": "38350614",
+      "pmid": "38350614",
+      "pmcid": "PMC10864097",
+      "doi": "10.1098/rsif.2023.0588",
+      "title": "Glycolytic oscillations under periodic drivings.",
+      "authors": "Kim P, Hyeon C.",
+      "journal": "Journal of the Royal Society, Interface",
+      "year": "2024",
+      "abstract": "In many living organisms displaying circadian rhythms, the intake of energy often occurs in a periodic manner. Glycolysis is a prototypical biochemical reaction that exhibits a self-sustained oscillation under continuous injection of glucose. Here we study the effect of periodic injection of glucose on the glycolytic oscillation from a dynamical systems perspective. In particular, we employ Goldbeter's allosteric model of phosphofructokinase as a model system for glycolytic oscillations, and explore the effect of periodic substrate influx of varying frequencies and amplitudes by building the phase diagrams of Lyapunov exponents and oscillatory periods. When the frequency of driving is tuned around the harmonic and sub/super-harmonic conditions of the natural frequency, the system is entrained to a frequency-locked state, forming an entrainment band that broadens with an increasing amplitude of driving. On the other hand, if the amplitude is substantial, the system may transition, albeit infrequent, to a chaotic state which defies prediction of dynamical behaviour. Our study offers in-depth understandings into the controllability of glycolytic oscillation as well as explaining physical underpinnings that enable the synchronous oscillations among a dense population of cells.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 1,
+      "relevance_score": 2,
+      "relevance_reason": "Uses Goldbeter's allosteric PFK model to study glycolytic oscillations under periodic driving, providing some model-based insight into PFK allosteric dynamics but focused on oscillation behavior rather than molecular mechanism."
+    },
+    {
+      "id": "41532746",
+      "pmid": "41532746",
+      "pmcid": "PMC12802204",
+      "doi": "10.1128/mbio.00219-25",
+      "title": "Synergistic regulatory mechanisms in glycolysis revealed by pathway transplantation.",
+      "authors": "Knibbe E, Boonekamp FJ, Stuij R, Savakis P, Pelsma KAJ, Jansen L, Flores C-L, Teusink B, Daran-Lapujade P.",
+      "journal": "mBio",
+      "year": "2026",
+      "abstract": "Protein allostery, present in all three domains of life, is key to the regulation of metabolism by allowing fast and precise control of catalysis in response to cellular demands. While metabolic pathways are frequently equipped with multiple allosterically regulated catalytic steps, experimental studies often focus on a single step, failing to capture how regulations exerted at multiple steps interact with each other for tuning pathways. Using the nearly ubiquitous Embden-Meyerhof-Parnas pathway of glycolysis as a paradigm, the present study unveils a remarkable regulatory synergy between multiple allosteric proteins of a metabolic pathway and demonstrates its impact on cell survival in dynamic environments. By using complete pathway complementation, as well as single-gene complementation, the essential regulatory steps were identified to be glucokinase, phosphofructokinase, and pyruvate kinase. Expression of these enzymes together, even in the context of the <i>Saccharomyces cerevisiae</i> pathway, led to imbalances in glycolysis that could only be overcome by lowering the glucokinase activity. Integrating these results with kinetic modeling and microfluidics experiments, the present work reveals the key synergistic role played by allosteric regulations in preventing glycolytic imbalance in the model eukaryote <i>Saccharomyces cerevisiae</i> and highlights the power of synthetic biology in addressing long-standing questions in systems biology.IMPORTANCEAll forms of life are equipped with intricate molecular mechanisms that tune their cellular responses to external and internal cues. These mechanisms are key to cells' survival in natural environments and important for the performance of bioprocesses, which are characterized by variable environments (e.g., nutrient availability). One of these molecular mechanisms, protein allostery, enables rapid fine-tuning of the rate of cellular processes by modulating protein activity in response to metabolites <i>in vivo</i>. Using the industrial yeast and model eukaryote <i>Saccharomyces cerevisiae</i> as a paradigm, the present work reveals that, in the major route for sugar utilization known as glycolysis, three distinct allosteric regulations are critical to yeast cell survival when transitioning between carbon sources. These three regulations, while not required for pathway operation <i>per se</i>, allow efficient and balanced pathway operation under dynamic conditions. These findings, therefore, reveal a new aspect of yeast glycolysis, one of the best-studied metabolic pathways.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Discusses allosteric regulation of glycolytic enzymes including phosphofructokinase in a pathway context, providing systems-level supporting evidence but not detailed molecular mechanism of PFK-1 itself."
+    },
+    {
+      "id": "39940094",
+      "pmid": "39940094",
+      "pmcid": "PMC12103067",
+      "doi": "10.1111/febs.70014",
+      "title": "Functional consequences of lysine acetylation of phosphofructokinase isozymes.",
+      "authors": "Li X, Fatema N, Gan Q, Fan C.",
+      "journal": "The FEBS journal",
+      "year": "2025",
+      "abstract": "Phosphofructokinase (Pfk) catalyzes the phosphorylation of fructose 6-phosphate and is a key regulatory point in the glycolysis pathway. Multiple lysine residues in both Pfk isozymes, PfkA and PfkB, have been identified to be acetylated in Escherichia coli by proteomic studies, but no studies have been implemented to further characterize these acetylation events. To investigate the role of Pfk acetylation, the genetic code expansion strategy was used to generate homogeneously acetylated Pfk variants at target lysine sites that have been reported to be acetylated in nature. We found that acetylation of K309 of PfkA and K27 of PfkB decreased PfK enzyme activities significantly. We further investigated the deacetylation and acetylation processes of Pfk isozymes biochemically and genetically. Acetyl phosphate-mediated non-enzymatic acetylation could be the major mechanism of Pfk isozyme acetylation in E.\u2009coli, whereas NAD-dependent protein deacylase CobB can remove most of the acetylated lysine residues but not K309 of PfkA and K27 of PfkB, which affect enzyme activities. Because of the important role of Pfk in cellular metabolism, the results of the present study are expected to facilitate studies in the fields of metabolic engineering and research.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 2,
+      "relevance_score": 1,
+      "relevance_reason": "Discusses PFK acetylation effects on activity in E. coli isozymes, a post-translational modification rather than classical allosteric regulation, providing only tangential regulatory context."
+    },
+    {
+      "id": "40733189",
+      "pmid": "40733189",
+      "pmcid": "PMC12299506",
+      "doi": "10.3390/molecules30142923",
+      "title": "Flipping the Target: Evaluating Natural LDHA Inhibitors for Selective LDHB Modulation.",
+      "authors": "El Khoury A, Papaneophytou C.",
+      "journal": "Molecules (Basel, Switzerland)",
+      "year": "2025",
+      "abstract": "Lactate dehydrogenase (LDH) catalyzes the reversible interconversion of pyruvate and lactate, coupled with the redox cycling of NADH and NAD<sup>+</sup>. While LDHA has been extensively studied as a therapeutic target, particularly in cancer, due to its role in the Warburg effect, LDHB remains underexplored, despite its involvement in the metabolic reprogramming of specific cancer types, including breast and lung cancers. Most known LDH inhibitors are designed against the LDHA isoform and act competitively at the active site. In contrast, LDHB exhibits distinct kinetic properties, substrate preferences, and structural features, warranting isoform-specific screening strategies. In this study, 115 natural compounds previously reported as LDHA inhibitors were systematically evaluated for LDHB inhibition using an integrated in silico and in vitro approach. Virtual screening identified 16 lead phytochemicals, among which luteolin and quercetin exhibited uncompetitive inhibition of LDHB, as demonstrated by enzyme kinetic assays. These findings were strongly supported by molecular docking analyses, which revealed that both compounds bind at an allosteric site located at the dimer interface, closely resembling the binding mode of the established LDHB uncompetitive inhibitor AXKO-0046. In contrast, comparative docking against LDHA confirmed their active-site binding and competitive inhibition, underscoring their isoform-specific behavior. Our findings highlight the necessity of assay conditions tailored to LDHB's physiological role and demonstrate the application of a previously validated colorimetric assay for high-throughput screening. This work lays the foundation for the rational design of selective LDHB inhibitors from natural product libraries.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 3,
+      "relevance_score": 1,
+      "relevance_reason": "Focuses on allosteric inhibition of LDHA/LDHB, not PFK-1; provides only a general analogy of allosteric binding sites, not specific mechanistic insight into PFK-1 regulation."
+    },
+    {
+      "id": "42186262",
+      "pmid": "42186262",
+      "pmcid": "PMC13266998",
+      "doi": "10.1021/acs.jmedchem.6c00235",
+      "title": "First-in-Class Covalent Inhibitors of PFKFB3: Discovery and Characterization in PDAC Models.",
+      "authors": "Fiore A, Scarano A, Antonini G, Corf\u00f9 AI, Sicuro L, Faggiano S, Celesia A, Tesoriero C, Pacchiana R, Vettori A, Arslanbaeva L, Minucci S, Pallavicini I, Mollica L, Tamborini L, Donadelli M, Conti P, Bruno S, Borsari C.",
+      "journal": "Journal of medicinal chemistry",
+      "year": "2026",
+      "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is an aggressive cancer, driven by metabolic reprogramming. Since direct glycolytic enzyme inhibition is limited by toxicity, indirect glycolysis modulation through inhibition of the kinase activity of 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3 (PFKFB3) may offer a safer therapeutic strategy. Herein, we report the first-in-class covalent PFKFB3 inhibitor (<b>6</b>), targeting a previously unexplored cysteine. Enzyme assays, site-directed mutagenesis, and mass spectrometry confirmed covalent binding and kinetic selectivity for PFKFB3. Compound <b>6</b> reduced viability across multiple PDAC cell lines and suppressed PDAC growth in zebrafish xenografts. Its combination with standard chemotherapeutics revealed synergistic effects. Although the limited cellular activity of <b>6</b> restricts its use as a chemical probe in biological studies, we proved for the first time the druggability of a previously unexplored cysteine in PFKFB3. Our work represents a significant achievement in the selective targeting of this kinase, paving the way for an innovative mechanism of action for PFKFB3 inhibitors.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Covers covalent inhibitors of PFKFB3, an enzyme that produces the allosteric activator F2,6BP for PFK-1, but does not address PFK-1's own allosteric mechanism."
+    },
+    {
+      "id": "42259193",
+      "pmid": "42259193",
+      "pmcid": "PMC13259617",
+      "doi": "10.1016/j.tranon.2026.102850",
+      "title": "The PI3K/AKT signaling networks in cancer glucose metabolism: mechanisms and therapeutic implications.",
+      "authors": "Cheng S, Jiang Q, Huang H, Tong H, Xie M.",
+      "journal": "Translational oncology",
+      "year": "2026",
+      "abstract": "The PI3K/AKT axis is frequently dysregulated and serves as a central regulator in cancer glucose metabolism. This review outlines the composition and activation mechanisms of the PI3K/AKT pathway, its interactions with core metabolic enzymes (hexokinase, pyruvate kinase, phosphofructokinase, aldolase, lactate dehydrogenase) and their non-canonical roles in cancer metabolism. We also dissect crosstalk between PI3K/AKT, the AMPK energy sensor, and major metabolic pathways (pentose phosphate pathway, oxidative phosphorylation, de novo lipogenesis). Further, we summarize latest advances in targeting metabolic enzymes and combined therapies, discuss challenges in targeting PI3K/AKT-mediated metabolic reprogramming, and propose future directions. Collectively, this review provides a theoretical framework for cancer metabolism mechanisms and identifies novel targets for cancer therapies.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "Broad review of PI3K/AKT signaling and glycolytic enzymes including PFK, but lacks specific molecular detail on PFK-1 allosteric regulation."
+    },
+    {
+      "id": "41584038",
+      "pmid": "41584038",
+      "pmcid": "PMC12825444",
+      "doi": "10.7150/jca.125305",
+      "title": "Role and Molecular Mechanisms of Aerobic Glycolysis in Gastrointestinal Tumors.",
+      "authors": "Lei Y, Peng L, Qin Z, Luo J, Luo Y, Fan Z, Wang J, Huang S, Zhao H, Lin S, Xiang L, Luo Y.",
+      "journal": "Journal of Cancer",
+      "year": "2026",
+      "abstract": "Gastrointestinal tumors are among the most common tumors worldwide and are currently the leading cause of cancer-related deaths. Gastrointestinal tumors affect the digestive system and include esophageal, liver, gastric, colorectal, and pancreatic cancers. Aerobic glycolysis is a widespread phenomenon among gastrointestinal tumor cells, which poses a major hazard to human health and life. Increasing evidence suggests that aerobic glycolysis can induce and promote the development of gastrointestinal tumors by rapidly providing large amounts of energy and altering the tumor microenvironment. Among them, glucose transporter proteins and key enzymes involved in glycolysis are expressed at higher levels during aerobic glycolysis, and the corresponding signaling pathways and transcription regulatory factors are activated, playing an important role in the occurrence and development of tumors. Additionally, evidence has indicated that aerobic glycolysis plays an essential role in inhibiting the development of immune cells, modifying the population of immune cells present in the surrounding tumor, and promoting the polarization of immune cells. Moreover, drugs and compounds that target essential enzymes and transcription factors associated with glycolysis are known to exhibit anticancer properties.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "General review on glycolysis in GI tumors mentioning glycolytic enzymes broadly; no specific mechanistic detail on PFK-1 allostery."
+    },
+    {
+      "id": "38783588",
+      "pmid": "38783588",
+      "pmcid": "PMC11216940",
+      "doi": "10.1002/2211-5463.13794",
+      "title": "Is allostery a fuzzy concept?",
+      "authors": "Morea V, Angelucci F, Bellelli A.",
+      "journal": "FEBS open bio",
+      "year": "2024",
+      "abstract": "Allostery is an important property of biological macromolecules which regulates diverse biological functions such as catalysis, signal transduction, transport, and molecular recognition. However, the concept was expressed using two different definitions by J. Monod and, over time, more have been added by different authors, making it fuzzy. Here, we reviewed the different meanings of allostery in the current literature and found that it has been used to indicate that the function of a protein is regulated by heterotropic ligands, and/or that the binding of ligands and substrates presents homotropic positive or negative cooperativity, whatever the hypothesized or demonstrated reaction mechanism might be. Thus, proteins defined to be allosteric include not only those that obey the two-state concerted model, but also those that obey different reaction mechanisms such as ligand-induced fit, possibly coupled to sequential structure changes, and ligand-linked dissociation-association. Since each reaction mechanism requires its own mathematical description and is defined by it, there are many possible 'allosteries'. This lack of clarity is made even fuzzier by the fact that the reaction mechanism is often assigned imprecisely and/or implicitly in the absence of the necessary experimental evidence. In this review, we examine a list of proteins that have been defined to be allosteric and attempt to assign a reaction mechanism to as many as possible.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "General conceptual review of allostery definitions across many proteins; not specific to PFK-1 molecular mechanism, though relevant to allosteric theory."
+    },
+    {
+      "id": "36359000",
+      "pmid": "36359000",
+      "pmcid": "PMC9687781",
+      "doi": "10.3390/biom12111651",
+      "title": "Structural Basis of Sequential and Concerted Cooperativity.",
+      "authors": "Morea V, Angelucci F, Tame JRH, Di Cera E, Bellelli A.",
+      "journal": "Biomolecules",
+      "year": "2022",
+      "abstract": "Allostery is a property of biological macromolecules featuring cooperative ligand binding and regulation of ligand affinity by effectors. The definition was introduced by Monod and Jacob in 1963, and formally developed as the \"concerted model\" by Monod, Wyman, and Changeux in 1965. Since its inception, this model of cooperativity was seen as distinct from and not reducible to the \"sequential model\" originally formulated by Pauling in 1935, which was developed further by Koshland, Nemethy, and Filmer in 1966. However, it is difficult to decide which model is more appropriate from equilibrium or kinetics measurements alone. In this paper, we examine several cooperative proteins whose functional behavior, whether sequential or concerted, is established, and offer a combined approach based on functional and structural analysis. We find that isologous, mostly helical interfaces are common in cooperative proteins regardless of their mechanism. On the other hand, the relative contribution of tertiary and quaternary structural changes, as well as the asymmetry in the liganded state, may help distinguish between the two mechanisms.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "open_access": true,
+      "cited_by_count": 4,
+      "relevance_score": 1,
+      "relevance_reason": "General structural analysis of concerted vs sequential cooperativity models across multiple allosteric proteins; not specific to PFK-1 mechanism."
+    },
+    {
+      "id": "41319207",
+      "pmid": "41319207",
+      "pmcid": "PMC12965863",
+      "doi": "10.1111/brv.70104",
+      "title": "The return of metabolism: biochemistry and physiology of glycolysis.",
+      "authors": "Gr\u00fcning NM, Agostini F, Caldana C, Hartl J, Heinemann M, Keller MA, Kr\u00fcsemann JL, Lamperti C, Linster CL, Lindner SN, Muenzner J, Nielsen J, Nikoloski Z, Siebers B, Snoep JL, Tenenboim H, Teusink B, Williams SJ, Wamelink MMC, Ralser M.",
+      "journal": "Biological reviews of the Cambridge Philosophical Society",
+      "year": "2026",
+      "abstract": "Glycolysis is a fundamental metabolic pathway central to the bioenergetics and physiology of virtually all living organisms. In this comprehensive review, we explore the intricate biochemical principles and evolutionary origins of glycolytic pathways, from the classical Embden-Meyerhof-Parnas (EMP) pathway in humans to various prokaryotic and alternative glycolytic routes. By examining glycolysis across the tree of life, we explore its presence and adaptation in prokaryotes, archaea, bacteria, animals and plants, and the extension of glycolysis into sulfosugar metabolism. Further, we discuss the role of unwanted side reactions, thermodynamic principles, and metabolic control principles that underpin glycolysis and the broader metabolic network, and summarise advanced methods for quantifying glycolytic activity, including new analytical methods, alongside kinetic, constraint-based, and machine-learning based modelling. With a focus on the Pasteur, Crabtree, and Warburg effects, this review further discusses the roles of glycolysis in health and disease, highlighting its impact on global metabolic operations, inborn errors, and various pathologies as well as its role in biotechnology and metabolic engineering.",
+      "publication_type": [
+        "research-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 4,
+      "relevance_score": 1,
+      "relevance_reason": "General review of glycolysis biochemistry that may mention PFK regulation but lacks specific molecular allosteric mechanism detail based on abstract."
+    },
+    {
+      "id": "41893314",
+      "pmid": "41893314",
+      "pmcid": "PMC13027432",
+      "doi": "10.3390/metabo16030163",
+      "title": "Integrative Analysis of Post-Translational Modifications Identifies a PTM-Enriched Regulatory Core in Human Metabolic Enzymes.",
+      "authors": "Varghese S, Soman SP, Ahmed M, John L, Ramesh P, Soman S, Pai VR, Raju R.",
+      "journal": "Metabolites",
+      "year": "2026",
+      "abstract": "<b>Background</b>: Metabolic enzymes catalyze biochemical pathways that sustain cellular metabolism. Their activity, stability, and molecular interactions are extensively regulated by post-translational modifications (PTMs). However, an integrated systems-level understanding of how diverse PTMs are organized across the human metabolic network remains poorly defined. <b>Methods</b>: We integrated experimentally reported PTM annotations from PhosphoSitePlus, dbPTM, and the quantitative PTM database (qPTM), and identified 29 distinct PTM types present across the 771 human metabolic enzymes. PTM features were quantitatively characterized at multiple levels, including sequence- and composition-based metrics (modification density and PTM potentiality rate), recurrence- and co-occurrence-based features (predominant sites, hotspot regions and PTM crosstalk), and functional-context annotations (protein-region localization and mutation overlap). These integrated features were subsequently used for unsupervised clustering to evaluate higher-order organizational patterns. <b>Results</b>: The analysis revealed that PTMs are unevenly distributed across metabolic enzymes, with phosphorylation, acetylation, ubiquitination, and methylation representing the most prevalent and recurrent regulatory modifications. Clustering segregated enzymes into two regulatory groups: (i) a PTM-enriched regulatory group characterized by high PTM density, frequent hotspot and crosstalk regions, and enrichment of rate-limiting enzymes, and (ii) a broad metabolic group with comparatively sparse PTM regulation. This non-uniform organization reflects the preferential accumulation of multiple regulatory PTMs on enzymes occupying key control points in central metabolic pathways, thereby forming a discrete regulatory subnetwork within metabolism. <b>Conclusions</b>: This study presents a systems-level, multi-PTM atlas of human metabolic enzymes and provides a quantitative framework for prioritizing PTM-regulated enzymes and pathways relevant to signaling-metabolism integration and disease-associated metabolic regulation.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "This paper discusses post-translational modifications across metabolic enzymes broadly, including PFK potentially, but does not specifically address allosteric regulation mechanisms of PFK-1 at the molecular level; it is a general systems-level PTM atlas rather than mechanistic allosteric study."
+    },
+    {
+      "id": "40163365",
+      "pmid": "40163365",
+      "pmcid": "PMC11957543",
+      "doi": "10.7554/elife.100066",
+      "title": "Allosteric inhibition of trypanosomatid pyruvate kinases by a camelid single-domain antibody.",
+      "authors": "Pinto Torres JE, Claes M, Hendrickx R, Yuan M, Smiejkowska N, Van Wielendaele P, Hacisuleyman A, De Winter H, Muyldermans S, Michels PAM, Walkinshaw MD, Vers\u00e9es W, Caljon G, Magez S, Sterckx YG.",
+      "journal": "eLife",
+      "year": "2025",
+      "abstract": "African trypanosomes are the causative agents of neglected tropical diseases affecting both humans and livestock. Disease control is highly challenging due to an increasing number of drug treatment failures. African trypanosomes are extracellular, blood-borne parasites that mainly rely on glycolysis for their energy metabolism within the mammalian host. Trypanosomal glycolytic enzymes are therefore of interest for the development of trypanocidal drugs. Here, we report the serendipitous discovery of a camelid single-domain antibody (sdAb aka Nanobody) that selectively inhibits the enzymatic activity of trypanosomatid (but not host) pyruvate kinases through an allosteric mechanism. By combining enzyme kinetics, biophysics, structural biology, and transgenic parasite survival assays, we provide a proof-of-principle that the sdAb-mediated enzyme inhibition negatively impacts parasite fitness and growth.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on allosteric inhibition of pyruvate kinase, not PFK-1, and is irrelevant to the specific question about PFK-1 allostery."
+    },
+    {
+      "id": "37217557",
+      "pmid": "37217557",
+      "pmcid": "PMC10202922",
+      "doi": "10.1038/s42003-023-04930-y",
+      "title": "Suppression of the human malic enzyme 2 modifies energy metabolism and inhibits cellular respiration.",
+      "authors": "Hsieh JY, Chen KC, Wang CH, Liu GY, Ye JA, Chou YT, Lin YC, Lyu CJ, Chang RY, Liu YL, Li YH, Lee MR, Ho MC, Hung HC.",
+      "journal": "Communications biology",
+      "year": "2023",
+      "abstract": "Human mitochondrial NAD(P)<sup>+</sup>-dependent malic enzyme (ME2) is well-known for its role in cell metabolism, which may be involved in cancer or epilepsy. We present potent ME2 inhibitors based on cyro-EM structures that target ME2 enzyme activity. Two structures of ME2-inhibitor complexes demonstrate that 5,5'-Methylenedisalicylic acid (MDSA) and embonic acid (EA) bind allosterically to ME2's fumarate-binding site. Mutagenesis studies demonstrate that Asn35 and the Gln64-Tyr562 network are required for both inhibitors' binding. ME2 overexpression increases pyruvate and NADH production while decreasing the cell's NAD<sup>+</sup>/NADH ratio; however, ME2 knockdown has the opposite effect. MDSA and EA inhibit pyruvate synthesis and thus increase the NAD<sup>+</sup>/NADH ratio, implying that these two inhibitors interfere with metabolic changes by inhibiting cellular ME2 activity. ME2 silence or inhibiting ME2 activity with MDSA or EA decreases cellular respiration and ATP synthesis. Our findings suggest that ME2 is crucial for mitochondrial pyruvate and energy metabolism, as well as cellular respiration, and that ME2 inhibitors could be useful in the treatment of cancer or other diseases that involve these processes.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 21,
+      "relevance_score": 0,
+      "relevance_reason": "Concerns allosteric inhibition of malic enzyme 2, unrelated to PFK-1."
+    },
+    {
+      "id": "41256051",
+      "pmid": "41256051",
+      "pmcid": "PMC12621476",
+      "doi": "10.1016/j.yjsbx.2025.100137",
+      "title": "Residues of the ribose binding site are required for human ribokinase activity.",
+      "authors": "Ferreira JC, Nedyalkova L, Villanueva AJ, Fadl S, Cinviz ZN, Adem KA, Sensoy O, Rabeh WM.",
+      "journal": "Journal of structural biology: X",
+      "year": "2025",
+      "abstract": "Ribokinase (RK) catalyzes the phosphorylation of D-ribose to ribose-5-phosphate, an essential metabolic intermediate for the pentose phosphate pathway, nucleotide biosynthesis, redox balance, and cellular energy metabolism. Despite its central physiological role, the structural and mechanistic bases of human RK activity remain incompletely defined. Here, we present the 2.1\u00a0\u00c5 resolution crystal structure of human RK bound to ADP and Mg<sup>2+</sup>, revealing a conserved dimeric architecture characteristic of the PfkB family. A conserved \u03b2-clasp motif at the dimer interface stabilizes asymmetric conformations between protomers, supporting dynamic active-site gating. Mutagenesis of key ribose-coordinating residues-Asp27, Lys54, Asn57, Glu154, and Ala181-completely abolished catalytic activity, underscoring the essential roles of these residues in substrate binding and positioning. Kinetic analysis showed that the partially active E154A mutant had impaired substrate affinity and catalytic efficiency, indicating that E154 contributes to ribose coordination and active-site geometry. Molecular dynamics simulations further demonstrated that mutations of ribose-coordinating residues disrupt ribose retention and accelerate active-site opening, thereby destabilizing the catalytic pocket. Complementary thermodynamic and kinetic stability measurements revealed that the introduction of E154A reduced both the melting temperature and enzymatic half-life of RK under heat stress, linking structural flexibility to functional robustness. Collectively, these observations define a finely tuned network of ribose-binding interactions that are essential for catalytic activity, conformational regulation, and thermal stability. This work establishes a mechanistic framework for human RK function to support its exploration as a therapeutic target in metabolic and cardiovascular disorders with perturbed ribose metabolism.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on ribokinase structure and activity, unrelated to PFK-1 allosteric regulation."
+    },
+    {
+      "id": "42169633",
+      "pmid": "42169633",
+      "pmcid": "PMC13219896",
+      "doi": "10.3892/mmr.2026.13907",
+      "title": "Dynamic regulation of the 'mitochondria\u2011immune axis' in myocardial infarction: Molecular mechanisms driving macrophage polarization through energy metabolism disorders\u00a0(Review).",
+      "authors": "Zhang Y, Feng H, Wu Q, Yang S, Jiang Y, Xu H, Dong L, Li X, Chen H, Luo G.",
+      "journal": "Molecular medicine reports",
+      "year": "2026",
+      "abstract": "The pathological process of myocardial infarction (MI), an acute cardiovascular event that has a high global death and disability rate, includes not only widespread cardiomyocyte necrosis but also intricate reactions like immune system activation and problems with mitochondrial energy metabolism. An increasing body of evidence in recent years has shown that mitochondria are essential for maintaining metabolic homeostasis in cardiomyocytes and for regulating the immune system. After MI, ATP production is impaired, and metabolites such as reactive oxygen species and mitochondrial DNA are released in excess due to mitochondrial structural damage, kinetic imbalance [such as overactivation of dynamin\u2011related protein 1 (Drp1)], and disruption of the sirtuin (SIRT)3 \u2011 AMP\u2011activated protein kinase \u2011 peroxisome proliferative activated receptor \u03b3 (PPAR\u03b3) coactivator 1\u03b1 (PGC\u20111\u03b1) pathway. These factors drive macrophage polarization toward the M1 proinflammatory phenotype via signaling pathways such as Toll\u2011like receptor 9/NLR family pyrin domain containing 3, thereby aggravating secondary injury to myocardial tissue. However, repair\u2011phase macrophages can remodel mitochondrial oxidative phosphorylation via the PPAR\u03b3/PGC\u20111\u03b1 axis, shifting to an M2\u2011type phenotype to promote tissue repair, thereby forming a closed loop of 'metabolic\u2011immune' regulation. To improve energy metabolism and the immune microenvironment simultaneously, targeted regulation of the 'mitochondria\u2011immunity axis' (e.g., inhibition of Drp1 hypersegmentation and activation of the SIRT3 antioxidant pathway) may offer a fresh perspective on the accurate treatment of MI. In this review, the key mechanism underlying mitochondrial energy metabolism disorder in cardiomyocytes after MI is described, and the signaling roles and functional shifts of metabolites in macrophage polarization are examined, thereby providing a theoretical basis and targeted new ideas for the precise treatment of MI.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on mitochondrial-immune signaling in myocardial infarction; no mention of PFK-1 or allosteric regulation."
+    },
+    {
+      "id": "40791223",
+      "pmid": "40791223",
+      "pmcid": "PMC12337020",
+      "doi": "10.1016/j.csbj.2025.07.050",
+      "title": "Dynamic energy conversion in protein catalysis: From brownian motion to enzymatic function.",
+      "authors": "Niazi SK.",
+      "journal": "Computational and structural biotechnology journal",
+      "year": "2025",
+      "abstract": "Recent advances in computational biology and experimental techniques reveal that enzymatic catalysis fundamentally depends on proteins' ability to harness thermal energy through conformational fluctuations. Rather than functioning as rigid molecular locks, proteins operate as dynamic machines that continuously sample different structural states, with \u03b1-helices and \u03b2-sheets acting as sophisticated energy transduction elements that capture Brownian motion and channel it toward productive chemical transformations. Molecular dynamics simulations, combined with machine learning tools such as AlphaFold, demonstrate that these conformational dynamics directly modulate substrate binding affinity and reaction pathway selection, suggesting that proteins actively convert environmental thermal noise into catalytic work rather than merely stabilizing transition states. This dynamic energy conversion paradigm fundamentally reshapes our approach to pharmaceutical design and enzyme engineering by emphasizing the targeting of conformational ensembles rather than static structures, while also raising important questions about the universal applicability of this mechanism across all enzyme classes and the experimental methodologies needed to validate dynamic catalytic models. The shift from viewing proteins as passive structural scaffolds to active energy converters represents a transformative reconceptualization of biological catalysis with far-reaching implications for our understanding of life's molecular machinery.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 0,
+      "relevance_reason": "General review on protein dynamics and catalysis mechanisms; not specific to PFK-1 or its allosteric regulation."
+    },
+    {
+      "id": "41627634",
+      "pmid": "41627634",
+      "pmcid": "PMC12864366",
+      "doi": "10.1007/s13402-025-01135-9",
+      "title": "The moonlighting functions of glycolytic enzymes in tumorigenesis.",
+      "authors": "Chen X, Yang J, Ma Y.",
+      "journal": "Cellular oncology (Dordrecht, Netherlands)",
+      "year": "2026",
+      "abstract": "Glycolysis is a ubiquitous energy-supply process that occurs in virtually all living cells. The phenomenon of aerobic glycolysis, known as the Warburg effect, is observed and considered as a hallmark of tumorigenesis. However, the roles and unresolved mechanisms of glycolytic enzymes in cancer progression remain incompletely understood. In this review, we synthesize emerging knowledge on the non-glycolytic (\u201cmoonlighting\u201d) functions of key glycolytic enzymes in tumorigenesis, which are independent of their canonical catalytic activity and enable them to govern diverse cellular processes beyond energy metabolism. We also discuss their potential as therapeutic targets and establish a conceptual framework for understanding how these moonlighting activities govern tumor progression, thereby supporting the development of novel anticancer therapies.Clinical trial numberNot applicable.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on moonlighting non-catalytic functions of glycolytic enzymes in cancer, not on allosteric regulation mechanisms of PFK-1."
+    },
+    {
+      "id": "42346134",
+      "pmid": "42346134",
+      "pmcid": "PMC13296908",
+      "doi": "10.3390/cells15121107",
+      "title": "Targeting Glycolytic Plasticity to Overcome Therapy Resistance in Cancer Stem Cells: Mechanisms and Clinical Perspectives.",
+      "authors": "Huang J, Yang X, Li F, Li X, Wei H, Li M.",
+      "journal": "Cells",
+      "year": "2026",
+      "abstract": "Cancer stem cells (CSCs) constitute a resilient tumor subpopulation responsible for multidrug resistance, metastasis, and clinical relapse. A cardinal hallmark of these cells is profound metabolic plasticity. This dynamic defense mechanism facilitates rapid shifts between glycolysis, oxidative phosphorylation (OXPHOS), and alternative nutrient catabolism, enabling CSCs to bypass microenvironmental constraints. This review delineates how glycolytic adaptation functions as a primary driver of therapy resistance within the CSC niche. We dissect the regulatory triad controlling these metabolic shifts, which includes rate-limiting enzymes, epigenetic and epitranscriptomic remodeling, and master transcription factors. Glycolytic reprogramming transcends bioenergetics by acting as a metabolic signaling node. It integrates with the epithelial-mesenchymal transition (EMT) program, autophagic pathways, and the immunosuppressive tumor microenvironment (TME) to fortify CSC survival. We appraise emerging therapeutic interventions targeting these metabolic vulnerabilities. Strategies focus on optimizing small-molecule inhibitors, nanotechnology-enabled delivery systems, and immunometabolic combination regimens. This review establishes a conceptual framework for precision interventions aimed at disrupting CSC plasticity, overcoming therapeutic resistance, and preventing tumor recurrence.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Reviews glycolytic plasticity in cancer stem cells and therapy resistance, not molecular allosteric mechanisms of PFK-1."
+    },
+    {
+      "id": "41373896",
+      "pmid": "41373896",
+      "pmcid": "PMC12693531",
+      "doi": "10.3390/ijms262311751",
+      "title": "Cooperativity in &lt;i&gt;Escherichia coli&lt;/i&gt; L-Threonine Dehydrogenase and Its Inhibition by an Antibacterial &lt;i&gt;N&lt;/i&gt;-Pyridylpyrazolone Derivative.",
+      "authors": "Obaha A, Mikuli\u010d Vernik N, Mlinar K, Tu\u0161ek M, Stojkovska Docevska M, Petek N, Svete J, Novinec M.",
+      "journal": "International journal of molecular sciences",
+      "year": "2025",
+      "abstract": "Antibiotic resistance is an increasing concern in modern healthcare. Therefore, it is important to identify novel antimicrobial agents and new molecular targets for such compounds. Here, we describe the identification of an <i>N</i>-pyridylpyrazolone derivative, 4-(2-aminoethyl)-2-(pyridin-2-yl)-1,2-dihydro-3<i>H</i>-pyrazol-3-one dihydrochloride (compound <b>1</b>), which is effective against Gram-positive and Gram-negative bacteria and inhibits the enzymatic activity of <i>Escherichia coli</i> L-threonine dehydrogenase (TDH). To characterize its interaction with compound <b>1</b>, TDH was overexpressed in <i>E. coli</i>. The recombinant enzyme was shown to exist in dilute solution in equilibrium between dimeric and tetrameric forms, with a <i>K</i><sub>d</sub> value for the dimer/tetramer transition of 3 \u00b1 1 nM, and to bind L-threonine cooperatively with a Hill coefficient of 1.4. Compound <b>1</b> acted as a partial mixed inhibitor of TDH with an <i>EC</i><sub>50</sub> value of 47 \u00b1 16 \u00b5M and did not affect the equilibrium between oligomeric states. Altogether, these findings identify compound <b>1</b> as a promising starting point for the development of novel antibiotics and as a tool compound for studying the functional properties of TDH.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on L-threonine dehydrogenase cooperativity and inhibitor binding, unrelated to PFK-1 allosteric regulation."
+    },
+    {
+      "id": "42101165",
+      "pmid": "42101165",
+      "pmcid": "PMC13155030",
+      "doi": "10.1002/mnfr.70491",
+      "title": "The Evolving Therapeutic Landscape of Gallic Acid: A Review of Mechanistic Insights and Clinical Potential.",
+      "authors": "Park WH.",
+      "journal": "Molecular nutrition & food research",
+      "year": "2026",
+      "abstract": "Gallic acid (GA), a plant-derived phenolic compound, is evolving from a general antioxidant into a specific molecular modulator and a functional building block for advanced biomedical materials. This review synthesizes recent insights underpinned by GA's \"redox duality\"-its capacity to act as either a radical scavenger or a pro-oxidant. In metabolic disorders, GA reprograms cellular machinery by modulating the miR-709/Nrf2 axis, enhancing LDL clearance via LDLR/PCSK9, and targeting the incretin system. In oncology, GA exhibits context-dependent toxicity, acting as a selective pro-oxidant to induce apoptosis and synergizing with tyrosine kinase inhibitors (TKIs), though safety interactions require careful assessment. GA's expanded neuropharmacological profile includes mitigating ferroptosis via GPX4 rescue and acting as a positive allosteric modulator of Kv1.1 channels. It also potently inhibits the NLRP3 inflammasome in gouty arthritis. Beyond traditional pharmacology, recent studies highlight GA's emergence in material science, including the development of GA-based Metal-Organic Frameworks (MOFs) and functional hydrogels for osteoarthritis, kidney stone prevention, and wound healing. Despite broad bioactivity, poor bioavailability remains a significant challenge, necessitating innovative bioactive material design and rigorous clinical validation.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Concerns gallic acid pharmacology and unrelated allosteric targets, not PFK-1."
+    },
+    {
+      "id": "41689567",
+      "pmid": "41689567",
+      "pmcid": "PMC12953025",
+      "doi": "10.1113/jp289702",
+      "title": "Dynamic balance of myoplasmic energetics, redox state and protons in a fast-twitch oxidative glycolytic skeletal muscle fibre.",
+      "authors": "Disch J, Jeneson JAL, Beard DA, R\u00f6hrle O, Klotz T.",
+      "journal": "The Journal of physiology",
+      "year": "2026",
+      "abstract": "To investigate the mechanisms governing energy and redox balance in skeletal muscle, we developed a computational model describing the coupled biochemical reaction network of glycolysis and mitochondrial oxidative phosphorylation (OxPhos) in fast-twitch oxidative glycolytic (FOG) muscle fibres. The model was identified against dynamic in vivo recordings of phosphocreatine (PCr), inorganic phosphate (Pi) and pH in rodent hindlimb muscle and verified against independent data from in vivo experiments and muscle biopsies. Step response testing reveals that mass action kinetics in combination with feedback control are sufficient to accomplish myoplasmic ATP homeostasis over a 100-fold range of ATP turnover rates. This vital emergent property of the metabolic model is associated with intermediary metabolite dynamics typical of a second-order underdamped system, which has been previously reported for the glycolytic pathway. Lactate dehydrogenase (LDH) knockout simulations suggest that the contribution of the LDH reaction to redox balance is more fundamental to muscle function than its role in counteracting myoplasmic acidification across the physiological range of ATP demands in this myofibre phenotype. Furthermore, LDH knockout simulations confirm that mitochondrial uptake of myoplasmic NADH and H<sup>+</sup> in and by itself is sufficient to maintain redox balance and proton balance over ATP turnover rates in the range of mitochondrial ATP synthesis. We conclude that aerobic lactate production in working muscles is a by-product of the metabolic flexibility of FOG myofibres afforded by expression of high levels of LDH and OxPhos enzymes to support continual myoplasmic redox balance and ATP synthesis under conditions of high-intensity mechanical\u00a0work. KEY POINTS: Feedback regulation suffices to accomplish myoplasmic ATP homeostasis over a 100-fold range of ATP turnover. Second-order underdamped behaviour is predicted to arise as a generic trait of the ATP metabolic network in mammalian cells. Aerobic lactate is a by-product of the metabolic and functional flexibility. LDH's role in maintaining redox balance is more important than its role in counteracting cellular acidification.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on muscle energetics and LDH/OxPhos modeling, not PFK-1 allosteric mechanism specifically."
+    },
+    {
+      "id": "42193103",
+      "pmid": "42193103",
+      "pmcid": "PMC13204626",
+      "doi": "10.3390/cimb48050498",
+      "title": "Revision of Energy Metabolism Adaptations in High-Level Athletes: From Physical Performance Enhancement to Potential Therapeutic Targets in Mental Disorders.",
+      "authors": "Larrea A, Naji M, Gulak M, Torrecilla M, Barreda-G\u00f3mez G.",
+      "journal": "Current issues in molecular biology",
+      "year": "2026",
+      "abstract": "High-level athletic performance requires the implementation of personalized strategies based on the analysis of metabolic pathways involved in energy production: phosphagen, glycolytic, and oxidative pathways. In this context, mitochondria play an essential role as the central regulator of energy production, being closely linked to these three pathways. Exercise boosts cellular respiration, which can also be optimized by nutritional interventions and targeted supplementation, promoting mitochondrial biogenesis, reducing oxidative stress and increasing ATP production. These metabolic adaptations improve athletic performance, accelerate recovery processes, and reduce the risk of injury, adapting to the physiological characteristics of each athlete. Moreover, some of these metabolic adaptations converge on specific targets whose expression or activity is also altered in mental disorders. Therefore, the aim of this review is to analyze mitochondrial adaptations induced by exercise and supplementation, evaluating their impact on the phosphagen, glycolytic, and oxidative metabolic pathways, as well as their relationship with optimizing performance and recovery in high-level athletes, with special attention to their potential application to mental health.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Broad review on energy metabolism in athletes and mental disorders, no specific mechanistic detail on PFK-1 allostery."
+    },
+    {
+      "id": "41430049",
+      "pmid": "41430049",
+      "pmcid": "PMC12748958",
+      "doi": "10.1038/s41467-025-67669-6",
+      "title": "Computational design of allulose-responsive biosensor toolbox for auto-inducible protein expression and CRISPRi mediated dynamic metabolic regulation.",
+      "authors": "Dong Q, Chen P, Guo Z, Wei H, Zeng Y, Zhang J, Men Y, Liu W, Sun Y, Yang J.",
+      "journal": "Nature communications",
+      "year": "2025",
+      "abstract": "Biosensors based on transcription factors (TFs) have shown extensive applications in synthetic biology. Due to the complex multi-domain structure of effector-TF-DNA, computational design of TFs remains a challenge. Here, we present the successful structure-guided computational design of the access tunnel, ligand binding, allosteric transition process for an allulose-responsive PsiR. It enables a 20-fold increase in sensitivity, reducing the EC<sub>50</sub> of PsiR-allulose biosensors (PABs) from 16\u2009mM to 0.8\u2009mM, and delivers a PAB box possessing the detection range from 10\u2009\u03bcM to 100\u2009mM. We further validate its broader applicability in enhancing sensitivity of LacI-IPTG biosensor. Based on the developed PABs, we present the inducer-free allulose-mediated auto-inducible protein expression system, and demonstrate an allulose-triggered CRISPR interference circuit for dynamic metabolic regulation. It facilitates a 68% increase in allulose titer and achieves a high yield of 0.43\u2009g/g glucose. This work provides the versatile TF toolbox for developing allulose-triggered regulation circuits in biotechnology application.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 0,
+      "relevance_reason": "Concerns biosensor design for allulose-responsive transcription factors, unrelated to PFK-1 allosteric regulation."
+    },
+    {
+      "id": "PMC10680341",
+      "pmid": null,
+      "pmcid": "PMC10680341",
+      "doi": null,
+      "title": "Abstracts presented at the 37th Annual Meeting of The Protein Society",
+      "authors": null,
+      "journal": "Protein science : a publication of the Protein Society",
+      "year": "2023",
+      "abstract": null,
+      "publication_type": [
+        "Abstract"
+      ],
+      "open_access": false,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "No abstract or content provided; this is a conference abstracts listing with no identifiable relevance to PFK-1 allosteric regulation."
+    }
+  ],
+  "selected_papers": [
+    {
+      "id": "39183237",
+      "pmid": "39183237",
+      "pmcid": "PMC11345425",
+      "doi": "10.1038/s41467-024-51808-6",
+      "title": "Structural basis for allosteric regulation of human phosphofructokinase-1.",
+      "authors": "Lynch EM, Hansen H, Salay L, Cooper M, Timr S, Kollman JM, Webb BA.",
+      "journal": "Nature communications",
+      "year": "2024",
+      "abstract": "Phosphofructokinase-1 (PFK1) catalyzes the rate-limiting step of glycolysis, committing glucose to conversion into cellular energy. PFK1 is highly regulated to respond to the changing energy needs of the cell. In bacteria, the structural basis of PFK1 regulation is a textbook example of allostery; molecular signals of low and high cellular energy promote transition between an active R-state and inactive T-state conformation, respectively. Little is known, however, about the structural basis for regulation of eukaryotic PFK1. Here, we determine structures of the human liver isoform of PFK1 (PFKL) in the R- and T-state by cryoEM, providing insight into eukaryotic PFK1 allosteric regulatory mechanisms. The T-state structure reveals conformational differences between the bacterial and eukaryotic enzyme, the mechanisms of allosteric inhibition by ATP binding at multiple sites, and an autoinhibitory role of the C-terminus in stabilizing the T-state. We also determine structures of PFKL filaments that define the mechanism of higher-order assembly and demonstrate that these structures are necessary for higher-order assembly of PFKL in cells.",
+      "publication_type": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 44,
+      "relevance_score": 3,
+      "relevance_reason": "Directly determines cryoEM structures of human PFK1 in R- and T-states, revealing molecular mechanisms of allosteric inhibition by ATP, autoinhibitory C-terminus, and filament assembly, providing highly relevant mechanistic evidence."
+    },
+    {
+      "id": "41247276",
+      "pmid": "41247276",
+      "pmcid": "PMC12670391",
+      "doi": "10.1021/acs.jpcb.5c05346",
+      "title": "Multiscale Simulation of Phosphofructokinase-1 Assemblies: Capturing the Interplay between Specific and Transient Interactions.",
+      "authors": "Hazrati MK, Miclot T, Timr S.",
+      "journal": "The journal of physical chemistry. B",
+      "year": "2025",
+      "abstract": "Human phosphofructokinase-1 (PFK1) forms filaments and organizes into large-scale assemblies that are thought to play a key role in the spatial organization of glycolysis. However, the molecular interactions driving this assembly and the isoform-specific tendencies to form such structures remain poorly understood. In this work, we combine coarse-grained and all-atom molecular dynamics simulations to characterize interactions between PFK1 tetramers. Using the Martini and OPEPv7 coarse-grained force fields, we identify key regions mediating transient PFK1-PFK1 interactions and show that these include experimentally identified filament-forming interfaces. At the same time, we find that current coarse-grained models\u2500optimized for nonspecific, transient contacts\u2500lack the resolution to capture the specific side-chain interactions critical for filament stability, as revealed by previous experiments and our all-atom simulations. To address this, we propose enhancing the coarse-grained representation of filament-forming interfaces by introducing additional hydrogen-bonding terms for key residues. This modification improves filament stability and more accurately reproduces the effects of the filament-disrupting Asn-to-Thr mutation. Overall, our work provides a foundation for molecular-level modeling of glycolytic enzyme assemblies and offers a strategy to improve the accuracy of coarse-grained models in capturing the delicate interplay between specific and transient interactions in dynamic protein complexes.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 3,
+      "relevance_reason": "Directly examines molecular interactions and dynamics underlying PFK1 filament and higher-order assembly, which relates to structural aspects of PFK1 regulation and quaternary structure formation relevant to allosteric behavior."
+    },
+    {
+      "id": "40329473",
+      "pmid": "40329473",
+      "pmcid": "PMC12203962",
+      "doi": "10.1042/bcj20253024",
+      "title": "The more we learn, the more diverse it gets: structures, functions and evolution in the Phosphofructokinase Superfamily.",
+      "authors": "Compton JA, Patrick WM.",
+      "journal": "The Biochemical journal",
+      "year": "2025",
+      "abstract": "The enzyme 6-phosphofructokinase (PFK) phosphorylates d-fructose 6-phosphate, producing d-fructose 1,6-bisphosphate. The canonical version-discovered almost 90 years ago-is ATP-dependent, allosterically regulated and catalyses the first committed step in glycolysis. However, beyond this textbook enzyme, there is fascinating functional and structural variety among PFKs across the tree of life. While PFKs are found in two non-homologous superfamilies, here, we review the universally distributed enzymes in one, the Phosphofructokinase Superfamily. We focus on summarising the diversity within this superfamily. A key partition regards the identity of the phosphate donor, which can be ATP or inorganic pyrophosphate (PPi). Considerable insights into functional and evolutionary aspects of the ATP- and PPi-dependent PFKs have come through structural biology, with 45 structures now available in the Protein Data Bank. One recent highlight was the use of cryoEM and molecular dynamics simulations to illuminate the structural basis of allosteric regulation in human liver PFK. Others were to explore interactions of drug-like small molecules with the PFKs from Trypanosoma brucei and human liver, revealing new routes to antibiotics and immune modulators, respectively. In contrast with the ATP-dependent enzymes, PPi-dependent PFKs are typically non-allosteric and catalyse a readily reversible reaction. Some also play an additional physiological role by phosphorylating d-sedoheptulose 7-phosphate. We discuss why these properties are plausibly ancestral. Finally, we also emphasise how much remains to be discovered. For example, the 45 experimentally determined structures are from only 14 species. Nine decades in, it is still a great time to be studying PFK.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 5,
+      "relevance_score": 3,
+      "relevance_reason": "Directly reviews PFK structures and function, explicitly discusses cryoEM/molecular dynamics studies elucidating the structural basis of allosteric regulation in human liver PFK, highly relevant mechanistic evidence."
+    },
+    {
+      "id": "40186355",
+      "pmid": "40186355",
+      "pmcid": "PMC12256850",
+      "doi": "10.1016/j.bpj.2025.03.037",
+      "title": "Glycolysis model shows that allostery maintains high ATP and limits accumulation of intermediates.",
+      "authors": "Choe M, Einav T, Phillips R, Titov DV.",
+      "journal": "Biophysical journal",
+      "year": "2025",
+      "abstract": "Glycolysis is a conserved metabolic pathway that produces ATP and biosynthetic precursors. It is not well understood how the control of mammalian glycolytic enzymes through allosteric feedback and mass action accomplishes various tasks of ATP homeostasis, such as controlling the rate of ATP production, maintaining high and stable ATP levels, ensuring that ATP hydrolysis generates a net excess of energy, and maintaining glycolytic intermediate concentrations within physiological levels. To investigate these questions, we developed a biophysical model of glycolysis based on enzyme rate equations derived from in vitro kinetic data. This is the first biophysical model of human glycolysis that successfully recapitulates the above tasks of ATP homeostasis and predicts absolute concentrations of glycolytic intermediates and isotope tracing kinetics that align with experimental measurements in human cells. We use the model to show that mass action alone is sufficient to control the ATP production rate and maintain the high energy of ATP hydrolysis. Meanwhile, allosteric regulation of hexokinase and phosphofructokinase by ATP, ADP, inorganic phosphate, and glucose-6-phosphate is required to maintain high ATP levels and to prevent uncontrolled accumulation of phosphorylated intermediates of glycolysis. Allosteric feedback achieves the latter by maintaining hexokinase and phosphofructokinase enzyme activity at one-half of ATP demand and, thus, inhibiting the reaction of Harden and Young, which otherwise converts glucose to supraphysiological levels of phosphorylated glycolytic intermediates at the expense of ATP. Our methodology provides a roadmap for a quantitative understanding of how metabolic homeostasis emerges from the activities of individual enzymes.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 8,
+      "relevance_score": 3,
+      "relevance_reason": "Presents a biophysical model of glycolysis explicitly detailing how allosteric regulation of PFK (and hexokinase) by ATP, ADP, Pi, and G6P controls enzyme activity and metabolic homeostasis, directly addressing molecular allosteric mechanism."
+    },
+    {
+      "id": "32478093",
+      "pmid": "32478093",
+      "pmcid": "PMC7240002",
+      "doi": "10.3389/fmolb.2020.00088",
+      "title": "Identification of Alternative Allosteric Sites in Glycolytic Enzymes for Potential Use as Species-Specific Drug Targets.",
+      "authors": "Ayyildiz M, Celiker S, Ozhelvaci F, Akten ED.",
+      "journal": "Frontiers in molecular biosciences",
+      "year": "2020",
+      "abstract": "Three allosteric glycolytic enzymes, phosphofructokinase, glyceraldehyde-3 phosphate dehydrogenase and pyruvate kinase, associated with bacterial, parasitic and human species, were explored to identify potential allosteric sites that would be used as prime targets for species-specific drug design purposes using a newly developed approach which incorporates solvent mapping, elastic network modeling, sequence and structural alignments. The majority of binding sites detected by solvent mapping overlapped with the interface regions connecting the subunits, thus appeared as promising target sites for allosteric regulation. Each binding site was then evaluated by its ability to alter the global dynamics of the receptor defined by the percentage change in the frequencies of the lowest-frequency modes most significantly and as anticipated, the most effective ones were detected in the vicinity of the well-reported catalytic and allosteric sites. Furthermore, some of our proposed regions intersected with experimentally resolved sites which are known to be critical for activity regulation, which further validated our approach. Despite the high degree of structural conservation encountered between bacterial/parasitic and human glycolytic enzymes, the majority of the newly presented allosteric sites exhibited a low degree of sequence conservation which further increased their likelihood to be used as species-specific target regions for drug design studies.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 23,
+      "relevance_score": 3,
+      "relevance_reason": "Directly studies phosphofructokinase allosteric sites using structural/dynamic modeling, providing molecular-level mechanistic insight into PFK allosteric regulation."
+    }
+  ],
+  "literature_evidence": [
+    {
+      "paper_id": "39183237",
+      "claim": "The human liver PFK1 (PFKL) T-state cryoEM structure reveals conformational differences from the bacterial enzyme, indicating a distinct eukaryotic mechanism of allosteric transition between active R-state and inactive T-state.",
+      "question_aspect": "Molecular basis of R-state to T-state conformational transition in eukaryotic PFK1",
+      "evidence_type": "structural",
+      "support": "The abstract states cryoEM structures of human PFKL were determined in R- and T-state, and that the T-state structure reveals conformational differences between the bacterial and eukaryotic enzyme.",
+      "limitations": "Abstract does not specify the exact residues or domains involved in the conformational difference, only that differences exist relative to bacterial PFK1.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "39183237",
+      "claim": "ATP allosterically inhibits human PFKL by binding at multiple distinct sites on the enzyme, contributing to stabilization of the inactive T-state.",
+      "question_aspect": "Molecular mechanism of allosteric inhibition by ATP",
+      "evidence_type": "structural",
+      "support": "The abstract states the T-state structure reveals 'the mechanisms of allosteric inhibition by ATP binding at multiple sites'.",
+      "limitations": "Abstract does not specify which sites or how many, nor the structural details of ATP coordination at each site.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "39183237",
+      "claim": "The C-terminus of human PFKL plays an autoinhibitory role by stabilizing the T-state conformation, and is also required for higher-order filament assembly, which occurs in cells.",
+      "question_aspect": "Structural elements (C-terminus) contributing to allosteric regulation and higher-order assembly of PFK1",
+      "evidence_type": "structural",
+      "support": "The abstract describes 'an autoinhibitory role of the C-terminus in stabilizing the T-state' and states that structures of PFKL filaments define the mechanism of higher-order assembly, which is necessary for higher-order assembly of PFKL in cells.",
+      "limitations": "Abstract does not detail the specific interactions or residues of the C-terminus responsible for T-state stabilization or how this connects mechanistically to filament formation beyond the general statement.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "41247276",
+      "claim": "Specific PFK1-PFK1 interaction interfaces identified by coarse-grained and all-atom molecular dynamics simulations correspond to experimentally identified filament-forming interfaces, supporting a structural basis for PFK1 higher-order assembly.",
+      "question_aspect": "Molecular interactions underlying PFK1 filament/higher-order assembly relevant to allosteric regulation via oligomeric state",
+      "evidence_type": "computational",
+      "support": "The abstract states that using Martini and OPEPv7 coarse-grained force fields, they identify key regions mediating transient PFK1-PFK1 interactions and show these include experimentally identified filament-forming interfaces.",
+      "limitations": "Findings are based on simulation models, not direct experimental structural determination; abstract notes current coarse-grained models lack resolution to capture specific side-chain interactions critical for filament stability.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "41247276",
+      "claim": "An Asn-to-Thr mutation at a filament-forming interface disrupts PFK1 filament stability, and enhanced coarse-grained models incorporating additional hydrogen-bonding terms better reproduce this destabilizing effect.",
+      "question_aspect": "Role of specific residue interactions in stabilizing PFK1 higher-order assemblies relevant to regulation",
+      "evidence_type": "computational",
+      "support": "The abstract describes introducing additional hydrogen-bonding terms for key residues to improve filament stability modeling and more accurately reproduce the effects of the filament-disrupting Asn-to-Thr mutation.",
+      "limitations": "The mutation's disruptive effect is referenced as derived from 'previous experiments' cited within the abstract but not detailed; the current study's contribution is computational modeling improvement, not new experimental validation.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "40329473",
+      "claim": "CryoEM and molecular dynamics simulations have been used to reveal the structural basis of allosteric regulation in human liver PFK.",
+      "question_aspect": "Structural mechanism of allosteric regulation in ATP-dependent PFK-1",
+      "evidence_type": "review",
+      "support": "The abstract states 'One recent highlight was the use of cryoEM and molecular dynamics simulations to illuminate the structural basis of allosteric regulation in human liver PFK.'",
+      "limitations": "The abstract does not specify the actual structural details, conformational changes, or allosteric sites identified; it only references that such studies exist.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "40329473",
+      "claim": "ATP-dependent PFKs are allosterically regulated, in contrast to PPi-dependent PFKs, which are typically non-allosteric.",
+      "question_aspect": "Comparative basis for allostery presence in ATP-dependent PFK-1",
+      "evidence_type": "review",
+      "support": "The abstract states the canonical PFK is 'ATP-dependent, allosterically regulated' and that 'in contrast with the ATP-dependent enzymes, PPi-dependent PFKs are typically non-allosteric and catalyse a readily reversible reaction.'",
+      "limitations": "No mechanistic or structural detail is given for why ATP-dependent PFKs are allosteric while PPi-dependent ones are not; this is a broad functional distinction only.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "40329473",
+      "claim": "Structural studies have explored interactions of drug-like small molecules with human liver PFK, revealing potential allosteric binding sites relevant to immune modulation.",
+      "question_aspect": "Small molecule/allosteric site interactions in PFK-1",
+      "evidence_type": "structural",
+      "support": "The abstract mentions exploration of 'interactions of drug-like small molecules with the PFKs from Trypanosoma brucei and human liver, revealing new routes to antibiotics and immune modulators.'",
+      "limitations": "The abstract does not specify which sites these small molecules bind, whether they are allosteric sites, or the molecular mechanism of modulation.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "40186355",
+      "claim": "Allosteric regulation of phosphofructokinase by ATP, ADP, inorganic phosphate, and glucose-6-phosphate is required to maintain high ATP levels and prevent uncontrolled accumulation of phosphorylated glycolytic intermediates.",
+      "question_aspect": "Functional role and effectors of allosteric regulation of PFK-1",
+      "evidence_type": "computational",
+      "support": "The abstract states 'allosteric regulation of hexokinase and phosphofructokinase by ATP, ADP, inorganic phosphate, and glucose-6-phosphate is required to maintain high ATP levels and to prevent uncontrolled accumulation of phosphorylated intermediates of glycolysis.'",
+      "limitations": "This is based on a biophysical/kinetic model derived from in vitro rate equations, not direct structural or biochemical demonstration of the allosteric mechanism at the molecular/binding level.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "40186355",
+      "claim": "Allosteric feedback maintains PFK (and hexokinase) enzyme activity at one-half of ATP demand, thereby inhibiting an alternative reaction pathway (the Harden-Young reaction) that would otherwise convert glucose to supraphysiological levels of phosphorylated intermediates at the expense of ATP.",
+      "question_aspect": "Mechanistic/functional consequence of allosteric regulation on PFK activity level",
+      "evidence_type": "computational",
+      "support": "The abstract explicitly describes this mechanism: 'Allosteric feedback achieves the latter by maintaining hexokinase and phosphofructokinase enzyme activity at one-half of ATP demand and, thus, inhibiting the reaction of Harden and Young.'",
+      "limitations": "This finding is derived from a mathematical/biophysical model based on in vitro kinetic parameters rather than direct experimental measurement of enzyme conformational or binding changes.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "40186355",
+      "claim": "Mass action alone (without invoking allosteric regulation) is sufficient to control the rate of ATP production and maintain high free energy of ATP hydrolysis, distinguishing this function from the role of allostery.",
+      "question_aspect": "Distinguishing allosteric vs. mass-action control mechanisms affecting PFK-1 regulated flux",
+      "evidence_type": "computational",
+      "support": "The abstract states 'mass action alone is sufficient to control the ATP production rate and maintain the high energy of ATP hydrolysis,' contrasting this with the specific requirement for allosteric regulation to control intermediate accumulation.",
+      "limitations": "This is a modeling conclusion contingent on the specific rate equations and parameters used; it does not describe molecular-level allosteric binding or conformational mechanisms.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "32478093",
+      "claim": "Potential allosteric binding sites on phosphofructokinase identified by solvent mapping predominantly overlap with subunit interface regions, suggesting these interfaces are key locations for allosteric regulation.",
+      "question_aspect": "structural location of allosteric sites in PFK-1",
+      "evidence_type": "computational",
+      "support": "The abstract states that 'the majority of binding sites detected by solvent mapping overlapped with the interface regions connecting the subunits, thus appeared as promising target sites for allosteric regulation.'",
+      "limitations": "This is based on computational solvent mapping across multiple glycolytic enzymes (not PFK alone specifically detailed), and the abstract does not specify which effectors bind these sites or the biochemical consequences of binding.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "32478093",
+      "claim": "Allosteric sites near known catalytic and regulatory regions of phosphofructokinase most significantly alter the enzyme's global low-frequency vibrational modes, indicating these regions are mechanistically important for allosteric signal propagation.",
+      "question_aspect": "molecular mechanism linking allosteric site binding to conformational/dynamic changes in PFK-1",
+      "evidence_type": "computational",
+      "support": "The abstract reports that binding sites were evaluated by their ability to alter global dynamics via percentage change in lowest-frequency modes, and 'the most effective ones were detected in the vicinity of the well-reported catalytic and allosteric sites.'",
+      "limitations": "The abstract does not provide experimental validation of these dynamic changes or specify the exact molecular pathway of allosteric transmission (e.g., specific residue interactions) for PFK; findings are from elastic network modeling, a coarse-grained computational method.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "32478093",
+      "claim": "Newly proposed allosteric sites on phosphofructokinase intersect with experimentally resolved sites known to be critical for activity regulation, supporting the structural relevance of these predicted sites to real allosteric regulation.",
+      "question_aspect": "validation of allosteric site locations relevant to regulatory function in PFK-1",
+      "evidence_type": "computational",
+      "support": "The abstract states 'some of our proposed regions intersected with experimentally resolved sites which are known to be critical for activity regulation, which further validated our approach.'",
+      "limitations": "The abstract does not specify which experimentally resolved sites or provide details on the ligands or allosteric effectors involved, limiting mechanistic specificity for PFK-1 regulation at the molecular level.",
+      "source_scope": "abstract"
+    }
+  ],
+  "uniprot": {
+    "source": "UniProt",
+    "accession": "P17858",
+    "entry": "PFKAL_HUMAN",
+    "gene": "PFKL",
+    "protein_name": "ATP-dependent 6-phosphofructokinase, liver type",
+    "organism": "Homo sapiens",
+    "organism_id": 9606,
+    "function": [
+      "Catalyzes the phosphorylation of D-fructose 6-phosphate to fructose 1,6-bisphosphate by ATP, the first committing step of glycolysis (PubMed:22923583). Negatively regulates the phagocyte oxidative burst in response to bacterial infection by controlling cellular NADPH biosynthesis and NADPH oxidase-derived reactive oxygen species. Upon macrophage activation, drives the metabolic switch toward glycolysis, thus preventing glucose turnover that produces NADPH via pentose phosphate pathway (By similarity)"
+    ],
+    "catalytic_activity": [
+      {
+        "reaction": "beta-D-fructose 6-phosphate + ATP = beta-D-fructose 1,6-bisphosphate + ADP + H(+)",
+        "ec_number": "2.7.1.11"
+      }
+    ],
+    "functional_sites": [
+      {
+        "type": "Active site",
+        "start": 166,
+        "end": 166,
+        "description": "Proton acceptor",
+        "ligand": null,
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 25,
+        "end": 25,
+        "description": "",
+        "ligand": {
+          "name": "ATP",
+          "id": "ChEBI:CHEBI:30616"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 88,
+        "end": 89,
+        "description": "",
+        "ligand": {
+          "name": "ATP",
+          "id": "ChEBI:CHEBI:30616"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 118,
+        "end": 121,
+        "description": "",
+        "ligand": {
+          "name": "ATP",
+          "id": "ChEBI:CHEBI:30616"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 119,
+        "end": 119,
+        "description": "",
+        "ligand": {
+          "name": "Mg(2+)",
+          "id": "ChEBI:CHEBI:18420",
+          "note": "catalytic"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 164,
+        "end": 166,
+        "description": "in other chain",
+        "ligand": {
+          "name": "substrate",
+          "note": "ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 201,
+        "end": 201,
+        "description": "",
+        "ligand": {
+          "name": "substrate",
+          "note": "ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 208,
+        "end": 210,
+        "description": "in other chain",
+        "ligand": {
+          "name": "substrate",
+          "note": "ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 264,
+        "end": 264,
+        "description": "in other chain",
+        "ligand": {
+          "name": "substrate",
+          "note": "ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 292,
+        "end": 292,
+        "description": "",
+        "ligand": {
+          "name": "substrate",
+          "note": "ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 298,
+        "end": 301,
+        "description": "in other chain",
+        "ligand": {
+          "name": "substrate",
+          "note": "ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 470,
+        "end": 470,
+        "description": "in other chain",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 527,
+        "end": 531,
+        "description": "in other chain",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 565,
+        "end": 565,
+        "description": "",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 572,
+        "end": 574,
+        "description": "in other chain",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 628,
+        "end": 628,
+        "description": "in other chain",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 654,
+        "end": 654,
+        "description": "",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 660,
+        "end": 663,
+        "description": "in other chain",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 734,
+        "end": 734,
+        "description": "in other chain",
+        "ligand": {
+          "name": "beta-D-fructose 2,6-bisphosphate",
+          "id": "ChEBI:CHEBI:58579",
+          "note": "allosteric activator; ligand shared between dimeric partners"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "HAMAP-Rule",
+            "id": "MF_03184"
+          }
+        ]
+      }
+    ],
+    "pdb_structures": [
+      {
+        "pdb_id": "7LW1",
+        "method": "EM",
+        "resolution": "2.90 A",
+        "chains": "A/D/E/F=1-780"
+      },
+      {
+        "pdb_id": "8W2G",
+        "method": "EM",
+        "resolution": "3.00 A",
+        "chains": "A/B/C/D=1-780"
+      },
+      {
+        "pdb_id": "8W2H",
+        "method": "EM",
+        "resolution": "2.60 A",
+        "chains": "A/B/C/D=1-780"
+      },
+      {
+        "pdb_id": "8W2I",
+        "method": "EM",
+        "resolution": "3.60 A",
+        "chains": "A/B/C/D/E/F/G/H=1-780"
+      },
+      {
+        "pdb_id": "8W2J",
+        "method": "EM",
+        "resolution": "3.10 A",
+        "chains": "A/B/C/D/E/F/G/H=1-780"
+      }
+    ]
+  },
+  "structures": [
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "7LW1",
+      "title": "Human phosphofructokinase-1 liver type bound to activator NA-11",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        2.9
+      ],
+      "deposit_date": "2021-02-27T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "8W2G",
+      "title": "Human liver phosphofructokinase-1 in the R-state conformation",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        3.0
+      ],
+      "deposit_date": "2024-02-20T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "8W2H",
+      "title": "Human liver phosphofructokinase-1 in the T-state conformation",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        2.6
+      ],
+      "deposit_date": "2024-02-20T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "8W2I",
+      "title": "Human liver phosphofructokinase-1 filament in the R-state conformation",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        3.6
+      ],
+      "deposit_date": "2024-02-20T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "8W2J",
+      "title": "Human liver phosphofructokinase-1 filament in the T-state conformation",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        3.1
+      ],
+      "deposit_date": "2024-02-20T00:00:00.000+00:00"
+    }
+  ],
+  "research_brief": {
+    "question": "How does allosteric regulation of PFK-1 work at the molecular level?",
+    "answer": "The supplied evidence converges on a model in which human liver PFK-1 (PFKL) exists in two conformational states\u2014an active R-state and an inactive T-state\u2014and allosteric effectors shift the equilibrium between them. CryoEM structures (PDB 8W2G/R-state, 8W2H/T-state, plus filament forms 8W2I/8W2J) provide direct structural evidence for these two states, and the associated literature (39183237) reports that the T-state structure of the eukaryotic enzyme differs conformationally from bacterial PFK1, implying a distinct eukaryotic allosteric transition mechanism, though the abstract does not specify which residues or domains differ. ATP, in addition to its catalytic role, is proposed to bind multiple distinct allosteric sites that stabilize the T-state (39183237), consistent with curated UniProt binding-site annotations showing ATP-binding residues near the catalytic site (e.g., residues 25, 88-89, 118-121) separate from the substrate-binding dimer interface (residues 164-166, 201, 208-210, 264, 292, 298-301). UniProt further documents an extensive allosteric activator site for beta-D-fructose 2,6-bisphosphate spanning many residues distributed across the C-terminal region and shared between dimer partners (e.g., 470, 527-531, 565, 572-574, 628, 654, 660-663, 734), indicating that activator binding occurs at inter-subunit interfaces distal to the catalytic center\u2014consistent with computational solvent-mapping findings (32478093) that potential allosteric sites cluster at subunit interfaces and that ligand occupancy at these sites significantly perturbs global low-frequency vibrational modes, suggesting a dynamics-based mechanism for signal propagation from allosteric to catalytic sites. The PFKL C-terminus is reported to have an autoinhibitory role in stabilizing the T-state and is also required for higher-order filament assembly in cells (39183237), and molecular dynamics simulations (41247276) identify specific PFK1-PFK1 interaction interfaces that correspond to experimentally defined filament-forming contacts, with a destabilizing Asn-to-Thr mutation at one interface supporting the functional relevance of these contacts to oligomeric assembly. Collectively, this suggests that allostery in PFK-1 operates through (1) ligand-induced R/T conformational switching, (2) multiple ATP inhibitory sites and a fructose-2,6-bisphosphate activator site located at subunit interfaces, (3) C-terminal-mediated T-state stabilization linked to higher-order filament formation, and (4) global dynamic/vibrational changes propagated from interface sites to the catalytic center. Functionally, review-level evidence (40329473) and kinetic modeling (40186355) indicate that this allosteric control (by ATP, ADP, Pi, and glucose-6-phosphate) is necessary to cap PFK activity at a level that prevents runaway accumulation of phosphorylated glycolytic intermediates, distinguishing allosteric control from simple mass-action regulation of ATP production.",
+    "key_findings": [
+      {
+        "finding": "Human liver PFK1 adopts distinct R-state and T-state conformations, resolved by cryoEM, with the T-state showing structural differences from the bacterial enzyme.",
+        "source_ids": [
+          "39183237",
+          "8W2G",
+          "8W2H"
+        ],
+        "confidence": "high"
+      },
+      {
+        "finding": "ATP allosterically inhibits PFKL by binding multiple distinct sites, contributing to T-state stabilization, though the exact sites are not detailed in the abstract.",
+        "source_ids": [
+          "39183237",
+          "P17858"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "finding": "Fructose-2,6-bisphosphate binds an extensive allosteric activator site spanning multiple residues shared between dimeric partners, distinct from the catalytic/substrate site.",
+        "source_ids": [
+          "P17858"
+        ],
+        "confidence": "high"
+      },
+      {
+        "finding": "The PFKL C-terminus stabilizes the T-state (autoinhibitory role) and is required for higher-order filament assembly observed in cells.",
+        "source_ids": [
+          "39183237"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "finding": "Predicted allosteric sites on PFK cluster at subunit interfaces and binding at these sites alters global low-frequency vibrational modes, suggesting a dynamics-mediated allosteric mechanism.",
+        "source_ids": [
+          "32478093"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "finding": "Molecular dynamics simulations identify PFK1-PFK1 interfaces matching experimentally observed filament-forming contacts, and a specific mutation destabilizes these interfaces.",
+        "source_ids": [
+          "41247276"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "finding": "Allosteric regulation of PFK by ATP, ADP, Pi, and glucose-6-phosphate is functionally required to limit enzyme activity and prevent uncontrolled buildup of phosphorylated glycolytic intermediates, distinct from mass-action control of ATP production rate.",
+        "source_ids": [
+          "40186355"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "consensus": [
+      "PFK-1 allosteric regulation involves a conformational switch between active (R) and inactive (T) states, supported by both cryoEM structural evidence and review literature.",
+      "Allosteric sites are structurally distinct from the catalytic site and are often located at subunit/dimer interfaces, consistent across UniProt binding-site annotations and computational solvent-mapping/dynamics studies.",
+      "ATP-dependent PFKs (unlike PPi-dependent PFKs) are allosterically regulated, and this regulation serves a distinct physiological function of limiting flux/intermediate accumulation rather than simply controlling ATP production rate."
+    ],
+    "uncertainties_and_disagreements": [
+      "The exact residues/domains responsible for the eukaryotic-specific R-to-T conformational difference are not specified in the available abstract evidence.",
+      "The precise number and structural identity of ATP inhibitory binding sites are not detailed beyond a general statement of 'multiple sites.'",
+      "The mechanistic link between C-terminal autoinhibition of the T-state and filament assembly is asserted but not explained at the residue/interaction level in the available abstract.",
+      "Computational findings (interface identification, vibrational mode changes) are model-based and acknowledged in their own abstracts as lacking atomic-level resolution or experimental validation for some conclusions."
+    ],
+    "evidence_gaps": [
+      "Detailed residue-level description of the allosteric ATP inhibitory site(s) is missing.",
+      "Direct experimental (not computational) evidence linking subunit-interface binding to conformational/allosteric signal propagation is not present.",
+      "The functional consequence of filament assembly on catalytic/allosteric behavior (e.g., whether filaments favor R- or T-state, or alter cooperativity) is not explicitly addressed in the supplied evidence.",
+      "No evidence directly connects glucose-6-phosphate binding site location or mechanism, despite its functional role being mentioned in kinetic modeling."
+    ],
+    "recommended_papers": [
+      {
+        "paper_id": "39183237",
+        "reason": "Provides the primary structural (cryoEM) evidence for R/T state transition, ATP multi-site inhibition, and C-terminal autoinhibition/filament assembly in human PFKL."
+      },
+      {
+        "paper_id": "41247276",
+        "reason": "Offers computational identification of specific PFK1-PFK1 interaction interfaces relevant to filament-based allosteric regulation, with mutation-based validation context."
+      },
+      {
+        "paper_id": "32478093",
+        "reason": "Supplies computational evidence linking subunit-interface allosteric sites to global dynamic changes relevant to allosteric signal transmission."
+      }
+    ],
+    "next_investigation": "Determine, using full-text structural and mutagenesis data from the cryoEM PFKL studies (e.g., 8W2G-8W2J), the specific residue-level interactions at each ATP inhibitory site and how they mechanistically couple to C-terminal-mediated T-state stabilization and filament assembly.",
+    "source_warning": "All literature evidence was derived only from abstracts, not full texts, so mechanistic details (specific residues, interaction networks, causal pathways) are often generalized or incompletely described. Several findings rely on computational/modeling approaches (coarse-grained MD, elastic network models, kinetic modeling) rather than direct experimental validation, and one source (40329473) is a review summarizing other work rather than primary evidence. UniProt binding-site annotations are curated computational/HAMAP-rule based predictions, not necessarily directly validated by the cited papers. The existence of PDB structures (7LW1, 8W2G-8W2J) confirms that R- and T-state and filament structures were determined, but does not by itself establish the mechanistic interpretations described in the literature abstracts."
+  }
+}
