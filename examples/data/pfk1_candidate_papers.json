@@ -1,0 +1,675 @@
+[
+  {
+    "id": "40163365",
+    "pmid": "40163365",
+    "doi": "10.7554/elife.100066",
+    "title": "Allosteric inhibition of trypanosomatid pyruvate kinases by a camelid single-domain antibody.",
+    "authors": "Pinto Torres JE, Claes M, Hendrickx R, Yuan M, Smiejkowska N, Van Wielendaele P, Hacisuleyman A, De Winter H, Muyldermans S, Michels PAM, Walkinshaw MD, Vers\u00e9es W, Caljon G, Magez S, Sterckx YG.",
+    "journal": "eLife",
+    "year": "2025",
+    "abstract": "African trypanosomes are the causative agents of neglected tropical diseases affecting both humans and livestock. Disease control is highly challenging due to an increasing number of drug treatment failures. African trypanosomes are extracellular, blood-borne parasites that mainly rely on glycolysis for their energy metabolism within the mammalian host. Trypanosomal glycolytic enzymes are therefore of interest for the development of trypanocidal drugs. Here, we report the serendipitous discovery of a camelid single-domain antibody (sdAb aka Nanobody) that selectively inhibits the enzymatic activity of trypanosomatid (but not host) pyruvate kinases through an allosteric mechanism. By combining enzyme kinetics, biophysics, structural biology, and transgenic parasite survival assays, we provide a proof-of-principle that the sdAb-mediated enzyme inhibition negatively impacts parasite fitness and growth.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 1
+  },
+  {
+    "id": "39183237",
+    "pmid": "39183237",
+    "doi": "10.1038/s41467-024-51808-6",
+    "title": "Structural basis for allosteric regulation of human phosphofructokinase-1.",
+    "authors": "Lynch EM, Hansen H, Salay L, Cooper M, Timr S, Kollman JM, Webb BA.",
+    "journal": "Nature communications",
+    "year": "2024",
+    "abstract": "Phosphofructokinase-1 (PFK1) catalyzes the rate-limiting step of glycolysis, committing glucose to conversion into cellular energy. PFK1 is highly regulated to respond to the changing energy needs of the cell. In bacteria, the structural basis of PFK1 regulation is a textbook example of allostery; molecular signals of low and high cellular energy promote transition between an active R-state and inactive T-state conformation, respectively. Little is known, however, about the structural basis for regulation of eukaryotic PFK1. Here, we determine structures of the human liver isoform of PFK1 (PFKL) in the R- and T-state by cryoEM, providing insight into eukaryotic PFK1 allosteric regulatory mechanisms. The T-state structure reveals conformational differences between the bacterial and eukaryotic enzyme, the mechanisms of allosteric inhibition by ATP binding at multiple sites, and an autoinhibitory role of the C-terminus in stabilizing the T-state. We also determine structures of PFKL filaments that define the mechanism of higher-order assembly and demonstrate that these structures are necessary for higher-order assembly of PFKL in cells.",
+    "publication_type": [
+      "Research Support, U.S. Gov't, P.H.S.",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 44
+  },
+  {
+    "id": "37217557",
+    "pmid": "37217557",
+    "doi": "10.1038/s42003-023-04930-y",
+    "title": "Suppression of the human malic enzyme 2 modifies energy metabolism and inhibits cellular respiration.",
+    "authors": "Hsieh JY, Chen KC, Wang CH, Liu GY, Ye JA, Chou YT, Lin YC, Lyu CJ, Chang RY, Liu YL, Li YH, Lee MR, Ho MC, Hung HC.",
+    "journal": "Communications biology",
+    "year": "2023",
+    "abstract": "Human mitochondrial NAD(P)<sup>+</sup>-dependent malic enzyme (ME2) is well-known for its role in cell metabolism, which may be involved in cancer or epilepsy. We present potent ME2 inhibitors based on cyro-EM structures that target ME2 enzyme activity. Two structures of ME2-inhibitor complexes demonstrate that 5,5'-Methylenedisalicylic acid (MDSA) and embonic acid (EA) bind allosterically to ME2's fumarate-binding site. Mutagenesis studies demonstrate that Asn35 and the Gln64-Tyr562 network are required for both inhibitors' binding. ME2 overexpression increases pyruvate and NADH production while decreasing the cell's NAD<sup>+</sup>/NADH ratio; however, ME2 knockdown has the opposite effect. MDSA and EA inhibit pyruvate synthesis and thus increase the NAD<sup>+</sup>/NADH ratio, implying that these two inhibitors interfere with metabolic changes by inhibiting cellular ME2 activity. ME2 silence or inhibiting ME2 activity with MDSA or EA decreases cellular respiration and ATP synthesis. Our findings suggest that ME2 is crucial for mitochondrial pyruvate and energy metabolism, as well as cellular respiration, and that ME2 inhibitors could be useful in the treatment of cancer or other diseases that involve these processes.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 21
+  },
+  {
+    "id": "33431895",
+    "pmid": "33431895",
+    "doi": "10.1038/s41598-020-79271-5",
+    "title": "Temperature effect on water dynamics in tetramer phosphofructokinase matrix and the super-arrhenius respiration rate.",
+    "authors": "Yang HC, Ge YC, Su KH, Chang CC, Lin KC, Aquilanti V, Kasai T.",
+    "journal": "Scientific reports",
+    "year": "2021",
+    "abstract": "Advances in understanding the temperature effect on water dynamics in cellular respiration are important for the modeling of integrated energy processes and metabolic rates. For more than half a century, experimental studies have contributed to the understanding of the catalytic role of water in respiration combustion, yet the detailed water dynamics remains elusive. We combine a super-Arrhenius model that links the temperature-dependent exponential growth rate of a population of plant cells to respiration, and an experiment on isotope labeled <sup>18</sup>O<sub>2</sub> uptake to H<sub>2</sub><sup>18</sup>O transport role and to a rate-limiting step of cellular respiration. We use Phosphofructokinase (PFK-1) as a prototype because this enzyme is known to be a pacemaker (a rate-limiting enzyme) in the glycolysis process of respiration. The characterization shows that PFK-1 water matrix dynamics are crucial for examining how respiration (PFK-1 tetramer complex breathing) rates respond to temperature change through a water and nano-channel network created by the enzyme folding surfaces, at both short and long (evolutionary) timescales. We not only reveal the nano-channel water network of PFK-1 tetramer hydration topography but also clarify how temperature drives the underlying respiration rates by mapping the channels of water diffusion with distinct dynamics in space and time. The results show that the PFK-1 assembly tetramer possesses a sustainable capacity in the regulation of the water network toward metabolic rates. The implications and limitations of the reciprocal-activation-reciprocal-temperature relationship for interpreting PFK-1 tetramer mechanisms are briefly discussed.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 4
+  },
+  {
+    "id": "PMC10680341",
+    "pmid": null,
+    "doi": null,
+    "title": "Abstracts presented at the 37th Annual Meeting of The Protein Society",
+    "authors": null,
+    "journal": "Protein science : a publication of the Protein Society",
+    "year": "2023",
+    "abstract": null,
+    "publication_type": [
+      "Abstract"
+    ],
+    "open_access": false,
+    "cited_by_count": 0
+  },
+  {
+    "id": "40329473",
+    "pmid": "40329473",
+    "doi": "10.1042/bcj20253024",
+    "title": "The more we learn, the more diverse it gets: structures, functions and evolution in the Phosphofructokinase Superfamily.",
+    "authors": "Compton JA, Patrick WM.",
+    "journal": "The Biochemical journal",
+    "year": "2025",
+    "abstract": "The enzyme 6-phosphofructokinase (PFK) phosphorylates d-fructose 6-phosphate, producing d-fructose 1,6-bisphosphate. The canonical version-discovered almost 90 years ago-is ATP-dependent, allosterically regulated and catalyses the first committed step in glycolysis. However, beyond this textbook enzyme, there is fascinating functional and structural variety among PFKs across the tree of life. While PFKs are found in two non-homologous superfamilies, here, we review the universally distributed enzymes in one, the Phosphofructokinase Superfamily. We focus on summarising the diversity within this superfamily. A key partition regards the identity of the phosphate donor, which can be ATP or inorganic pyrophosphate (PPi). Considerable insights into functional and evolutionary aspects of the ATP- and PPi-dependent PFKs have come through structural biology, with 45 structures now available in the Protein Data Bank. One recent highlight was the use of cryoEM and molecular dynamics simulations to illuminate the structural basis of allosteric regulation in human liver PFK. Others were to explore interactions of drug-like small molecules with the PFKs from Trypanosoma brucei and human liver, revealing new routes to antibiotics and immune modulators, respectively. In contrast with the ATP-dependent enzymes, PPi-dependent PFKs are typically non-allosteric and catalyse a readily reversible reaction. Some also play an additional physiological role by phosphorylating d-sedoheptulose 7-phosphate. We discuss why these properties are plausibly ancestral. Finally, we also emphasise how much remains to be discovered. For example, the 45 experimentally determined structures are from only 14 species. Nine decades in, it is still a great time to be studying PFK.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 5
+  },
+  {
+    "id": "41256051",
+    "pmid": "41256051",
+    "doi": "10.1016/j.yjsbx.2025.100137",
+    "title": "Residues of the ribose binding site are required for human ribokinase activity.",
+    "authors": "Ferreira JC, Nedyalkova L, Villanueva AJ, Fadl S, Cinviz ZN, Adem KA, Sensoy O, Rabeh WM.",
+    "journal": "Journal of structural biology: X",
+    "year": "2025",
+    "abstract": "Ribokinase (RK) catalyzes the phosphorylation of D-ribose to ribose-5-phosphate, an essential metabolic intermediate for the pentose phosphate pathway, nucleotide biosynthesis, redox balance, and cellular energy metabolism. Despite its central physiological role, the structural and mechanistic bases of human RK activity remain incompletely defined. Here, we present the 2.1\u00a0\u00c5 resolution crystal structure of human RK bound to ADP and Mg<sup>2+</sup>, revealing a conserved dimeric architecture characteristic of the PfkB family. A conserved \u03b2-clasp motif at the dimer interface stabilizes asymmetric conformations between protomers, supporting dynamic active-site gating. Mutagenesis of key ribose-coordinating residues-Asp27, Lys54, Asn57, Glu154, and Ala181-completely abolished catalytic activity, underscoring the essential roles of these residues in substrate binding and positioning. Kinetic analysis showed that the partially active E154A mutant had impaired substrate affinity and catalytic efficiency, indicating that E154 contributes to ribose coordination and active-site geometry. Molecular dynamics simulations further demonstrated that mutations of ribose-coordinating residues disrupt ribose retention and accelerate active-site opening, thereby destabilizing the catalytic pocket. Complementary thermodynamic and kinetic stability measurements revealed that the introduction of E154A reduced both the melting temperature and enzymatic half-life of RK under heat stress, linking structural flexibility to functional robustness. Collectively, these observations define a finely tuned network of ribose-binding interactions that are essential for catalytic activity, conformational regulation, and thermal stability. This work establishes a mechanistic framework for human RK function to support its exploration as a therapeutic target in metabolic and cardiovascular disorders with perturbed ribose metabolism.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "41373896",
+    "pmid": "41373896",
+    "doi": "10.3390/ijms262311751",
+    "title": "Cooperativity in &lt;i&gt;Escherichia coli&lt;/i&gt; L-Threonine Dehydrogenase and Its Inhibition by an Antibacterial &lt;i&gt;N&lt;/i&gt;-Pyridylpyrazolone Derivative.",
+    "authors": "Obaha A, Mikuli\u010d Vernik N, Mlinar K, Tu\u0161ek M, Stojkovska Docevska M, Petek N, Svete J, Novinec M.",
+    "journal": "International journal of molecular sciences",
+    "year": "2025",
+    "abstract": "Antibiotic resistance is an increasing concern in modern healthcare. Therefore, it is important to identify novel antimicrobial agents and new molecular targets for such compounds. Here, we describe the identification of an <i>N</i>-pyridylpyrazolone derivative, 4-(2-aminoethyl)-2-(pyridin-2-yl)-1,2-dihydro-3<i>H</i>-pyrazol-3-one dihydrochloride (compound <b>1</b>), which is effective against Gram-positive and Gram-negative bacteria and inhibits the enzymatic activity of <i>Escherichia coli</i> L-threonine dehydrogenase (TDH). To characterize its interaction with compound <b>1</b>, TDH was overexpressed in <i>E. coli</i>. The recombinant enzyme was shown to exist in dilute solution in equilibrium between dimeric and tetrameric forms, with a <i>K</i><sub>d</sub> value for the dimer/tetramer transition of 3 \u00b1 1 nM, and to bind L-threonine cooperatively with a Hill coefficient of 1.4. Compound <b>1</b> acted as a partial mixed inhibitor of TDH with an <i>EC</i><sub>50</sub> value of 47 \u00b1 16 \u00b5M and did not affect the equilibrium between oligomeric states. Altogether, these findings identify compound <b>1</b> as a promising starting point for the development of novel antibiotics and as a tool compound for studying the functional properties of TDH.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "42327790",
+    "pmid": "42327790",
+    "doi": "10.3389/fimmu.2026.1845155",
+    "title": "NAT10 as a central node in cancer biology: integrating epitranscriptomic regulation, metabolic reprogramming, and immune modulation.",
+    "authors": "Bo W, Yi Y, Zhao B, Dong H.",
+    "journal": "Frontiers in immunology",
+    "year": "2026",
+    "abstract": "N-acetyltransferase 10 (NAT10), the sole known mRNA N4-acetylcytidine (ac4C) writer, has emerged as a central regulator of cancer adaptation. Beyond its\u00a0canonical role in RNA acetylation, NAT10 integrates environmental stress signals-including hypoxia, metabolic imbalance, and inflammatory cues-with epitranscriptomic remodeling to sustain malignant progression. Through selective ac4C deposition on mRNA and tRNA, NAT10 enhances transcript stability, amplifies translational output, and reinforces oncogenic signaling networks. These molecular effects converge on key adaptive programs, including glycolytic reprogramming, pentose phosphate pathway activation, amino acid biosynthesis, DNA damage repair, drug efflux, vascular remodeling, and immune suppression. Importantly, NAT10 operates within feedback circuits linking HIF-1\u03b1, Wnt/\u03b2-catenin, YAP1, and VEGFA(Vascular Endothelial Growth Factor A) signaling, thereby transforming transient stress responses into sustained adaptive states. This epitranscriptomic reinforcement underlies tumor plasticity and contributes to resistance against chemotherapy, targeted therapy, and immune checkpoint blockade. Emerging pharmacological strategies targeting NAT10, particularly in rational combination regimens, highlight its translational potential. However, key questions remain regarding ac4C reader proteins, substrate specificity, and context-dependent functions. In this review, we propose an integrated model in which NAT10 functions as a\u00a0central adaptive node coupling RNA regulation, metabolic plasticity, and microenvironmental remodeling, and discuss future directions for exploiting this axis in precision oncology.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "42358350",
+    "pmid": "42358350",
+    "doi": "10.3389/fphar.2026.1844992",
+    "title": "Targeting phosphofructokinase in cancer: integrating natural products for metabolic reprogramming and therapeutic innovation.",
+    "authors": "Cao C, Lv C, ElFar A.",
+    "journal": "Frontiers in pharmacology",
+    "year": "2026",
+    "abstract": "The metabolism of cancer cells is reprogrammed toward aerobic glycolysis (the Warburg effect), which stimulates tumor growth. Phosphofructokinase (PFK) and its isoforms, PFKP, PFKM, and PFKL, are highly conserved central glycolytic controllers and a potential therapeutic intervention. This review discusses the complex functions of PFK in tumor biology, including its roles in regulating proliferation, invasion, metastasis, and therapy resistance. It further discusses the tumor microenvironmental role of PFK, which influences immune evasion, angiogenesis, and stromal interactions, as well as its non-metabolic signaling functions. The therapeutic approaches to PFK, such as synthetic (e.g., PFK15) and natural (e.g., curcumin) compounds, are considered alongside strategies to address specific difficulties. Lastly, the review is based on a combination of expression analysis of PFK isoforms and a closer analysis of synthetic and natural inhibitors, and it suggests a prospective framework for implementing PFK-targeted therapies in clinical practice that incorporates AI-based drug design, nanodelivery, and immune-metabolic modulation.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "40845161",
+    "pmid": "40845161",
+    "doi": "10.1093/jxb/eraf347",
+    "title": "Fructose-1,6-bisphosphatase is involved in heterotrophic growth and glycogen metabolism in cyanobacteria.",
+    "authors": "Caliebe F, Ojha RS, Gruber M, Boehm M, Shen L, Br\u00e4sen C, Snoep JL, Forchhammer K, Hagemann M, Siebers B, Gutekunst K.",
+    "journal": "Journal of experimental botany",
+    "year": "2025",
+    "abstract": "Cyanobacteria switch between photoautotrophic and heterotrophic carbon metabolism during diurnal cycles. A classical control point is characterized by two glycolytic phosphofructokinases (PFKs) and a bifunctional fructose-1,6-biphosphatase/sedoheptulose-1,7-biphosphatase (F/SBPase; slr2094), which catalyses two reactions in the Calvin-Benson-Bassham (CBB) cycle. In addition, Synechocystis possesses a fructose-1,6-bisphosphatase (FBPase; slr0952) with yet unknown physiological function and biochemical properties. Our aim was to elucidate the physiological role of FBPase, in combination with the above-mentioned enzymes. We discovered that FBPase is specific for fructose 1,6-bisphosphate (FBP), showing no SBPase activity, and unlike F/SBPase does not exhibit any biochemical regulatory properties. In contrast to F/SBPase, FBPase is not involved in the CBB cycle, but instead affects growth and glycogen metabolism under heterotrophic conditions. We hypothesize that FBPase may influence glycogen turnover by controlling cellular levels of its substrate, FBP, since FBP is involved in the formation of glucose 1,6-bisphosphate, which is a regulatory metabolite for the control point between glycogen and central carbon metabolism at the level of phosphoglucomutases. Our data indicate that PFK and FBPase act as an antagonistic enzyme couple in darkness. Furthermore, we found redox-insensitive FBPases from plant chloroplasts to be closely related to Synechocystis FBPase, indicating that they might serve a similar function.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 2
+  },
+  {
+    "id": "40402947",
+    "pmid": "40402947",
+    "doi": "10.1371/journal.pone.0317167",
+    "title": "Mechanistic studies of PFKFB2 reveal a novel inhibitor of its kinase activity.",
+    "authors": "Eyster C, Matsuzaki S, Pranay A, Giorgione JR, Faakye A, Ahmed M, Humphries KM.",
+    "journal": "PloS one",
+    "year": "2025",
+    "abstract": "The 6-phosphofructo-2-kinase/fructose-2,6-biphosphatase (PFKFB) family of proteins are bifunctional enzymes that are of clinical relevance because of their roles in regulating glycolysis in insulin sensitive tissues and cancer. Here, we sought to express recombinant PFKFB2 and develop a robust protocol to measure its kinase activity. These studies resulted in the unexpected finding that bacterially expressed PFKFB2 is phosphorylated in situ on Ser483 but is not a result of autophosphorylation. Recombinant PFKFB2 was used to develop an enzymatic assay to test a library of molecules selected by the Atomwise AtomNet\u00ae AI platform. This resulted in the identification of a new inhibitor, B2, that inhibits PFKFB2 (IC50 3.29 \u03bcM) and PFKFB3 (IC50 11.89 \u03bcM). A-498 cells, which express both PFKFB2 and PFKFB3, were treated with B2. Seahorse XFe analysis revealed B2 inhibited cellular glycolysis and glycolytic capacity. Targeted LC/MS analysis showed B2 decreased fructose-1,6-bisphosphate and downstream glycolytic intermediates but increased fructose-6-phosphate levels, which is consistent with an inhibitory effect on PFK-1 activity. The LC/MS metabolic profile of A-498 cells treated under identical conditions with the known PFKFB3 inhibitor, PFK158, was distinct from that induced by B2. These results thus demonstrate the identification and validation of a new PFKFB kinase inhibitor.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "40397908",
+    "pmid": "40397908",
+    "doi": "10.1371/journal.pone.0321998",
+    "title": "Small-molecule inhibitors of 6-phosphofructo-1-kinase simultaneously suppress lactate and superoxide generation in cancer cells.",
+    "authors": "Le\u0161nik S, Konc J, Vodopivec T, \u010camernik K, Karolina Potokar U, Legi\u0161a M.",
+    "journal": "PloS one",
+    "year": "2025",
+    "abstract": "Deregulated energy metabolism is a hallmark of cancer, characterized by increased glycolytic flux. Cancer-specific modification of 6-phosphofructo-1-kinase (PFK) impairs its ability to regulate the enzyme's activity which increases glycolytic flux. Consequently, excessive cytosolic NADH formation triggers a harmful redox imbalance in cancer cells, which is rapidly neutralized by the formation of lactic acid and superoxide (SOX). To learn more about deregulated glycolysis in cancer cells, a supercomputer used the atomic model of the crystal structure of human PFK1 for virtual screening a database of 4.5 million compounds by docking with the catalytic binding sites of the enzyme. The screening revealed two compounds capable of reducing modified, cancer-specific PFK1 activity and simultaneously suppressing lactate and SOX formation. A dose-dependent inhibition was observed in the cells treated by compounds in the following tumorigenic cells: Jurkat (Acute T cells leukemia); Caco-2 (colorectal adenocarcinoma); COLO 829 (melanoma); and MDA-MB-231 (breast gland adenocarcinoma). In addition, two selected compounds assessed for cytostatic and cytotoxic activity showed no negative effects on tumorigenic cells. However, during incubation, the strengths of inhibitions continuously decreased, both during lactate and SOX formation. No such effects were observed if compounds were sequentially submitted to the cells at low concentrations every 24 hours. Additional experiments performed by Jurkat cells revealed reduced respiration and glycolysis rates in the cells treated with compounds concerning the untreated cells. Inhibition of modified cancer-specific PFK1 activity reduces deregulated glycolytic flux, prevents abundant cytosolic NADH formation, and restores redox balance thus simultaneously preventing the formation of deleterious effects of lactate and SOX, two crucial players in cancer initiation and development.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "42303626",
+    "pmid": "42303626",
+    "doi": "10.1038/s41392-026-02729-x",
+    "title": "Non-receptor tyrosine kinase signaling pathways and therapeutic implications.",
+    "authors": "Hossain MDA, Marques Cuoco C, Sodaye SH, Beci J, Belkas K.",
+    "journal": "Signal transduction and targeted therapy",
+    "year": "2026",
+    "abstract": "Cell signaling regulates cellular physiological functions, including the cell cycle, survival, immune response, gene expression, and protein-protein interactions. Within this complex system and its intrinsic mechanisms, non-receptor tyrosine kinases (NRTKs) play a crucial role in signaling in the cellular cytoplasmic compartments. Owing to the involvement of NRTKs in the signaling cascade, they have made a significant contribution to the manifestation of etiologically complex diseases such as cancer, cardiovascular, neurodegenerative, autoimmune, and metabolic diseases, which are some of the major causes of mortality globally and often lack remedial measures. While understanding how NRTKs and their signaling pathways are involved in the onset of diseases is currently an emerging research topic, we noticed a lack of a broader picture of the commonalities between diseases and their corresponding pathologies. Thus, the goal of this review was to present a holistic view of NRTKs in cellular homeostasis, emphasizing both their convergent and divergent signaling roles within and across disease systems. Such approaches include shared pathways such as SRC/PI3K/AKT, JAK/STAT, MAPK, and FAK-integrin signaling that operate across disease systems, contributing to inflammation, immune modulation, metabolic reprogramming, and cellular stress responses. These common networks enable us to identify nodal points of convergence that are often co-opted or dysregulated across multiple pathologies. This review also demonstrates crosstalk concerning NRTKs' interactions with their cellular environment and other molecules with therapeutic potential. Additionally, current FDA-approved drugs and on-going clinical trials will provide a basis for understanding the effects of NRTKs-targeting drugs and their potential for application to other diseases, given their cascading mechanisms.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "41685159",
+    "pmid": "41685159",
+    "doi": "10.1016/j.apsb.2025.11.022",
+    "title": "From concept to application: Exploring the evolution and potential of DUBTAC technology.",
+    "authors": "Wang D, Min W, Jiang B, Sun H, Sun C, Yang P.",
+    "journal": "Acta pharmaceutica Sinica. B",
+    "year": "2026",
+    "abstract": "Deubiquitinase-targeting chimeras (DUBTAC), as a highly promising emerging technology, can precisely remove ubiquitin chains from target proteins by recruiting deubiquitinases (DUBs), thereby enhancing the stability of the target proteins. Multiple functional proteins, such as the tumor suppressor proteins p53, RB, PTEN, upon stabilization by DUBTAC, can effectively restore or enhance their physiological functions, thus achieving therapeutic effects. Currently, the DUBTAC technology is still in its early stage of development, yet it has broad application prospects and represents a technological approach for developing various \"undruggable\" targets. This article delves into the design strategy of DUBTAC, and screens and recommends some candidate proteins with the potential to serve as drug targets. We aim to provide perspective in drug design, structural optimization, target selection, and related aspects.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 4
+  },
+  {
+    "id": "39245718",
+    "pmid": "39245718",
+    "doi": "10.1186/s11658-024-00640-3",
+    "title": "Glucokinase (GCK) in diabetes: from molecular mechanisms to disease pathogenesis.",
+    "authors": "Abu Aqel Y, Alnesf A, Aigha II, Islam Z, Kolatkar PR, Teo A, Abdelalim EM.",
+    "journal": "Cellular & molecular biology letters",
+    "year": "2024",
+    "abstract": "Glucokinase (GCK), a key enzyme in glucose metabolism, plays a central role in glucose sensing and insulin secretion in pancreatic \u03b2-cells, as well as glycogen synthesis in the liver. Mutations in the GCK gene have been associated with various monogenic diabetes (MD) disorders, including permanent neonatal diabetes mellitus (PNDM) and maturity-onset diabetes of the young (MODY), highlighting its importance in maintaining glucose homeostasis. Additionally, GCK gain-of-function mutations lead to a rare congenital form of hyperinsulinism known as hyperinsulinemic hypoglycemia (HH), characterized by increased enzymatic activity and increased glucose sensitivity in pancreatic \u03b2-cells. This review offers a comprehensive exploration of the critical role played by the GCK gene in diabetes development, shedding light on its expression patterns, regulatory mechanisms, and diverse forms of associated monogenic disorders. Structural and mechanistic insights into GCK's involvement in glucose metabolism are discussed, emphasizing its significance in insulin secretion and glycogen synthesis. Animal models have provided valuable insights into the physiological consequences of GCK mutations, although challenges remain in accurately recapitulating human disease phenotypes. In addition, the potential of human pluripotent stem cell (hPSC) technology in overcoming current model limitations is discussed, offering a promising avenue for studying GCK-related diseases at the molecular level. Ultimately, a deeper understanding of GCK's multifaceted role in glucose metabolism and its dysregulation in disease states holds implications for developing targeted therapeutic interventions for diabetes and related disorders.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 28
+  },
+  {
+    "id": "41354708",
+    "pmid": "41354708",
+    "doi": "10.1038/s42003-025-09333-9",
+    "title": "Catabolic rewiring in cancer impacts dietary interventions.",
+    "authors": "Chinopoulos C.",
+    "journal": "Communications biology",
+    "year": "2025",
+    "abstract": "Tumors exhibit metabolic fuel requirements resembling those of embryonic and other highly proliferative tissues, a similarity that can be exploited to combat neoplasia. However, several challenges limit the efficacy of dietary modifications in cancer therapy. This review explores how cancer cells acquire and catabolize macromolecules to harness energy and assesses the feasibility of influencing these pathways through dietary changes. Although dietary interventions modulate the energetic substrate supply to tumors only to a limited extent, they offer significant ancillary benefits by imposing hormonal states that burden cancer metabolism, enhancing immune responses, and reducing inflammation. Integrating dietary considerations into the standard of care for cancer patients represents a promising adjunct to traditional treatments, despite their dampened impact on nutrient availability for tumor energy metabolism.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "41791709",
+    "pmid": "41791709",
+    "doi": "10.1016/j.jbc.2026.111342",
+    "title": "The SWI/SNF complex in tumor metabolism: Mechanisms and therapeutic implications.",
+    "authors": "Pan XH, Wang J, Su J, Zhao R, Gao YF.",
+    "journal": "The Journal of biological chemistry",
+    "year": "2026",
+    "abstract": "Cancer metabolic reprogramming is a driver of tumorigenesis and progression. While extensive research has highlighted the roles of metabolic enzymes and signaling pathways in this process, the mechanisms by which chromatin regulation coordinates the metabolic network at the transcriptional level remain unclear. The SWI/SNF chromatin remodeling complex, a key epigenetic regulator, has recently been shown to modulate multiple tumor metabolic pathways. Metabolic reprogramming induced by mutations in its subunits has garnered increasing attention, but comprehensive reviews on how SWI/SNF-mediated chromatin remodeling governs this process are limited. This paper examines how the SWI/SNF complex regulates metabolic gene transcription by positioning promoters and enhancer regions, guided by transcription factors, and remodeling nucleosome structures. It further discusses its role in regulating glycolysis, the tricarboxylic acid cycle, oxidative phosphorylation, lipid metabolism, and the coupling of carbon-nitrogen metabolism between amino acids and glucose-lipid metabolism. Focusing on subunit mutations such as ARID1A, SMARCA4, and PBRM1, this paper explores their impact on metabolic adaptation, offering insights for identifying therapeutic targets. Based on these findings, a combination intervention strategy targeting the protein levels of glutaminase 1, oxidative phosphorylation (complex I), glutamine transport, and glycolysis is proposed. By integrating SWI/SNF complex status and metabolic phenotypes, a therapeutic framework is developed that balances metabolic compensation blockade and enhanced cell death sensitivity, providing a more precise treatment strategy for metabolism-dependent tumors.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 1
+  },
+  {
+    "id": "42344927",
+    "pmid": "42344927",
+    "doi": "10.3389/fimmu.2026.1852236",
+    "title": "Mitochondria: from powerhouses of cells to hubs in antitumor immunity.",
+    "authors": "Li X, Shi Y, Zhao Y, Zhu G, Jin L.",
+    "journal": "Frontiers in immunology",
+    "year": "2026",
+    "abstract": "While immune checkpoint inhibitors and chimeric antigen receptor T-cell (CAR-T) therapies constitute the cornerstone of current immunotherapy, their efficacy is often limited by, most notably, the immunosuppressive tumor microenvironment. Recently, mitochondria are recognized as pivotal metabolic-immune hubs that critically support tumor progression, metastasis, and immune evasion. However, this insight has not yet translated into a clear understanding of the underlying mechanisms or their therapeutic potential. This review summarizes the role of mitochondria in cellular metabolic regulation, with a focus on mitochondrial-mediated metabolic reprogramming in cancer and immune cells within the tumor microenvironment. We then discuss therapeutic opportunities to potentiate antitumor immunity by targeting mitochondrial reprogramming in cancer and CAR-T cells. Finally, we offer a forward-looking perspective on emerging mitochondria-targeted strategies, such as mitochondrial vaccines, precise mtDNA editing, and engineered mitochondrial transplantation.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "41875165",
+    "pmid": "41875165",
+    "doi": "10.1073/pnas.2602529123",
+    "title": "Inorganic phosphate and the rapid mobilization of metabolic energy in neurons.",
+    "authors": "Rosen PC, Sullere S, Fu P, Mart\u00ednez-Fran\u00e7ois JR, Brooks DJ, Kim E, Gu C, Yellen G.",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "year": "2026",
+    "abstract": "Neurons experience brief, intense periods of energy demand when they are excited, but how they rapidly coordinate energy expenditure with production is incompletely understood. Part of the difficulty has been measuring the levels of molecules involved in this metabolic response with spatiotemporal precision in single live cells. Here, we engineered a quantitative fluorescent biosensor to monitor cytosolic inorganic phosphate (P<sub>i</sub>), a fundamental component of energy metabolism that has a classically proposed but largely neglected role in activating glycolysis. Using two-photon fluorescence lifetime imaging, we observed millimolar increases in P<sub>i</sub> within seconds of stimulating mouse neurons both ex vivo and in vivo. Drawing on results from metabolic modeling, biosensor imaging, and enzymology, we argue that P<sub>i</sub> is a sensitive reporter of energy usage that potently links metabolic energy supply with demand in neurons. Quantitative live-cell imaging of P<sub>i</sub> should be a valuable approach for studying bioenergetics more generally.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": false,
+    "cited_by_count": 2
+  },
+  {
+    "id": "42216562",
+    "pmid": "42216562",
+    "doi": "10.1093/molbev/msag129",
+    "title": "Functional conservation with mechanistic drift: AMP activation in the evolution of archaeal sugar kinases.",
+    "authors": "M Herrera S, Vallejos-Baccelliere G, Malav\u00e9 D, Hern\u00e1ndez-Cabello L, Castro-Fernandez V, Guix\u00e9 V.",
+    "journal": "Molecular biology and evolution",
+    "year": "2026",
+    "abstract": "Although allosteric regulation has been pointed out as one of the cornerstones of biological function, it has been a scarcely studied phenomenon in Archaea carbohydrate metabolism. Given its central role in metabolism, we experimentally investigated how allosteric regulation and its underlying kinetic mechanism evolved along evolutionary pathways within the archaeal ADP-dependent kinase family. Using ancestral sequence reconstruction, we resurrected key ancestors of this family and show that AMP regulation is an ancestral feature retained exclusively in lineages encoding bifunctional ADP-dependent phosphofructokinase (PFK)/glucokinase (GK) enzymes, which are restricted to methanogenic organisms, whereas it is lost in lineage-specific PFK enzymes. Notably, although AMP-dependent allosteric regulation is conserved among bifunctional ADP-PFK/GK enzymes, the kinetic mechanisms underlying activation are not. Instead, we observed a diversity of activation mechanisms (increased affinity for substrates, enhanced catalytic efficiency, or a combination of both), distributed along a 2-billion-year evolutionary trajectory, and that persists across different temperatures studied, both in extant and ancestral enzymes. These results highlight that the structural scaffold of this protein family is evolutionarily robust, preserving function while allowing substantial diversification of the underlying activation mechanisms under sequence variation. Based on these findings, we propose the concept of mechanistic drift, in which evolutionary pressures primarily act on adaptive functional traits that confer an adaptive advantage, rather than on the specific molecular mechanisms by which they are achieved. This framework has broad implications for macromolecular evolution, illustrating how long-term functional conservation can coexist with extensive physicochemical mechanistic diversity.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "42142286",
+    "pmid": "42142286",
+    "doi": "10.1007/s10822-026-00830-5",
+    "title": "Breaking glycolysis: allosteric hotspots for multi-target drug repurposing.",
+    "authors": "Vural LS, Kahraman E, Mintemur S, Urhan S, Akten ED.",
+    "journal": "Journal of computer-aided molecular design",
+    "year": "2026",
+    "abstract": "Glycolysis is essential for cellular energy production, making its enzymes attractive antimicrobial targets. Traditional strategies targeting conserved catalytic sites risk host toxicity due to limited species specificity. Allosteric sites-spatially distinct, evolutionarily divergent regulatory regions-offer selective inhibition but are challenging to detect experimentally. Here, we systematically mapped allosteric sites across all ten glycolytic enzymes of Staphylococcus aureus and Plasmodium vivax using a multi-scale computational framework combining elastic network models, residue interaction networks, and complementary machine-learning algorithms. High-confidence allosteric sites were identified in fructose-1,6-bisphosphate aldolase, triosephosphate isomerase, and phosphoglycerate mutase, revealing diverse regulatory architectures, from interfacial network hubs to hinge-mediated dynamic control. Experimentally validated sites in pyruvate kinase and phosphofructokinase further reinforced the predictive framework. Comparative analysis with human homologs confirmed pronounced species-specific divergence, supporting selective targeting. Virtual screening 1,615 FDA-approved compounds across all ten enzymes identified multi-target ligands exhibiting amphiphilic, interface-stabilizing architectures capable of coordinated glycolytic modulation. Binding analyses revealed a balanced contribution of polar and hydrophobic interactions, consistent with robust allosteric modulation. This pathway-wide, network-informed approach demonstrates the feasibility of selective disruption of bacterial glycolysis and provides a blueprint for rational polypharmacology and next-generation antimicrobial design.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "42169633",
+    "pmid": "42169633",
+    "doi": "10.3892/mmr.2026.13907",
+    "title": "Dynamic regulation of the 'mitochondria\u2011immune axis' in myocardial infarction: Molecular mechanisms driving macrophage polarization through energy metabolism disorders\u00a0(Review).",
+    "authors": "Zhang Y, Feng H, Wu Q, Yang S, Jiang Y, Xu H, Dong L, Li X, Chen H, Luo G.",
+    "journal": "Molecular medicine reports",
+    "year": "2026",
+    "abstract": "The pathological process of myocardial infarction (MI), an acute cardiovascular event that has a high global death and disability rate, includes not only widespread cardiomyocyte necrosis but also intricate reactions like immune system activation and problems with mitochondrial energy metabolism. An increasing body of evidence in recent years has shown that mitochondria are essential for maintaining metabolic homeostasis in cardiomyocytes and for regulating the immune system. After MI, ATP production is impaired, and metabolites such as reactive oxygen species and mitochondrial DNA are released in excess due to mitochondrial structural damage, kinetic imbalance [such as overactivation of dynamin\u2011related protein 1 (Drp1)], and disruption of the sirtuin (SIRT)3 \u2011 AMP\u2011activated protein kinase \u2011 peroxisome proliferative activated receptor \u03b3 (PPAR\u03b3) coactivator 1\u03b1 (PGC\u20111\u03b1) pathway. These factors drive macrophage polarization toward the M1 proinflammatory phenotype via signaling pathways such as Toll\u2011like receptor 9/NLR family pyrin domain containing 3, thereby aggravating secondary injury to myocardial tissue. However, repair\u2011phase macrophages can remodel mitochondrial oxidative phosphorylation via the PPAR\u03b3/PGC\u20111\u03b1 axis, shifting to an M2\u2011type phenotype to promote tissue repair, thereby forming a closed loop of 'metabolic\u2011immune' regulation. To improve energy metabolism and the immune microenvironment simultaneously, targeted regulation of the 'mitochondria\u2011immunity axis' (e.g., inhibition of Drp1 hypersegmentation and activation of the SIRT3 antioxidant pathway) may offer a fresh perspective on the accurate treatment of MI. In this review, the key mechanism underlying mitochondrial energy metabolism disorder in cardiomyocytes after MI is described, and the signaling roles and functional shifts of metabolites in macrophage polarization are examined, thereby providing a theoretical basis and targeted new ideas for the precise treatment of MI.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "39940094",
+    "pmid": "39940094",
+    "doi": "10.1111/febs.70014",
+    "title": "Functional consequences of lysine acetylation of phosphofructokinase isozymes.",
+    "authors": "Li X, Fatema N, Gan Q, Fan C.",
+    "journal": "The FEBS journal",
+    "year": "2025",
+    "abstract": "Phosphofructokinase (Pfk) catalyzes the phosphorylation of fructose 6-phosphate and is a key regulatory point in the glycolysis pathway. Multiple lysine residues in both Pfk isozymes, PfkA and PfkB, have been identified to be acetylated in Escherichia coli by proteomic studies, but no studies have been implemented to further characterize these acetylation events. To investigate the role of Pfk acetylation, the genetic code expansion strategy was used to generate homogeneously acetylated Pfk variants at target lysine sites that have been reported to be acetylated in nature. We found that acetylation of K309 of PfkA and K27 of PfkB decreased PfK enzyme activities significantly. We further investigated the deacetylation and acetylation processes of Pfk isozymes biochemically and genetically. Acetyl phosphate-mediated non-enzymatic acetylation could be the major mechanism of Pfk isozyme acetylation in E.\u2009coli, whereas NAD-dependent protein deacylase CobB can remove most of the acetylated lysine residues but not K309 of PfkA and K27 of PfkB, which affect enzyme activities. Because of the important role of Pfk in cellular metabolism, the results of the present study are expected to facilitate studies in the fields of metabolic engineering and research.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": false,
+    "cited_by_count": 2
+  },
+  {
+    "id": "42186262",
+    "pmid": "42186262",
+    "doi": "10.1021/acs.jmedchem.6c00235",
+    "title": "First-in-Class Covalent Inhibitors of PFKFB3: Discovery and Characterization in PDAC Models.",
+    "authors": "Fiore A, Scarano A, Antonini G, Corf\u00f9 AI, Sicuro L, Faggiano S, Celesia A, Tesoriero C, Pacchiana R, Vettori A, Arslanbaeva L, Minucci S, Pallavicini I, Mollica L, Tamborini L, Donadelli M, Conti P, Bruno S, Borsari C.",
+    "journal": "Journal of medicinal chemistry",
+    "year": "2026",
+    "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is an aggressive cancer, driven by metabolic reprogramming. Since direct glycolytic enzyme inhibition is limited by toxicity, indirect glycolysis modulation through inhibition of the kinase activity of 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3 (PFKFB3) may offer a safer therapeutic strategy. Herein, we report the first-in-class covalent PFKFB3 inhibitor (<b>6</b>), targeting a previously unexplored cysteine. Enzyme assays, site-directed mutagenesis, and mass spectrometry confirmed covalent binding and kinetic selectivity for PFKFB3. Compound <b>6</b> reduced viability across multiple PDAC cell lines and suppressed PDAC growth in zebrafish xenografts. Its combination with standard chemotherapeutics revealed synergistic effects. Although the limited cellular activity of <b>6</b> restricts its use as a chemical probe in biological studies, we proved for the first time the druggability of a previously unexplored cysteine in PFKFB3. Our work represents a significant achievement in the selective targeting of this kinase, paving the way for an innovative mechanism of action for PFKFB3 inhibitors.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "42259193",
+    "pmid": "42259193",
+    "doi": "10.1016/j.tranon.2026.102850",
+    "title": "The PI3K/AKT signaling networks in cancer glucose metabolism: mechanisms and therapeutic implications.",
+    "authors": "Cheng S, Jiang Q, Huang H, Tong H, Xie M.",
+    "journal": "Translational oncology",
+    "year": "2026",
+    "abstract": "The PI3K/AKT axis is frequently dysregulated and serves as a central regulator in cancer glucose metabolism. This review outlines the composition and activation mechanisms of the PI3K/AKT pathway, its interactions with core metabolic enzymes (hexokinase, pyruvate kinase, phosphofructokinase, aldolase, lactate dehydrogenase) and their non-canonical roles in cancer metabolism. We also dissect crosstalk between PI3K/AKT, the AMPK energy sensor, and major metabolic pathways (pentose phosphate pathway, oxidative phosphorylation, de novo lipogenesis). Further, we summarize latest advances in targeting metabolic enzymes and combined therapies, discuss challenges in targeting PI3K/AKT-mediated metabolic reprogramming, and propose future directions. Collectively, this review provides a theoretical framework for cancer metabolism mechanisms and identifies novel targets for cancer therapies.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 1
+  },
+  {
+    "id": "42346134",
+    "pmid": "42346134",
+    "doi": "10.3390/cells15121107",
+    "title": "Targeting Glycolytic Plasticity to Overcome Therapy Resistance in Cancer Stem Cells: Mechanisms and Clinical Perspectives.",
+    "authors": "Huang J, Yang X, Li F, Li X, Wei H, Li M.",
+    "journal": "Cells",
+    "year": "2026",
+    "abstract": "Cancer stem cells (CSCs) constitute a resilient tumor subpopulation responsible for multidrug resistance, metastasis, and clinical relapse. A cardinal hallmark of these cells is profound metabolic plasticity. This dynamic defense mechanism facilitates rapid shifts between glycolysis, oxidative phosphorylation (OXPHOS), and alternative nutrient catabolism, enabling CSCs to bypass microenvironmental constraints. This review delineates how glycolytic adaptation functions as a primary driver of therapy resistance within the CSC niche. We dissect the regulatory triad controlling these metabolic shifts, which includes rate-limiting enzymes, epigenetic and epitranscriptomic remodeling, and master transcription factors. Glycolytic reprogramming transcends bioenergetics by acting as a metabolic signaling node. It integrates with the epithelial-mesenchymal transition (EMT) program, autophagic pathways, and the immunosuppressive tumor microenvironment (TME) to fortify CSC survival. We appraise emerging therapeutic interventions targeting these metabolic vulnerabilities. Strategies focus on optimizing small-molecule inhibitors, nanotechnology-enabled delivery systems, and immunometabolic combination regimens. This review establishes a conceptual framework for precision interventions aimed at disrupting CSC plasticity, overcoming therapeutic resistance, and preventing tumor recurrence.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "41744805",
+    "pmid": "41744805",
+    "doi": "10.3390/cells15040362",
+    "title": "Targeting Glycolytic Metabolism in Cancer Therapy: Current Approaches and Future Perspectives.",
+    "authors": "Li S, Gong J, Kang B, Wang Z, Ma Y, Xia X, Yan H.",
+    "journal": "Cells",
+    "year": "2026",
+    "abstract": "Targeting the Warburg effect (aerobic glycolysis) in tumor cells represents a promising metabolic therapeutic strategy in cancer research. This review analyzes the regulatory mechanisms and therapeutic potential of key glycolysis pathway components, including glucose transporters (GLUTs) and glycolytic enzymes such as hexokinase 2 (HK2), phosphofructokinase (PFK), glyceraldehyde-3-phosphate dehydrogenase (GAPDH), pyruvate kinase M2 (PKM2), and lactate dehydrogenase A (LDHA). We evaluate the molecular mechanisms of various inhibitors and the current clinical development landscape, noting that limitations of monotherapy stem not only from tumor metabolic plasticity but also largely from the unacceptable toxicity of many inhibitors due to the essential role of glycolysis in normal cell metabolism. Furthermore, we explore the molecular basis of synergistic interactions between glycolysis inhibitors and chemotherapy, radiotherapy, immunotherapy, photothermal therapy, and targeted therapy, proposing that rational combination strategies may help overcome resistance and improve therapeutic efficacy. Finally, the review outlines future challenges and directions, emphasizing that the primary obstacle in metabolic treatments is achieving selective inhibition of glycolytic enzymes in cancer cells while sparing normal cells. To address this challenge, the development of high-selectivity agents, cancer-specific nanodelivery systems, precise biomarker identification, and innovative combination regimens based on metabolic-immune regulation is crucial for advancing glycolysis-targeted therapy toward clinical translation.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 5
+  },
+  {
+    "id": "PMC13295648",
+    "pmid": null,
+    "doi": null,
+    "title": "Multi-Omics Integration Reveals Synergistic Metabolic Rewiring Underpinning Growth Acceleration in a Hybrid Pompano \u201cChenhai No. 1\u201d",
+    "authors": "Liang H, Gao X, Chen Z, Qin L, Xu C, Yang Y, Wang Y, Hu F, Huang X, Wu C, Liu S.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "abstract": null,
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "40159537",
+    "pmid": "40159537",
+    "doi": "10.1038/s42003-025-07971-7",
+    "title": "A GTP-driven central carbon metabolism in the cellulolytic bacterium Ruminiclostridium cellulolyticum.",
+    "authors": "Liu N, Vita N, Holmi\u00e8re M, Gagnot S, Brasseur G, de Philip P, Pag\u00e8s S, Perret S, Fierobe HP.",
+    "journal": "Communications biology",
+    "year": "2025",
+    "abstract": "In Ruminiclostridium cellulolyticum, the hexokinase and galactokinase were formerly shown to strongly prefer GTP over ATP, whereas the phosphofructokinase is PPi-dependent, suggesting an unconventional central carbon metabolism in this anaerobic bacterium. Herein, the characterization of all other kinases of this pivotal pathway led to the identification of their preferred NTP/NDP. The kinases involved in the first reactions, primarily functioning as NTP-consuming enzymes, appear to be GTP-dependent. In contrast, the enzymes catalyzing the downstream steps that mainly generate NTP, show no marked preference. Consequently, its central carbon metabolism appears essentially driven by GTP, whose cellular content nears that of ATP. Interestingly, in vivo reciprocal exchange of the GTP-dependent hexokinase in R. cellulolyticum by the ATP-dependent glucokinase from Escherichia coli and vice versa generates modified strains that still catabolize glucose and glucose disaccharides. Altogether our data suggest an unexpected diversity and flexibility in the functioning of this central pathway in bacteria.",
+    "publication_type": [
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 1
+  },
+  {
+    "id": "37061520",
+    "pmid": "37061520",
+    "doi": "10.1038/s41467-023-37957-0",
+    "title": "Dynamic fluctuations in a bacterial metabolic network.",
+    "authors": "Bi S, Kargeti M, Colin R, Farke N, Link H, Sourjik V.",
+    "journal": "Nature communications",
+    "year": "2023",
+    "abstract": "The operation of the central metabolism is typically assumed to be deterministic, but dynamics and high connectivity of the metabolic network make it potentially prone to generating fluctuations. However, time-resolved measurements of metabolite levels in individual cells that are required to characterize such fluctuations remained a challenge, particularly in small bacterial cells. Here we use single-cell metabolite measurements based on F\u00f6rster resonance energy transfer, combined with computer simulations, to explore the real-time dynamics of the metabolic network of Escherichia coli. We observe that steplike exposure of starved E. coli to glycolytic carbon sources elicits large periodic fluctuations in the intracellular concentration of pyruvate in individual cells. These fluctuations are consistent with predicted oscillatory dynamics of E. coli metabolic network, and they are primarily controlled by biochemical reactions around the pyruvate node. Our results further indicate that fluctuations in glycolysis propagate to other cellular processes, possibly leading to temporal heterogeneity of cellular states within a population.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 21
+  },
+  {
+    "id": "36359000",
+    "pmid": "36359000",
+    "doi": "10.3390/biom12111651",
+    "title": "Structural Basis of Sequential and Concerted Cooperativity.",
+    "authors": "Morea V, Angelucci F, Tame JRH, Di Cera E, Bellelli A.",
+    "journal": "Biomolecules",
+    "year": "2022",
+    "abstract": "Allostery is a property of biological macromolecules featuring cooperative ligand binding and regulation of ligand affinity by effectors. The definition was introduced by Monod and Jacob in 1963, and formally developed as the \"concerted model\" by Monod, Wyman, and Changeux in 1965. Since its inception, this model of cooperativity was seen as distinct from and not reducible to the \"sequential model\" originally formulated by Pauling in 1935, which was developed further by Koshland, Nemethy, and Filmer in 1966. However, it is difficult to decide which model is more appropriate from equilibrium or kinetics measurements alone. In this paper, we examine several cooperative proteins whose functional behavior, whether sequential or concerted, is established, and offer a combined approach based on functional and structural analysis. We find that isologous, mostly helical interfaces are common in cooperative proteins regardless of their mechanism. On the other hand, the relative contribution of tertiary and quaternary structural changes, as well as the asymmetry in the liganded state, may help distinguish between the two mechanisms.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "open_access": true,
+    "cited_by_count": 4
+  },
+  {
+    "id": "33540748",
+    "pmid": "33540748",
+    "doi": "10.3390/ijms22031483",
+    "title": "Phosphofructokinases A and B from <i>Mycobacterium tuberculosis</i> Display Different Catalytic Properties and Allosteric Regulation.",
+    "authors": "Sn\u00e1\u0161el J, Machov\u00e1 I, \u0160ol\u00ednov\u00e1 V, Ka\u0161i\u010dka V, Kre\u010dmerov\u00e1 M, Pichov\u00e1 I.",
+    "journal": "International journal of molecular sciences",
+    "year": "2021",
+    "abstract": "Tuberculosis (TB) remains one of the major health concerns worldwide. <i>Mycobacterium tuberculosis</i> (Mtb), the causative agent of TB, can flexibly change its metabolic processes during different life stages. Regulation of key metabolic enzyme activities by intracellular conditions, allosteric inhibition or feedback control can effectively contribute to Mtb survival under different conditions. Phosphofructokinase (Pfk) is one of the key enzymes regulating glycolysis. Mtb encodes two Pfk isoenzymes, Pfk A/Rv3010c and Pfk B/Rv2029c, which are differently expressed upon transition to the hypoxia-induced non-replicating state of the bacteria. While <i>pfkB</i> gene and protein expression are upregulated under hypoxic conditions, Pfk A levels decrease. Here, we present biochemical characterization of both Pfk isoenzymes, revealing that Pfk A and Pfk B display different kinetic properties. Although the glycolytic activity of Pfk A is higher than that of Pfk B, it is markedly inhibited by an excess of both substrates (fructose-6-phosphate and ATP), reaction products (fructose-1,6-bisphosphate and ADP) and common metabolic allosteric regulators. In contrast, synthesis of fructose-1,6-bisphosphatase catalyzed by Pfk B is not regulated by higher levels of substrates, and metabolites. Importantly, we found that only Pfk B can catalyze the reverse gluconeogenic reaction. Pfk B thus can support glycolysis under conditions inhibiting Pfk A function.",
+    "publication_type": [
+      "Comparative Study",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 16
+  },
+  {
+    "id": "31871051",
+    "pmid": "31871051",
+    "doi": "10.1074/jbc.ra119.011239",
+    "title": "The pentose phosphate pathway of cellulolytic clostridia relies on 6-phosphofructokinase instead of transaldolase.",
+    "authors": "Koendjbiharie JG, Hon S, Pabst M, Hooftman R, Stevenson DM, Cui J, Amador-Noguez D, Lynd LR, Olson DG, van Kranenburg R.",
+    "journal": "The Journal of biological chemistry",
+    "year": "2020",
+    "abstract": "The genomes of most cellulolytic clostridia do not contain genes annotated as transaldolase. Therefore, for assimilating pentose sugars or for generating C<sub>5</sub> precursors (such as ribose) during growth on other (non-C<sub>5</sub>) substrates, they must possess a pathway that connects pentose metabolism with the rest of metabolism. Here we provide evidence that for this connection cellulolytic clostridia rely on the sedoheptulose 1,7-bisphosphate (SBP) pathway, using pyrophosphate-dependent phosphofructokinase (PP<sub>i</sub>-PFK) instead of transaldolase. In this reversible pathway, PFK converts sedoheptulose 7-phosphate (S7P) to SBP, after which fructose-bisphosphate aldolase cleaves SBP into dihydroxyacetone phosphate and erythrose 4-phosphate. We show that PP<sub>i</sub>-PFKs of <i>Clostridium thermosuccinogenes</i> and C<i>lostridium thermocellum</i> indeed can convert S7P to SBP, and have similar affinities for S7P and the canonical substrate fructose 6-phosphate (F6P). By contrast, (ATP-dependent) PfkA of <i>Escherichia coli</i>, which does rely on transaldolase, had a very poor affinity for S7P. This indicates that the PP<sub>i</sub>-PFK of cellulolytic clostridia has evolved the use of S7P. We further show that <i>C. thermosuccinogenes</i> contains a significant SBP pool, an unusual metabolite that is elevated during growth on xylose, demonstrating its relevance for pentose assimilation. Last, we demonstrate that a second PFK of <i>C. thermosuccinogenes</i> that operates with ATP and GTP exhibits unusual kinetics toward F6P, as it appears to have an extremely high degree of cooperative binding, resulting in a virtual on/off switch for substrate concentrations near its <i>K</i><sub>\u00bd</sub> value. In summary, our results confirm the existence of an SBP pathway for pentose assimilation in cellulolytic clostridia.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 26
+  },
+  {
+    "id": "39393572",
+    "pmid": "39393572",
+    "doi": "10.1016/j.jbc.2024.107868",
+    "title": "Structure function analysis of ADP-dependent cyanobacterial phosphofructokinase reveals new phylogenetic grouping in the PFK-A family.",
+    "authors": "Shen L, Peraglie C, Podlesainski D, Stracke C, Ojha RS, Caliebe F, Kaiser M, Forchhammer K, Hagemann M, Gutekunst K, Snoep JL, Br\u00e4sen C, Siebers B.",
+    "journal": "The Journal of biological chemistry",
+    "year": "2024",
+    "abstract": "Depending on the light conditions, photosynthetic organisms switch between carbohydrate synthesis or breakdown, for which the reversibility of carbohydrate metabolism, including glycolysis, is essential. Kinetic regulation of phosphofructokinase (PFK), a key-control point in glycolysis, was studied in the cyanobacterium Synechocystis sp. PCC 6803. The two PFK iso-enzymes (PFK- A1, PFK-A2), were found to use ADP instead of ATP, and have similar kinetic characteristics, but differ in their allosteric regulation. PFK-A1 is inhibited by 3-phosphoglycerate, a product of the Calvin-Benson-Bassham cycle, while PFK-A2 is inhibited by ATP, which is provided by photosynthesis. This regulation enables cyanobacteria to switch PFK off in light, and on in darkness. ADP dependence has not been reported before for the PFK-A enzyme family and was thought to be restricted to the PFK-B ribokinase superfamily. Phosphate donor specificity within the PFK-A family could be related to specific binding motifs in ATP-, ADP-, and PPi-dependent PFK-As. Phylogenetic analysis revealed a distribution of ADP-PFK-As in cyanobacteria and in a few alphaproteobacteria, which was confirmed in enzymatic studies.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 3
+  },
+  {
+    "id": "37622331",
+    "pmid": "37622331",
+    "doi": "10.1042/bcj20230207",
+    "title": "Cancer-associated somatic mutations in human phosphofructokinase-1 reveal a critical electrostatic interaction for allosteric regulation of enzyme activity.",
+    "authors": "Voronkova MA, Hansen HL, Cooper MP, Miller J, Sukumar N, Geldenhuys WJ, Robart AR, Webb BA.",
+    "journal": "The Biochemical journal",
+    "year": "2023",
+    "abstract": "Metabolic reprogramming, including increased glucose uptake and lactic acid excretion, is a hallmark of cancer. The glycolytic 'gatekeeper' enzyme phosphofructokinase-1 (PFK1), which catalyzes the step committing glucose to breakdown, is dysregulated in cancers. While altered PFK1 activity and expression in tumors have been demonstrated, little is known about the effects of cancer-associated somatic mutations. Somatic mutations in PFK1 inform our understanding of allosteric regulation by identifying key amino acid residues involved in the regulation of enzyme activity. Here, we characterized mutations disrupting an evolutionarily conserved salt bridge between aspartic acid and arginine in human platelet (PFKP) and liver (PFKL) isoforms. Using purified recombinant proteins, we showed that disruption of the Asp-Arg pair in two PFK1 isoforms decreased enzyme activity and altered allosteric regulation. We determined the crystal structure of PFK1 to 3.6\u2005\u00c5 resolution and used molecular dynamic simulations to understand molecular mechanisms of altered allosteric regulation. We showed that PFKP-D564N had a decreased total system energy and changes in the electrostatic surface potential of the effector site. Cells expressing PFKP-D564N demonstrated a decreased rate of glycolysis, while their ability to induce glycolytic flux under conditions of low cellular energy was enhanced compared with cells expressing wild-type PFKP. Taken together, these results suggest that mutations in Arg-Asp pair at the interface of the catalytic-regulatory domains stabilizes the t-state and presents novel mechanistic insight for therapeutic development in cancer.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "open_access": true,
+    "cited_by_count": 12
+  },
+  {
+    "id": "40420686",
+    "pmid": "40420686",
+    "doi": "10.1021/acs.biochem.5c00086",
+    "title": "In Vivo Ribosome-Amplified MetaBOlism, RAMBO, Effect Observed by Real Time Pulse Chase, RTPC, NMR Spectroscopy.",
+    "authors": "Yu J, Sciolino N, Breindel L, Lin Q, Burz DS, Shekhtman A.",
+    "journal": "Biochemistry",
+    "year": "2025",
+    "abstract": "Quinary interactions between proteins and ribosomes play an important role in regulating biological activity through a phenomenon termed the Ribosome-Amplified MetaBOlism, RAMBO, effect. This effect has been documented in vitro but not in vivo. Real time pulse chase, RTPC, NMR spectroscopy, coupled with isotopic flux analysis in <i>Escherichia coli</i> was used to validate the RAMBO effect in vivo. The ribosomal-targeting antibiotic chloramphenicol was employed to disrupt the quinary structure of pyruvate kinase, the final enzyme in glycolysis. Kinetic flux profiling demonstrated that the in vitro deactivation of the RAMBO effect by chloramphenicol was also observed in vivo, thereby confirming the potential role of ribosomes in regulating glycolysis. The noninvasive modular design of the RTPC-NMR platform allows for high-resolution metabolic monitoring across different cell types, providing broad applicability for studying the real-time metabolic responses to external stimuli in living cells.",
+    "publication_type": [
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "open_access": true,
+    "cited_by_count": 1
+  },
+  {
+    "id": "40770805",
+    "pmid": "40770805",
+    "doi": "10.1186/s12967-025-06897-2",
+    "title": "Phosphofructokinase-1 redefined: a metabolic hub orchestrating cancer hallmarks through multi-dimensional control networks.",
+    "authors": "Yuan R, Wang J, Zhang S, Xu Z, Song L.",
+    "journal": "Journal of translational medicine",
+    "year": "2025",
+    "abstract": "Phosphofructokinase-1 (PFK-1), the core rate-limiting enzyme of glycolysis, has transcended its classical metabolic regulatory role and emerged as a multi-dimensional hub in tumour biology. This review systematically delineates the dynamic regulatory networks of PFK-1 isoforms (PFKP, PFKL, PFKM) in cancer: epigenetic remodelling drives tissue-independent expression reprogramming; post-translational modification networks confer metabolic-signalling dual functions; and the dynamic nature of its subcellular localization facilitates noncanonical roles, such as intranuclear transcriptional regulation. These mechanisms collectively orchestrate hallmark oncogenic processes, including tumour proliferation, metastatic invasion, cell death evasion, angiogenesis, immune escape, and metabolic reprogramming. In clinical translation, PFK-1 isoform expression profiles, modification states, and subcellular dynamics exhibit robust correlations with cancer diagnosis, prognosis, and therapeutic response. The isoform-specific modification networks unveil novel targets for developing diagnostic biomarkers and tissue-selective therapeutic strategies. This work not only reestablishes the central role of PFK-1 in tumour metabolic plasticity but also offers a fresh perspective for overcoming cancer treatment challenges.",
+    "publication_type": [
+      "Research Support, Non-U.S. Gov't",
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 10
+  },
+  {
+    "id": "42196514",
+    "pmid": "42196514",
+    "doi": "10.3390/ijms27104536",
+    "title": "Regulating Glucose Metabolism Enzymes for Osteoporosis Therapy: Current and Future Approaches.",
+    "authors": "Zhang Z, Tian S, Li Q, Du X, Wang L, Li N, Zhao F, Liu Y.",
+    "journal": "International journal of molecular sciences",
+    "year": "2026",
+    "abstract": "Osteoporosis is a systemic skeletal disorder characterized by low bone mass, microarchitectural deterioration, and an increased risk of fracture. Its pathogenesis is closely associated with disturbances in energy metabolism, particularly glucose metabolic reprogramming in bone cells. Under osteoporotic conditions, the balance between osteoblasts and osteoclasts is disrupted, accompanied by impaired oxidative phosphorylation, dysregulated glycolysis, and reduced tricarboxylic acid cycle efficiency, ultimately leading to mitochondrial dysfunction. These metabolic alterations result in an insufficient energy supply and accelerate bone loss. Accordingly, the modulation of key enzymes involved in glucose metabolism has emerged as a promising therapeutic strategy. Strategies include the use of natural compounds, traditional Chinese medicine formulas, and specific inhibitors to modulate glucose metabolism processes and related pathways, thereby restoring cellular energy homeostasis and bone remodeling balance. This review summarizes pharmacological agents regulating glucose metabolism and proposes a hierarchical framework for therapeutic prioritization: first, inhibiting pathological glycolysis in osteoclasts (particularly via LDHA and PKM2). Second, restoring oxidative phosphorylation in osteoblasts (e.g., via COX I-V or ATP synthase). And third, employing multi-target traditional Chinese medicine formulas as complementary strategies. By establishing this cell-type-specific and pathway-specific hierarchy, the review aims to provide a theoretical basis for future research on metabolic interventions in bone diseases.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 0
+  },
+  {
+    "id": "41627634",
+    "pmid": "41627634",
+    "doi": "10.1007/s13402-025-01135-9",
+    "title": "The moonlighting functions of glycolytic enzymes in tumorigenesis.",
+    "authors": "Chen X, Yang J, Ma Y.",
+    "journal": "Cellular oncology (Dordrecht, Netherlands)",
+    "year": "2026",
+    "abstract": "Glycolysis is a ubiquitous energy-supply process that occurs in virtually all living cells. The phenomenon of aerobic glycolysis, known as the Warburg effect, is observed and considered as a hallmark of tumorigenesis. However, the roles and unresolved mechanisms of glycolytic enzymes in cancer progression remain incompletely understood. In this review, we synthesize emerging knowledge on the non-glycolytic (\u201cmoonlighting\u201d) functions of key glycolytic enzymes in tumorigenesis, which are independent of their canonical catalytic activity and enable them to govern diverse cellular processes beyond energy metabolism. We also discuss their potential as therapeutic targets and establish a conceptual framework for understanding how these moonlighting activities govern tumor progression, thereby supporting the development of novel anticancer therapies.Clinical trial numberNot applicable.",
+    "publication_type": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "open_access": true,
+    "cited_by_count": 2
+  }
+]

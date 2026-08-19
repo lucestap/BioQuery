@@ -6,7 +6,7 @@ import os
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
-def assess_papers(
+def assess_paper_batch(
     question: str,
     papers: list[dict],
 ) -> list[dict]:
@@ -69,11 +69,21 @@ Do not include Markdown formatting or any text outside the JSON.
         ],
     )
 
-    response_text = next(
-        block.text
-        for block in message.content
-        if block.type == "text"
-    ).strip()
+
+
+    text_blocks = [
+    block.text
+    for block in message.content
+    if block.type == "text"
+]
+
+    if not text_blocks:
+        raise RuntimeError(
+        f"Claude returned no text response. "
+        f"Stop reason: {message.stop_reason}"
+    )
+
+    response_text = text_blocks[0].strip()
 
     if response_text.startswith("```json"):
         response_text = response_text.removeprefix("```json")
@@ -83,3 +93,30 @@ Do not include Markdown formatting or any text outside the JSON.
     result = json.loads(response_text)
 
     return result["assessments"]
+
+def assess_papers(
+    question: str,
+    papers: list[dict],
+    batch_size: int = 8,
+) -> list[dict]:
+    """Assess papers in batches and combine the results."""
+
+    all_assessments = []
+
+    for start in range(0, len(papers), batch_size):
+        batch = papers[start:start + batch_size]
+
+        print(
+            f"Assessing papers "
+            f"{start + 1}-{start + len(batch)} "
+            f"of {len(papers)}"
+        )
+
+        assessments = assess_paper_batch(
+            question=question,
+            papers=batch,
+        )
+
+        all_assessments.extend(assessments)
+
+    return all_assessments
