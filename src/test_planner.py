@@ -2,6 +2,7 @@ import json
 from planner import generate_investigation_plan
 from search import search_multiple_queries
 from clean import deduplicate_papers, simplify_paper
+from assess import assess_papers
 
 
 plan = generate_investigation_plan(
@@ -49,3 +50,17 @@ for i, paper in enumerate(unique_papers[:15], start=1):
     print(f"   Year: {paper['year']}")
     print(f"   PMID: {paper['pmid']}")
     print(f"   DOI: {paper['doi']}")
+
+sample_papers = unique_papers[:7]
+
+assessments = assess_papers(
+    question="How does allosteric regulation of PFK-1 work at the molecular level?",
+    papers=sample_papers,
+)
+
+print("\nRELEVANCE ASSESSMENTS:")
+
+for assessment in assessments:
+    print(f"\nID: {assessment['id']}")
+    print(f"Score: {assessment['relevance_score']}")
+    print(f"Reason: {assessment['reason']}")
