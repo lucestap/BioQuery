@@ -61,7 +61,7 @@ Do not include Markdown formatting or any text outside the JSON.
 
     message = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=1200,
+        max_tokens=2000,
         messages=[
             {
                 "role": "user",
@@ -70,11 +70,17 @@ Do not include Markdown formatting or any text outside the JSON.
         ],
     )
 
-    response_text = message.content[0].text.strip()
+    response_text = next(
+        block.text
+        for block in message.content
+        if block.type == "text"
+    ).strip()
 
     if response_text.startswith("```json"):
         response_text = response_text.removeprefix("```json")
         response_text = response_text.removesuffix("```")
         response_text = response_text.strip()
+
+    
 
     return json.loads(response_text)
