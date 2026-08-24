@@ -1,0 +1,1652 @@
+{
+  "input": {
+    "topic": "AMPK energy sensing and metabolic regulation",
+    "question": "How does AMPK sense cellular energy stress and regulate downstream metabolism at the molecular level?",
+    "existing_knowledge": "I understand basic enzyme regulation, phosphorylation, cell signalling, and cellular metabolism.",
+    "depth": "advanced undergraduate",
+    "gene": "PRKAA1",
+    "organism_id": 9606
+  },
+  "investigation_plan": {
+    "question_interpretation": "The question asks for a mechanistic, molecular-level explanation of how AMPK detects changes in cellular energy status (e.g., ATP/ADP/AMP ratios) and how, once activated, it transmits this signal to alter metabolic pathways through direct substrate phosphorylation and downstream regulatory effects.",
+    "investigation_dimensions": [
+      {
+        "dimension": "AMPK structural biology and nucleotide sensing mechanism",
+        "why_it_matters": "Understanding how AMPK's heterotrimeric structure (alpha, beta, gamma subunits) allosterically binds AMP/ADP/ATP via CBS domains is essential to explain the molecular basis of energy sensing, including conformational changes that promote or protect phosphorylation.",
+        "search_queries": [
+          "AMPK gamma subunit CBS domains AMP ADP ATP binding structure",
+          "AMPK allosteric activation nucleotide sensing mechanism",
+          "AMPK heterotrimer structural conformational change activation"
+        ]
+      },
+      {
+        "dimension": "Upstream kinases and activation loop phosphorylation",
+        "why_it_matters": "AMPK activation requires phosphorylation of Thr172 by upstream kinases like LKB1 and CaMKK2, and understanding these regulatory inputs clarifies how energy stress and calcium signals converge to activate AMPK at the molecular level.",
+        "search_queries": [
+          "LKB1 AMPK Thr172 phosphorylation activation mechanism",
+          "CaMKK2 AMPK activation calcium signaling",
+          "AMPK activation loop phosphorylation regulation"
+        ]
+      },
+      {
+        "dimension": "Downstream metabolic substrates and phosphorylation targets",
+        "why_it_matters": "To explain how AMPK regulates metabolism, it is critical to identify specific substrates (ACC, HMG-CoA reductase, TSC2, ULK1, etc.) and how their phosphorylation alters enzymatic activity to suppress anabolic pathways and promote catabolic ones.",
+        "search_queries": [
+          "AMPK phosphorylation ACC1 ACC2 fatty acid oxidation regulation",
+          "AMPK TSC2 mTOR signaling suppression",
+          "AMPK ULK1 autophagy phosphorylation mechanism"
+        ]
+      },
+      {
+        "dimension": "Transcriptional and long-term metabolic reprogramming by AMPK",
+        "why_it_matters": "Beyond acute enzyme regulation, AMPK influences gene expression via transcription factors and coactivators (e.g., PGC-1alpha, SREBP), which is necessary to fully describe how energy stress translates into sustained metabolic adaptation.",
+        "search_queries": [
+          "AMPK PGC-1alpha mitochondrial biogenesis regulation",
+          "AMPK SREBP lipogenesis transcriptional regulation"
+        ]
+      },
+      {
+        "dimension": "Physiological validation through genetic and pharmacological studies",
+        "why_it_matters": "Evidence from knockout models, AMPK activators (e.g., AICAR, metformin), and mutant nucleotide-binding domains provides functional confirmation of proposed molecular mechanisms and their relevance to whole-cell or organismal metabolism.",
+        "search_queries": [
+          "AMPK knockout mouse metabolic phenotype energy stress",
+          "metformin AICAR AMPK activation mechanism evidence"
+        ]
+      }
+    ]
+  },
+  "retrieval": {
+    "raw_paper_count": 65,
+    "unique_paper_count": 53,
+    "search_queries": [
+      "AMPK gamma subunit CBS domains AMP ADP ATP binding structure",
+      "AMPK allosteric activation nucleotide sensing mechanism",
+      "AMPK heterotrimer structural conformational change activation",
+      "LKB1 AMPK Thr172 phosphorylation activation mechanism",
+      "CaMKK2 AMPK activation calcium signaling",
+      "AMPK activation loop phosphorylation regulation",
+      "AMPK phosphorylation ACC1 ACC2 fatty acid oxidation regulation",
+      "AMPK TSC2 mTOR signaling suppression",
+      "AMPK ULK1 autophagy phosphorylation mechanism",
+      "AMPK PGC-1alpha mitochondrial biogenesis regulation",
+      "AMPK SREBP lipogenesis transcriptional regulation",
+      "AMPK knockout mouse metabolic phenotype energy stress",
+      "metformin AICAR AMPK activation mechanism evidence"
+    ]
+  },
+  "ranked_papers": [
+    {
+      "id": "41873906",
+      "pmid": "41873906",
+      "pmcid": "PMC13142926",
+      "doi": "10.1042/bcj20250342",
+      "title": "Binding of 14-3-3 stabilises recombinant AMPK\u03b32-containing complexes.",
+      "authors": "Chen SY, Bennett J, Navaratnam N, Fiadeiro R, Woods A, Montoya A, Shliaha PV, Kunzelmann S, Howell SA, Mehmood S, Purkiss AG, Wilson JR, Gamblin SJ, Carling D.",
+      "journal": "The Biochemical journal",
+      "year": "2026",
+      "abstract": "AMP-activated protein kinase (AMPK) plays an important role in maintaining energy homeostasis in mammals. AMPK is a heterotrimer of an \u03b1 catalytic subunit and two regulatory subunits, \u03b2 and \u03b3. In mammals, each subunit has different isoforms (\u03b11/\u03b12, \u03b21/ \u03b22, and \u03b31/\u03b32/\u03b33) encoded by separate genes, leading to the potential expression of 12 AMPK complexes. Here, we show that AMPK containing the long forms of \u03b32 (\u03b32a, encoding a protein of 569 amino acids, and \u03b32c, 525 amino acids) binds to 14-3-3. In contrast to AMPK containing the short form of \u03b32 (\u03b32b, 328 amino acids), bacterial expression of AMPK containing the long forms of \u03b32 requires co-expression with 14-3-3 and prior phosphorylation of Thr172 within the \u03b1 subunit. AMPK\u03b32-14-3-3 complexes have reduced activity compared with AMPK\u03b31 or AMPK\u03b32b but retain allosteric activation by AMP and the AMPK activator, 991. We found that two predicted 14-3-3 binding sites within \u03b32a (T97 and S122) were phosphorylated in the bacterially expressed AMPK complex. Furthermore, we show that a peptide spanning these two phosphorylated sites binds to 14-3-3 in vitro and determined the crystal structure of this 14-3-3-peptide co-complex. These results indicate that 14-3-3 binds to the N-terminal region of \u03b32a/c, reducing the activity of AMPK relative to AMPK\u03b31 and AMPK\u03b32b. Our findings reveal a new mode of regulation of AMPK containing the long forms of \u03b32. While the biological significance of 14-3-3 binding to AMPK\u03b32a/c complexes remains to be determined, our studies provide the starting point to begin to address this issue.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 3,
+      "relevance_reason": "Directly examines AMPK gamma2 subunit structure and regulation via 14-3-3 binding and Thr172 phosphorylation, providing molecular-level mechanistic insight into AMPK complex regulation and activity, relevant to energy sensing machinery."
+    },
+    {
+      "id": "42093562",
+      "pmid": "42093562",
+      "pmcid": "PMC13161187",
+      "doi": "10.1042/bcj20250267",
+      "title": "Illuminating compartmentalized AMPK signaling in single cells.",
+      "authors": "Jhawar A, Parks K, Schmitt DL.",
+      "journal": "The Biochemical journal",
+      "year": "2026",
+      "abstract": "AMP-activated protein kinase (AMPK) is a crucial regulator of cellular energy balance, affecting numerous downstream targets across various subcellular locations. Under cellular energy stress, AMPK becomes fully activated when it binds AMP and is phosphorylated by upstream kinases, including liver kinase B1 and calcium/calmodulin-dependent protein kinase kinase 2 (CaMKK2), and works to restore metabolic equilibrium. Additionally, CaMKK2 can activate AMPK independent of AMP in response to calcium signaling. In the present review, we summarize how genetically encoded kinase activity reporters for measuring AMPK activity have evolved for a comprehensive measurement of spatial and temporal AMPK activity in single cells. These reporters have provided important insights into AMPK activity dependent upon upstream kinases, location, and signaling cues. We also discuss the use of genetic actuators such as the AMPK inhibitory peptide that can be targeted to suppress AMPK activity at specific compartments. Together, these advances have established AMPK as a key regulator of metabolism with distinct spatial and temporal signaling patterns, suggesting compartmentalization of AMPK activity in the cell.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 3,
+      "relevance_reason": "Directly addresses AMPK activation mechanisms (AMP binding, phosphorylation by LKB1 and CaMKK2, calcium-dependent activation) and compartmentalized signaling, providing mechanistic and spatial insight into energy sensing and downstream regulation."
+    },
+    {
+      "id": "39362600",
+      "pmid": "39362600",
+      "pmcid": "PMC11752127",
+      "doi": "10.1016/j.molmet.2024.102042",
+      "title": "The metabolic sensor AMPK: Twelve enzymes in one.",
+      "authors": "Smiles WJ, Ovens AJ, Oakhill JS, Kofler B.",
+      "journal": "Molecular metabolism",
+      "year": "2024",
+      "abstract": "<h4>Background</h4>AMP-activated protein kinase (AMPK) is an evolutionarily conserved regulator of energy metabolism. AMPK is sensitive to acute perturbations to cellular energy status and leverages fundamental bioenergetic pathways to maintain cellular homeostasis. AMPK is a heterotrimer comprised of \u03b1\u03b2\u03b3-subunits that in humans are encoded by seven individual genes (isoforms \u03b11, \u03b12, \u03b21, \u03b22, \u03b31, \u03b32 and \u03b33), permitting formation of at least 12 different complexes with personalised biochemical fingerprints and tissue expression patterns. While the canonical activation mechanisms of AMPK are well-defined, delineation of subtle, as well as substantial, differences in the regulation of heterogenous AMPK complexes remain poorly defined.<h4>Scope of review</h4>Here, taking advantage of multidisciplinary findings, we dissect the many aspects of isoform-specific AMPK function and links to health and disease. These include, but are not limited to, allosteric activation by adenine nucleotides and small molecules, co-translational myristoylation and post-translational modifications (particularly phosphorylation), governance of subcellular localisation, and control of transcriptional networks. Finally, we delve into current debate over whether AMPK can form novel protein complexes (e.g., dimers lacking the \u03b1-subunit), altogether highlighting opportunities for future and impactful research.<h4>Major conclusions</h4>Baseline activity of \u03b11-AMPK is higher than its \u03b12 counterpart and is more sensitive to synergistic allosteric activation by metabolites and small molecules. \u03b12 complexes however, show a greater response to energy stress (i.e., AMP production) and appear to be better substrates for LKB1 and mTORC1 upstream. These differences may explain to some extent why in certain cancers \u03b11 is a tumour promoter and \u03b12 a suppressor. \u03b21-AMPK activity is toggled by a 'myristoyl-switch' mechanism that likely precedes a series of signalling events culminating in phosphorylation by ULK1 and sensitisation to small molecules or endogenous ligands like fatty acids. \u03b22-AMPK, not entirely beholden to this myristoyl-switch, has a greater propensity to infiltrate the nucleus, which we suspect contributes to its oncogenicity in some cancers. Last, the unique N-terminal extensions of the \u03b32 and \u03b33 isoforms are major regulatory domains of AMPK. mTORC1 may directly phosphorylate this region in \u03b32, although whether this is inhibitory, especially in disease states, is unclear. Conversely, \u03b33 complexes might be preferentially regulated by mTORC1 in response to physical exercise.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 50,
+      "relevance_score": 3,
+      "relevance_reason": "Directly reviews AMPK as a metabolic energy sensor, detailing subunit composition, activation by adenine nucleotides, post-translational modifications, and downstream regulatory mechanisms\u2014core to the question."
+    },
+    {
+      "id": "41390359",
+      "pmid": "41390359",
+      "pmcid": "PMC12817758",
+      "doi": "10.1186/s11658-025-00832-5",
+      "title": "CDCP1 allosterically regulates the AMPK \u03b11 subunit to enhance fatty acid oxidation in osteoblasts.",
+      "authors": "Li X, Zhu W, Ma J, Sun Z, Wang L, Jiao G, Chen Y.",
+      "journal": "Cellular & molecular biology letters",
+      "year": "2025",
+      "abstract": "BACKGROUND: Lipid metabolism disorders in osteoblasts may lead to osteoporosis. CUB domain-containing protein 1 (CDCP1) is associated with various intracellular signaling pathways. We investigated how CDCP1 regulates lipid metabolism and osteoblast function. METHODS: This study utilized gene overexpression (via lentivirus) and loss-of-function (CRISPR/Cas9-mediated knockout) techniques to investigate the involvement of CDCP1 in lipid metabolism and osteogenesis. Transcriptomic and metabolomic analyses were performed to examine the mechanism of action of CDCP1. Furthermore, proximity ligation assays, GST pull-down, and molecular docking were employed to identify the interaction between CDCP1 and AMP-activated protein kinase (AMPK). RESULTS: CDCP1 alleviated bone loss in mice. In vitro, CDCP1 promoted the phosphorylation of AMPK. Phosphorylated AMPK can enhance the activity of carnitine palmitoyltransferase, leading to increased fatty acid oxidation and promoting osteogenesis. Mechanistically, CDCP1 prevents the formation of the autoinhibitory conformation of the autoinhibitory domain by binding to the \u03b13 helix, thereby protecting AMPK phosphorylation from self-inhibition. CONCLUSIONS: Our research revealed a new molecular mechanism linking CDCP1 and allosteric control of AMPK. These findings reveal for the first time the mechanism by which CDCP1 affects osteogenesis through lipid metabolism regulation, suggesting its potential as a therapeutic target for osteoporosis.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 3,
+      "relevance_reason": "Directly investigates molecular mechanism by which CDCP1 allosterically regulates AMPK alpha1 subunit phosphorylation to enhance fatty acid oxidation, providing mechanistic insight into AMPK activation and downstream metabolic regulation."
+    },
+    {
+      "id": "42042063",
+      "pmid": "42042063",
+      "pmcid": "PMC13114581",
+      "doi": "10.3390/cimb48040403",
+      "title": "TRIM24 Regulates Adaptation to Glucose Deprivation in Association with Aspartate Accumulation and Impaired AMPK Signaling.",
+      "authors": "Yu X, An D, Ren D, He P, Yang Y, Chen N, Wang R, Wu S, Feng J, Feng M.",
+      "journal": "Current issues in molecular biology",
+      "year": "2026",
+      "abstract": "Glucose deprivation is a major metabolic stress that requires coordinated adaptive responses to maintain cellular homeostasis and survival, yet the role of tripartite motif-containing 24 (TRIM24) in this process remains unclear. To address this question, we generated CRISPR-Cas9-mediated TRIM24-knockout MCF-7 and HEK293 cell lines, performed targeted metabolomic profiling and aspartate assays, used 5-aminoimidazole-4-carboxamide-1-\u03b2-D-ribofuranoside (AICAR), aminooxyacetic acid (AOA), aspartate supplementation, and glutamic-oxaloacetic transaminase 2 (GOT2) knockdown to probe AMPK signaling and aspartate metabolism, and examined starvation responses in constitutive Trim24 knockout mice on a C57BL/6 background. Loss of TRIM24 sensitized cells to glucose deprivation. Re-expression of TRIM24 partially restored cell viability under glucose deprivation in both MCF-7 and HEK293 cells. Under glucose-free conditions, TRIM24 deficiency was associated with impaired AMP-activated protein kinase (AMPK) pathway activation, increased intracellular aspartate accumulation, and altered ATP/AMP levels. Pharmacological reactivation of AMPK by AICAR improved the survival of TRIM24-deficient cells under glucose deprivation. Reducing intracellular aspartate by AOA treatment or GOT2 knockdown restored AMPK pathway activation and improved adaptation to glucose deprivation, whereas exogenous aspartate suppressed AMPK signaling and increased ATP/AMP levels. In vivo, starvation of Trim24-deficient mice was associated with reduced AMPK pathway activation and increased aspartate levels. Together, these findings support a model in which TRIM24 contributes to adaptation to glucose deprivation and in which abnormal aspartate accumulation contributes to impaired AMPK pathway activation in TRIM24-deficient cells.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 3,
+      "relevance_reason": "Directly investigates AMPK pathway activation under glucose deprivation, linking ATP/AMP ratios, aspartate accumulation, and TRIM24 to AMPK signaling, providing mechanistic insight into cellular energy stress sensing."
+    },
+    {
+      "id": "40927091",
+      "pmid": "40927091",
+      "pmcid": "PMC12415767",
+      "doi": "10.31083/rcm36391",
+      "title": "The Role of AMPK\u03b1 in the Mechanism of Development and Treatment of Heart Failure.",
+      "authors": "Feng Y, Zhu Z, He Y, Li X.",
+      "journal": "Reviews in cardiovascular medicine",
+      "year": "2025",
+      "abstract": "The AMP-activated protein kinase (AMPK) alpha (AMPK<i>\u03b1</i>) subunit is the catalytic subunit in the AMPK complex and includes both <i>\u03b1</i>1 and <i>\u03b1</i>2 isoforms. Phosphorylation of upstream kinases at the Thr172 site in the <i>\u03b1</i>-subunit is critical for AMPK activation. The kinases upstream of AMPK include liver kinase B1 (LKB1), calcium/calmodulin-dependent protein kinase kinase <i>\u03b2</i> (CaMKK<i>\u03b2</i>), and transforming growth factor <i>\u03b2</i>-activated kinase 1 (TAK1). LKB1 predominantly regulates the AMPK<i>\u03b1</i>2 isoforms, whereas the phosphorylating roles of CaMKK and TAK1 in different isoforms of AMPK<i>\u03b1</i> have yet to be properly defined. Moreover, the understanding of the roles of AMPK<i>\u03b1</i>1 and <i>\u03b1</i>2 remains limited. Significant differences exist between the AMPK<i>\u03b1</i>1 and AMPK<i>\u03b1</i>2 isoforms regarding tissue distribution, cellular localization, and cardiac-unique roles, with AMPK<i>\u03b1</i>2 being the predominant catalytic isoform in the heart. During heart failure (HF), activated AMPK<i>\u03b1</i> isoforms, particularly AMPK<i>\u03b1</i>2, promote the remodeling of energy metabolism, ameliorate mitochondrial dysfunction, activate mitophagy, attenuate oxidative stress, and reduce cardiomyocyte death, thereby protecting cardiac function and delaying HF progression. Thus, drugs that selectively activate AMPK complexes containing specific <i>\u03b1</i>2 isoforms may help treat HF. However, AMPK activators are not currently very subtype-selective, direct agonists remain in clinical trials, and indirect agonists, although widely used in the clinic, have some non-AMPK-dependent effects. Therefore, a compelling need exists to develop subtype-selective activator drugs with greater specificity and efficacy and fewer side effects.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 5,
+      "relevance_score": 2,
+      "relevance_reason": "Discusses AMPK alpha subunit activation via Thr172 phosphorylation by upstream kinases (LKB1, CaMKK\u03b2, TAK1) and downstream metabolic effects in heart failure, providing relevant but disease-specific mechanistic context."
+    },
+    {
+      "id": "40429553",
+      "pmid": "40429553",
+      "pmcid": "PMC12112759",
+      "doi": "10.3390/jcm14103559",
+      "title": "The Hepatic Axis Fructose-Methylglyoxal-AMPK: Starring or Secondary Role in Chronic Metabolic Disease?",
+      "authors": "Gugliucci A.",
+      "journal": "Journal of clinical medicine",
+      "year": "2025",
+      "abstract": "Biochemical alterations linked to metabolic syndrome (MetS), type 2 diabetes (T2DM), and metabolic dysfunction-associated steatotic liver disease (MASLD) may be brought on by the Western diet. Based on research conducted over the past decade, fructose is one of the main culprits. Over 80% of ingested fructose is metabolized by the liver at first pass, where it stimulates de novo lipogenesis (DNL) to drive hepatic triglyceride (TG) synthesis, which contributes to MASLD, hepatic insulin resistance (IR), and dyslipidemia. Fructose reduction produces quick and significant amelioration in these metabolic disturbances. We hereby propose potential overarching processes that can link these pathways to signaling disruption by the critical metabolic sensor AMP-activated protein kinase (AMPK). We proffer that when large amounts of fructose and glucose enter the liver, triose fluxes may be sufficient to produce transient increases in methylglyoxal (MG), allowing steady-state concentrations between its production and catabolism by glyoxalases to be high enough to modify AMPK-sensitive functional amino acid residues. These reactions would transiently interfere with AMPK activation by both AMP and aldolase. Such a sequence of events would boost the well-documented lipogenic impact of fructose. Given that MG adducts are irreversible, modified AMPK molecules would be less effective in metabolite sensing until they were replaced by synthesis. If proven, this mechanism provides another avenue of possibilities to tackle the problem of fructose in our diet. We additionally discuss potential multimodal treatments and future research avenues for this apparent hepatic AMPK malfunction.",
+      "publication_type": [
+        "other",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 2,
+      "relevance_reason": "Proposes a specific molecular mechanism by which methylglyoxal modifies AMPK-sensitive residues to interfere with AMP and metabolite sensing, offering a novel but somewhat speculative mechanistic angle on AMPK energy sensing."
+    },
+    {
+      "id": "41268687",
+      "pmid": "41268687",
+      "pmcid": "PMC12635776",
+      "doi": "10.1111/cns.70657",
+      "title": "AMPK/SIRT1/PGC-1\u03b1 Signaling Pathway: Molecular Mechanisms and Targeted Strategies From Energy Homeostasis Regulation to Disease Therapy.",
+      "authors": "Chen J, Liu B, Yao X, Yang X, Sun J, Yi J, Xue F, Zhang J, Shen Y, Chen B, Sun H.",
+      "journal": "CNS neuroscience & therapeutics",
+      "year": "2025",
+      "abstract": "<h4>Background</h4>The AMPK/SIRT1/PGC-1\u03b1 pathway serves as a central regulator of cellular energy homeostasis, coordinating metabolic stress responses, epigenetic modifications, and transcriptional programs. Its dysfunction is implicated in the pathogenesis of a wide spectrum of complex modern diseases, spanning neurodegeneration, metabolic syndromes, and chronic inflammatory conditions. This review examines the pathway's role as an integrative hub and its potential as a therapeutic target.<h4>Methods</h4>We synthesize current mechanistic evidence from molecular, cellular, and preclinical studies to elucidate the pathway's operational logic and the consequences of its dysregulation. The analysis is structured around key disease paradigms-including Alzheimer's disease, Parkinson's disease, diabetes, cardiovascular injury, stroke, and chronic kidney disease-to dissect its tissue-specific pathophysiological impacts.<h4>Results</h4>The AMPK/SIRT1/PGC-1\u03b1 axis operates through a core positive feedback loop: AMPK activation elevates NAD+, thereby activating SIRT1, which in turn deacetylates and activates PGC-1\u03b1 to drive mitochondrial biogenesis and function, further reinforcing SIRT1 activity. Disruption of this cascade manifests in disease-specific mechanisms: promoting A\u03b2 production via BACE1/\u03b3-secretase in Alzheimer's; impairing \u03b1-synuclein clearance in Parkinson's; disrupting GLUT4 translocation and insulin signaling in diabetes; exacerbating oxidative damage and mitochondrial dysfunction in cardiovascular and neuronal injury; and accelerating fibrosis and sustained inflammation in renal and pulmonary diseases via NLRP3 and TGF-\u03b2/Smad3 signaling.<h4>Conclusions</h4>The AMPK/SIRT1/PGC-1\u03b1 pathway represents a cornerstone target at the intersection of metabolism, aging, and disease. Current therapeutic strategies-including pharmacological activators (e.g., metformin, SRT1720), natural compounds (e.g., resveratrol), lifestyle interventions (e.g., exercise, caloric restriction), and emerging technologies (e.g., gene editing, exosomal miRNAs)-offer multidimensional avenues for intervention. Future research must prioritize elucidating tissue-specific regulatory mechanisms, such as AMPK isoform diversity and PGC-1\u03b1 interactome dynamics, to enable precision therapeutics and successful clinical translation for a range of complex disorders.",
+      "publication_type": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 57,
+      "relevance_score": 2,
+      "relevance_reason": "Describes AMPK activation feeding into SIRT1/PGC-1a pathway and downstream metabolic/mitochondrial regulation, providing supporting context on AMPK's downstream signaling though less on the sensing mechanism itself."
+    },
+    {
+      "id": "42050705",
+      "pmid": "42050705",
+      "pmcid": "PMC13255279",
+      "doi": "10.1186/s12964-026-02901-4",
+      "title": "Translational control of AMPK activity in melanoma.",
+      "authors": "Vadovi\u010dov\u00e1 N, Le\u0161kov\u00e1 A, Ko\u017edo\u0148ov\u00e1 K, Smolkov\u00e1 K, Val\u010d\u00edkov\u00e1 B, Kafka F, Pot\u011b\u0161il D, Zdr\u00e1hal Z, Vacek O, V\u00edchov\u00e1 R, Sou\u010dek K, Uldrijan S.",
+      "journal": "Cell communication and signaling : CCS",
+      "year": "2026",
+      "abstract": "The eIF4F translation initiation complex controls ERK MAPK signaling in malignant melanomas with BRAF and NRAS mutations. It also contributes to the development of melanoma resistance to therapies targeting BRAF and MEK kinases. Here, we uncovered a critical role for eIF4F in regulating the main cellular metabolic sensor, AMP-activated protein kinase (AMPK). In melanoma cells harboring the most common BRAFV600E mutation, ERK and AMPK pathway activities were reported as mutually exclusive. This is because BRAF-driven ERK activity negatively affects LKB1-mediated canonical AMPK activation. However, we observed that eIF4F inhibition can stimulate AMPK activity in melanoma cells, both in vitro and in vivo, despite concomitant ERK hyperactivation. Notably, the protein levels of LKB1 and its co-factor MO25 were sensitive to eIF4F inhibition, indicating a non-canonical LKB1-independent mechanism of AMPK activation. In a proteomic screen, we aimed to identify eIF4F roles in melanoma cell physiology beyond the MAPK pathway. We found that the eIF4F function is essential for maintaining cellular levels of key cell cycle and metabolic regulators, including CDK1, CDK2, TYMS, and UHRF1. Importantly, we also identified the protein phosphatase PP2A as a new eIF4F pathway target. Our subsequent analyses showed that inhibition or siRNA-mediated knockdown of PP2A increases AMPK activity in melanoma cells, independent of LKB1. This data shows that PP2A plays a significant role in regulating AMPK activity in melanoma. Thus, eIF4F inhibition not only impairs canonical AMPK activators but also downregulates PP2A, which negatively regulates AMPK dynamics. Collectively, our data highlight a dual role for eIF4F in controlling AMPK in BRAF-mutant melanoma cells. It maintains the canonical AMPK signaling pathway while simultaneously limiting the extent of AMPK activation via the eIF4F-PP2A-AMPK axis. Pharmacological inhibition of this axis can overcome the negative control of AMPK signaling by the ERK pathway. This suggests new therapeutic opportunities to disrupt melanoma growth.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Explores non-canonical regulation of AMPK activity via LKB1-independent and PP2A-mediated mechanisms in melanoma, providing partial mechanistic insight into AMPK regulation, though context-specific to cancer signaling rather than general energy sensing."
+    },
+    {
+      "id": "42009955",
+      "pmid": "42009955",
+      "pmcid": "PMC13144538",
+      "doi": "10.1038/s12276-026-01698-z",
+      "title": "Loss of p300/CBP-associated factor aggravates cardiac remodeling via regulation of CAMKK2 acetylation.",
+      "authors": "Lim Y, Jeong A, Kwon DH, Lee YG, Lee YU, Cho HJ, Kee HJ, Yoon S, Yoon HG, Kim Y, Seo SB, Nam KI, Eom GH, Ahn Y, Yong J, Kim YK, Kook H.",
+      "journal": "Experimental & molecular medicine",
+      "year": "2026",
+      "abstract": "Here we aim to elucidate the role of the p300/CBP-associated factor (PCAF) in pathological cardiac remodeling. Specifically, we explore how PCAF-mediated acetylation of calcium/calmodulin-dependent protein kinase kinase 2 (CAMKK2) influences AMPK signaling, thereby regulating cardiac hypertrophy and dysfunction under pathological stress. A genetically engineered PCAF-knockout (KO) mouse model was generated using the CRISPR-Cas9 system to evaluate the effect of PCAF deficiency on cardiac remodeling induced by isoproterenol infusion and transverse aortic constriction (TAC). PCAF deficiency significantly aggravated cardiac enlargement with features of eccentric hypertrophy, as demonstrated by histological analysis and echocardiography. To determine these phenotypes were cardiomyocyte specific, we generated a cardiomyocyte-specific conditional KO model, which also showed a dilated cardiomyopathy-like phenotype similar to that of the global-KO mice. Transcriptomic analysis of TAC-operated hearts from wild-type and KO mice revealed enrichment of pathways related to mitochondrial function and energy homeostasis. Mechanistically, PCAF directly acetylated CAMKK2, promoting its activation and the subsequent phosphorylation of AMP-activated protein kinase \u03b1 (AMPK\u03b1) at Thr172, a critical step in maintaining metabolic balance under stresses. These signaling alterations were also observed in the hearts of PCAF-KO hearts subjected to isoproterenol administration or TAC. Pharmacological activation of PCAF with SPV106 effectively attenuated TAC-induced cardiac remodeling, preserving cardiac structure and function. Collectively, these findings identify PCAF as a pivotal regulator of pathological cardiac remodeling through modulation of the CAMKK2-AMPK signaling axis. Loss of PCAF exacerbates stress-induced cardiac hypertrophy and dysfunction, highlighting its potential as a therapeutic target to preserve cardiac function and counteract stress-induced remodeling.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Describes CAMKK2-mediated AMPK activation (Thr172 phosphorylation) in cardiac stress, providing relevant mechanistic detail on an upstream AMPK activation pathway, though focused on cardiac remodeling rather than general energy sensing."
+    },
+    {
+      "id": "41797917",
+      "pmid": "41797917",
+      "pmcid": "PMC12962103",
+      "doi": "10.1016/j.isci.2026.114996",
+      "title": "Transcriptional control of PPP2CB by YAP1 and TEAD1 mediates AMPK inhibition and mTORC1 activation in vascular smooth muscle cells.",
+      "authors": "Kumariya S, Stuck J, Grano de Oro A, Osman I.",
+      "journal": "iScience",
+      "year": "2026",
+      "abstract": "We previously demonstrated that the transcriptional co-factor Yes-associated protein 1 (YAP1) promotes vascular smooth muscle cell (VSMC) phenotypic switching and neointima formation. However, the underlying mechanisms remain unclear. Here, using YAP1 silencing and overexpression assays in human VSMCs, we demonstrate that YAP1 is necessary and sufficient to activate mammalian target of rapamycin complex 1 (mTORC1) and that mTORC1 activity is required for YAP1-induced VSMC proliferation. Mechanistically, we report that YAP1 inhibits AMP-activated protein kinase (AMPK), a negative regulator of mTORC1, thereby relieving AMPK-mediated suppression of mTORC1. We identify the protein phosphatase 2A catalytic subunit PPP2CB as a YAP1-regulated transcriptional target that contributes to AMPK inhibition and mTORC1 activation. We further show that a transcription factor, transcriptional enhancer activator domain 1 (TEAD1), mediates YAP1-dependent PPP2CB expression and that the upstream AMPK kinase CAMKK2 is required for YAP1-dependent modulation of AMPK/mTORC1 signaling. Together, these results define a YAP1/AMPK/mTORC1 signaling axis that drives VSMC proliferation, with potential broader relevance given the ubiquitous expression of these signaling molecules.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Describes a YAP1/TEAD1-driven pathway that inhibits AMPK and activates mTORC1 via PPP2CB, involving CAMKK2 as an AMPK kinase; provides some mechanistic insight into AMPK regulation and its downstream mTORC1 signaling, though centered on VSMC proliferation rather than canonical energy stress sensing."
+    },
+    {
+      "id": "42196612",
+      "pmid": "42196612",
+      "pmcid": "PMC13208009",
+      "doi": "10.3390/ijms27104635",
+      "title": "The Molecular Mechanisms of Metformin's Action on Blood Lipid Profile in Diabetic Patients.",
+      "authors": "Dettlaff-Pokora A, Swierczynski J.",
+      "journal": "International journal of molecular sciences",
+      "year": "2026",
+      "abstract": "In this paper, we review the literature regarding metformin's action on blood lipid concentrations in metformin-treated diabetic patients. Published data indicate that metformin reduces serum total cholesterol (T-C), LDL-cholesterol (LDL-C) and triacylglycerol (TAG) concentrations and raises serum HDL-cholesterol (HDL-C) concentrations in diabetic patients. The beneficial effect of metformin on serum lipid profiles in diabetic patients can result from (a) its action on AMP-activated protein kinase, which inhibits lipogenesis and cholesterol synthesis and stimulates fatty acid oxidation; (b) decreased plasma TAG concentrations, via promoting VLDL-TAG clearance by brown adipose tissue; (c) the inhibition of nuclear factor erythroid 2-related factor 2 (<i>Nrf2</i>) gene expression, affecting lipid profile in diabetic patients; (d) the inhibition of the expression of genes encoding proprotein convertase subtilisin/kexin 9 (PCSK9) and lipogenic enzymes; (e) the downregulation of carbohydrate-response element-binding protein (ChREBP), which affects liver TAG and cholesterol synthesis from acetate formed by gut microbiota; (f) the inhibition of angiopoietin-like 3 protein (ANGPTL3) gene expression, and consequent effects on plasma TAG concentrations; (g) the activation of AMPK, which inhibits LXR\u03b1 activity; and (h) reverse cholesterol transport. In conclusion, one can assume that beyond its primary antihyperglycemic effect, metformin exerts pleiotropic effects that modulate lipid metabolism and blood lipid profile in T2D patients. These beneficial effects of metformin on blood lipid profile may play a role in the reduction in cardiovascular risk in diabetic patients.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Discusses AMPK's role in inhibiting lipogenesis and cholesterol synthesis and stimulating fatty acid oxidation as part of metformin's action, providing some relevant downstream metabolic regulation context, though not focused on the sensing mechanism itself."
+    },
+    {
+      "id": "42383022",
+      "pmid": "42383022",
+      "pmcid": "PMC13314467",
+      "doi": "10.3389/fneur.2026.1861632",
+      "title": "Hyperhomocysteinemia promotes lipid deposition in skeletal muscle.",
+      "authors": "Su M, Jiao J, Zhao J, Ma J, Zhang H, Liu Q, Wang J, Liu D, Wen Q, Wang J, Chang X, Guo J, Zhang W.",
+      "journal": "Frontiers in neurology",
+      "year": "2026",
+      "abstract": "<h4>Background</h4>Lipid storage myopathy (LSM) is characterized by abnormal lipid accumulation in skeletal muscle. Emerging evidence suggests that environmental factors, including the use of antidepressants such as sertraline, may trigger LSM. Given the established link between hyperhomocysteinemia (HHcy) and disrupted lipid metabolism, we investigated its potential role in skeletal muscle lipid deposition.<h4>Methods</h4>We enrolled six patients with HHcy undergoing muscle biopsy and explored their clinical and pathological characteristics of skeletal muscle. The mechanistic link was explored in muscle tissues from patients through transcriptomic profiling, quantitative real-time polymerase chain reaction (qRT-PCR), western blotting, and enzymatic assays, and validated in C2C12 myotubes.<h4>Results</h4>Four of the six patients presented with clinical myopathic manifestations, including progressive muscle weakness and exercise intolerance, which resolved completely after B-vitamin supplementation, while abnormal skeletal muscle lipid deposition was observed in all six patients. Transcriptome and qRT-PCR analyses demonstrated a significant upregulation of the acetyl-CoA carboxylase \u03b2 (<i>ACACB</i>) gene (<i>p</i>\u202f<\u202f0.001), which encodes acetyl-CoA carboxylase 2 (ACC2), in the muscle tissues from patients. Furthermore, ACC2 protein expression was markedly elevated (<i>p</i>\u202f<\u202f0.01), thereby raising cellular malonyl-CoA levels (<i>p</i>\u202f<\u202f0.01). This metabolite potently inhibits carnitine palmitoyltransferase 1 (CPT1), impairing fatty acid oxidative metabolism in skeletal muscle. The key molecular cascade involving <i>ACACB</i> upregulation and subsequent CPT1 inhibition (<i>p</i>\u202f<\u202f0.05), was further verified in C2C12 myotubes.<h4>Conclusion</h4>This study indicates that HHcy is closely associated with abnormal skeletal muscle lipid deposition. HHcy may correlate with increased ACC2 expression, which elevates malonyl-CoA levels. This, in turn, suppresses CPT1 activity and facilitates abnormal lipid accumulation in skeletal muscle.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Details ACC2/malonyl-CoA/CPT1 axis regulating fatty acid oxidation in skeletal muscle, a pathway central to AMPK's downstream metabolic regulation, though AMPK itself is not directly discussed as the regulator in this abstract."
+    },
+    {
+      "id": "42260217",
+      "pmid": "42260217",
+      "pmcid": "PMC13246848",
+      "doi": "10.1007/s12035-026-05932-7",
+      "title": "AMPK-NLRP3 Inflammasome Crosstalk: Structural Insights, Molecular Mechanisms, and Therapeutic Implications for Inflammation and Neuroinflammation.",
+      "authors": "Kodi T, Nandakumar K, Kishore A.",
+      "journal": "Molecular neurobiology",
+      "year": "2026",
+      "abstract": "The nucleotide-binding domain leucine-rich repeat and pyrin domain-containing protein-3 (NLRP3) inflammasome plays a central role in inflammatory diseases, including cardiovascular, gastrointestinal, neurodegenerative, autoimmune, hepatic, renal, and pulmonary disorders. Although various cellular pathways tightly regulate its activation, the precise mechanisms remain unclear. Emerging evidence highlights adenosine monophosphate-activated protein kinase (AMPK) as a critical regulator of energy balance and cellular metabolism, suggesting its potential involvement in modulating NLRP3 inflammasome activity. This review explores the structural dynamics of the NLRP3 inflammasome and the activation of AMPK signaling. It focuses on the mechanistic pathways underlying AMPK-mediated suppression of the NLRP3 inflammasome, including autophagy-dependent regulation, sirtuin-mediated regulation, ER stress/TXNIP signaling pathway, regulation of mitochondrial homeostasis, NF-\u03baB/MyD88-mediated priming, and maintenance of lysosomal integrity. Furthermore, the review discusses the interplay of these pathways in CNS-specific disease models, such as Ischemic stroke/cerebral ischemia, Alzheimer's disease, Parkinson's disease, multiple sclerosis, diabetic neuropathy, and neuroinflammation models, as well as traumatic brain injury, streptozotocin-induced neuroinflammation, and lipopolysaccharide-induced neuroinflammation. Additionally, this review examined therapeutic strategies targeting the AMPK-NLRP3 axis in neuroinflammatory and neurodegenerative disorders.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 2,
+      "relevance_reason": "Review on AMPK-NLRP3 crosstalk discusses AMPK as an energy/metabolic sensor and its downstream signaling pathways, providing some contextual mechanistic relevance."
+    },
+    {
+      "id": "42542054",
+      "pmid": "42542054",
+      "pmcid": null,
+      "doi": "10.1016/j.phymed.2026.158655",
+      "title": "Neferine attenuates lipopolysaccharide-induced acute lung injury through AMP-activated protein kinase \u03b11-dependent autophagy and reduced macrophage pyroptosis.",
+      "authors": "Li D, Luo G, Liu Y, Zou Z, He K, Lin H.",
+      "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+      "year": "2026",
+      "abstract": "<h4>Background</h4>Excessive NOD-like receptor family pyrin domain-containing 3 (NLRP3) inflammasome activity is an important driver of inflammatory tissue damage in acute lung injury (ALI), yet effective targeted therapies remain lacking. Neferine, a natural bisbenzylisoquinoline alkaloid extracted primarily from the mature seed embryo of Nelumbo nucifera, has shown anti-inflammatory potential, but its role in inflammasome regulation during ALI is still not well understood.<h4>Purpose</h4>This study was designed to examine whether neferine could attenuate lipopolysaccharide (LPS)-induced ALI through modulation of NLRP3 inflammasome signaling and to explore the mechanism involved.<h4>Study design</h4>We carried out a preclinical investigation using an LPS-triggered mouse model of ALI together with a macrophage pyroptosis model induced by LPS+nigericin (Nig). Both preventive administration and delayed post-challenge treatment with neferine were evaluated in vivo. To define pathway dependence, we combined pharmacologic AMP-activated protein kinase (AMPK) inhibition, Prkaa1 deficiency, and blockade of autophagic flux.<h4>Methods</h4>Neferine was examined in LPS-treated mice and in macrophages exposed to LPS plus Nig. Lung pathology, inflammatory injury, and pyroptosis-related changes were assessed. Additional experiments focused on AMPK signaling, autophagic flux, and NLRP3 degradation.<h4>Results</h4>Neferine attenuated inflammatory lung injury in mice, accompanied by reduced inflammatory cytokine production and decreased macrophage pyroptosis. Mechanistic analyses showed that neferine increased AMPK phosphorylation and downstream unc-51 like autophagy activating kinase 1 (ULK1) signaling, enhanced autophagic flux, and promoted K63-linked ubiquitination of NLRP3. These changes favored trafficking of NLRP3 into autophagic compartments and its subsequent lysosomal degradation, thereby limiting inflammasome activity. Pharmacological inhibition of AMPK signaling and genetic loss of Prkaa1 weakened the effects of neferine on ULK1-related autophagy and pyroptosis-associated readouts, supporting a functional contribution of AMPK\u03b11 signaling to this process. Notably, neferine also remained effective when given after LPS exposure, reducing inflammatory injury and pyroptosis-associated readouts in the therapeutic setting.<h4>Conclusion</h4>These findings indicate that neferine alleviates inflammasome-related lung injury at least partly through AMPK\u03b11-dependent autophagy, accompanied by increased ULK1 phosphorylation and subsequent autophagy-lysosomal clearance of NLRP3.",
+      "publication_type": [
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Demonstrates AMPK\u03b11-dependent autophagy and downstream ULK1 signaling in lung injury model, providing some mechanistic insight into AMPK signaling but focused on inflammation rather than core energy sensing metabolism."
+    },
+    {
+      "id": "42624908",
+      "pmid": "42624908",
+      "pmcid": null,
+      "doi": "10.1038/s41401-026-01917-3",
+      "title": "AKT (Ser473) suppression mediates ceritinib cardiotoxicity through autophagic flux impairment and mitochondrial injury.",
+      "authors": "Jiang F, Fu HX, Wang L, Pan ZZ, Jiang YQ, Liu N, Chen XQ, Gao ZZ, Wu WT, Yan H, Yang XC, Yang B, He QJ, Luo PH, Xu ZF.",
+      "journal": "Acta pharmacologica Sinica",
+      "year": "2026",
+      "abstract": "Ceritinib, an anaplastic lymphoma kinase (ALK) inhibitor, is associated with cardiovascular adverse events, yet the mechanisms remain incompletely understood. Here, we show that ceritinib impairs left ventricular systolic function in mice and induces cardiomyocyte apoptosis, and identify AKT (Ser473) suppression as a key initiating event. Loss of AKT activity is paralleled by reduced phosphorylation of mTOR (Ser2448) and ULK1 (Ser757), consistent with enhanced autophagy initiation. Concurrently, loss of inhibitory GSK3\u03b2 (Ser9) phosphorylation correlates with impaired lysosomal function, reflected by disrupted cathepsin D maturation and reduced lysosomal acidification. This mismatch between enhanced autophagy initiation and impaired lysosomal clearance impairs autophagic flux despite preserved autophagosome-lysosome fusion, and causes mitochondrial damage, evidenced by reduced TOMM20 and HSP60 expression and membrane potential loss. Transcriptomic and functional analyses identify AKT2 as a particularly vulnerable isoform in this network. Metformin co-treatment preserves cardiac function and attenuates apoptosis. Mechanistically, metformin increases AMPK (Thr172) phosphorylation and reduces TFEB (Ser122) phosphorylation, restores CTSD maturation, and decreases LC3-II accumulation. These protective effects occur without reversing the suppressed AKT (Ser473) or GSK3\u03b2 (Ser9) phosphorylation. Together, these findings establish that AKT suppression drives ceritinib cardiotoxicity through autophagic flux impairment and mitochondrial injury, and position AMPK-driven, TFEB-associated lysosomal restoration as a mechanism-based cardioprotective strategy independent of AKT recovery.",
+      "publication_type": [
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Reports metformin-induced AMPK (Thr172) phosphorylation linked to TFEB regulation and lysosomal/autophagic restoration, providing some evidence of AMPK's downstream signaling role, though the focus is on cardiotoxicity rather than the core energy-sensing mechanism."
+    },
+    {
+      "id": "42328360",
+      "pmid": "42328360",
+      "pmcid": "PMC13279627",
+      "doi": "10.3389/fnint.2026.1775007",
+      "title": "Integrative perspectives on electroacupuncture modulation of vagal-cholinergic and neuro-immune-metabolic regulation in long COVID.",
+      "authors": "Wang L, Hu X, Yan D.",
+      "journal": "Frontiers in integrative neuroscience",
+      "year": "2026",
+      "abstract": "Long COVID is increasingly recognized as a multisystem condition involving persistent inflammation, autonomic dysregulation, and metabolic disturbance. The vagus nerve-mediated cholinergic anti-inflammatory pathway (CAP) provides a biologically plausible link between neural regulation and immune homeostasis, while metabolic pathways involving AMP-activated protein kinase (AMPK), sirtuin 1 (SIRT1), and peroxisome proliferator-activated receptor gamma coactivator-1\u03b1 (PGC-1\u03b1) are closely related to mitochondrial function and energy balance. In this review, we synthesize evidence from neuroscience, immunology, and metabolic research to investigate how electroacupuncture (EA) may modulate vagal-cholinergic signaling and the downstream inflammatory and metabolic processes associated with long COVID. Experimental studies indicate that EA can influence CAP-related mechanisms, including \u03b17 nicotinic acetylcholine receptor (\u03b17nAChR)-mediated inhibition of NF-\u03baB/NLRP3-related inflammatory signaling, and may also regulate AMPK-SIRT1-PGC-1\u03b1-associated metabolic pathways. Although clinical evidence is more indirect, it suggests that electroacupuncture may affect autonomic function, inflammatory markers, symptom burden, and neurophysiological regulation. To support a balanced interpretation, we organize the evidence in this review into a framework based on levels of evidence, which distinguishes direct preclinical findings from indirect clinical indicators and associations used to generate hypotheses. This framework highlights the potential convergence of vagal-cholinergic anti-inflammatory regulation and metabolic recovery pathways, while recognizing that several proposed connections-particularly those linking CAP-related signaling to improvements in long COVID symptoms-require further validation. Overall, this review provides a structured basis for future mechanistic studies and phenotype-oriented clinical trials evaluating EA as a neuromodulatory strategy for long COVID and related chronic inflammatory conditions.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Mentions AMPK-SIRT1-PGC-1\u03b1 pathways related to mitochondrial function and energy balance as part of a broader neuro-immune-metabolic review, offering contextual but not mechanistic detail on AMPK sensing."
+    },
+    {
+      "id": "42249504",
+      "pmid": "42249504",
+      "pmcid": "PMC13242122",
+      "doi": "10.1186/s40104-026-01429-4",
+      "title": "Integrated gut metagenomic and muscle proteomic analysis reveals the role of dietary fermented extruded brewers' spent grain in enhancing pork quality through the gut-muscle axis.",
+      "authors": "Liu Y, Xie Y, Yang J, Deng Y, Liu D, Chang J, Tang J, Zhao H, Chen X, Tian G, Liu G, Cai J, Jia G.",
+      "journal": "Journal of animal science and biotechnology",
+      "year": "2026",
+      "abstract": "<h4>Background</h4>The fact that feeding pigs with probiotic-fermented agricultural by-products improves pork quality has been repeatedly demonstrated and widely applied, but the underlying mechanisms remain unclear. This study explored the effects of fermented extruded brewers' spent grain (FEBSG) on meat quality in growing-finishing pigs, as well as its regulatory mechanisms.<h4>Methods</h4>Sixty Duroc\u2009\u00d7\u2009Landrace\u2009\u00d7\u2009Yorkshire pigs (52.25\u2009\u00b1\u20092.10\u00a0kg) were randomly assigned to five dietary treatments, in which FEBSG replaced 0, 5%, 10%, 15%, and 20% of soybean meal (SBM). The experiment spanned 10\u00a0weeks.<h4>Results</h4>Compared with the control, 20% FEBSG significantly increased final body weight, average daily feed intake, and average daily gain, while decreasing feed to gain ratio (P\u2009<\u20090.05). Both 15% and 20% FEBSG improved carcass characteristics and meat quality, including higher carcass weight, loin eye area, and intramuscular fat content, along with lower drip loss and shear force (P\u2009<\u20090.05). These treatments also enhanced flavor-related amino acids and unsaturated fatty acids (P\u2009<\u20090.05), and improved umami and sweet taste profiles. Moreover, 20% FEBSG increased muscle fiber density and reduced fiber diameter, upregulated MyHC I, MyHC IIa, PGC-1\u03b1, AMPK\u03b11, TFAM, and SDH activity, and downregulated MyHC IIb and LDH activity (P\u2009<\u20090.05). Proteomic analysis identified 69 differentially expressed proteins, with enrichment in AMPK and PPAR signaling pathways. Metagenomic analysis revealed increased abundance of short-chain fatty acid-producing bacteria, including Clostridium, Lactobacillus, Prevotella, and Bartonella. Correlation analysis demonstrated associations between gut microbiota diversity and meat quality traits, as well as between dominant microbial genera and differentially expressed proteins, volatile fatty acids, muscle fiber characteristics, and the AMPK/PGC-1\u03b1/TFAM signaling pathway.<h4>Conclusions</h4>Partial replacement of SBM with FEBSG positively influenced growth performance and pork quality in pigs, with the underlying mechanisms may involve the activation of the AMPK/PGC-1\u03b1/TFAM signaling pathway via the gut-muscle axis, thereby enhancing mitochondrial biogenesis, muscle development, and metabolism.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Identifies activation of the AMPK/PGC-1\u03b1/TFAM signaling pathway linked to mitochondrial biogenesis and muscle metabolism, providing some downstream mechanistic context but in an agricultural rather than energy-sensing research setting."
+    },
+    {
+      "id": "42328120",
+      "pmid": "42328120",
+      "pmcid": "PMC13280736",
+      "doi": "10.7150/ijms.121198",
+      "title": "&lt;i&gt;Zingiber officinale&lt;/i&gt; Leaf Subcritical Water Extract Suppresses Adipogenesis and Lipogenesis in 3T3-L1 Adipocytes via the AMPK-SREBP-1c Signaling Pathway.",
+      "authors": "Jun EM, Kim JY, Choe JS, Park EJ, Lee HJ.",
+      "journal": "International journal of medical sciences",
+      "year": "2026",
+      "abstract": "<i>Zingiber officinale</i>, commonly known as ginger, has long been utilized as a medicinal plant due to its diverse pharmacological properties. However, research has predominantly focused on the rhizome, while the leaf is frequently regarded as a byproduct. In this study, we investigated the functional relevance of the ginger leaf, concentrating on the anti-obesity effects of ginger leaf subcritical water extract (GLE) and the underlying mechanisms in 3T3-L1 adipocytes. GLE reduced lipid accumulation in a concentration-dependent manner on day 7 of differentiation and suppressed the expression of adipogenesis-associated factors, including CCAAT/enhancer-binding protein \u03b1 (C/EBP\u03b1), peroxisome proliferator-activated receptor \u03b3, fatty acid binding protein 4, and lipoprotein lipase on both days 2 and 7. GLE also modulated early adipogenesis by inhibiting p38 phosphorylation and downregulating C/EBP\u03b2 expression at 4 h of differentiation. Additionally, GLE decreased the expression of acetyl-CoA carboxylase, fatty acid synthase, and stearoyl-CoA desaturase 1-key enzymes involved in lipogenesis-from the early stages of adipocyte differentiation. Furthermore, GLE directly phosphorylated adenosine monophosphate-activated protein kinase (AMPK), leading to inhibition of the expression of sterol regulatory element-binding protein-1c (SREBP-1c), an upstream regulator of both adipogenesis and lipogenesis. In summary, GLE exerted anti-obesity effects in 3T3-L1 adipocytes by inhibiting the transcriptional activation of adipogenic and lipogenic regulators during the early stage of differentiation, and maintaining their downregulation at later stages, and it was found to be mediated by the AMPK-SREBP-1c signaling pathway.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Shows a plant extract activates AMPK to suppress SREBP-1c and lipogenic enzymes in adipocytes, providing downstream evidence of AMPK regulating lipid metabolism, but does not address the sensing/activation mechanism of AMPK itself."
+    },
+    {
+      "id": "42164003",
+      "pmid": "42164003",
+      "pmcid": "PMC13186035",
+      "doi": "10.1016/j.crfs.2026.101414",
+      "title": "Epigallocatechin gallate and lipid metabolism: intestinal fate, metabolite clusters, and regulatory mechanisms.",
+      "authors": "Fan J, Yun S, Qu Z, Liu Z, Gong Y.",
+      "journal": "Current research in food science",
+      "year": "2026",
+      "abstract": "Epigallocatechin gallate (EGCG), a principal bioactive constituent of tea, exhibits substantial activity in regulating lipid metabolism. Although EGCG has been extensively studied, an integrated synthesis of its actions across lipid metabolic pathways remains lacking. This review summarizes the intestinal metabolic fate of EGCG and delineates its regulatory mechanisms in fatty acids (FAs), triglycerides, and cholesterol metabolism. By integrating evidence from multiple perspectives, we provide a mechanistic rationale and assess the translational potential of EGCG-based nutritional interventions for diseases associated with lipid dysregulation. EGCG is enzymatically metabolised in the small intestine and liver, and the colonic microbiota then transforms it into lower-molecular-weight, more readily absorbable metabolites, including phenyl-\u03b3-valerolactones (PVLs) and phenolic acids. These metabolites may act in concert with EGCG to modulate key lipid metabolic axes. Specifically, EGCG coordinates AMPK-mediated control of de novo lipogenesis and fatty acid oxidation, induces lipid droplet-targeted lipophagy to reduce intracellular triglyceride burden, and interacts with phosphatidylcholine to disrupt cholesterol's mixed-micelle solubilization, thereby inhibiting intestinal cholesterol absorption. The combined impact of EGCG and its derived metabolites across these pathways suggests a coordinated mechanistic network underlying its effects on lipid metabolism. Finally, we highlight that EGCG's system-level effects are strongly shaped by microbiota-derived metabolites, which may act as key effectors across organs and targets. We conclude by outlining priorities for future research.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Discusses EGCG's regulation of AMPK-mediated control of lipogenesis and fatty acid oxidation, offering some downstream metabolic context, but not focused on AMPK's energy-sensing mechanism itself."
+    },
+    {
+      "id": "42346403",
+      "pmid": "42346403",
+      "pmcid": "PMC13303971",
+      "doi": "10.3390/metabo16060423",
+      "title": "Malic Enzyme 1 Limits Acetaminophen-Induced Liver Injury by Sustaining Redox and Bioenergetic Homeostasis.",
+      "authors": "Guo C, Tang Z.",
+      "journal": "Metabolites",
+      "year": "2026",
+      "abstract": "<b>Background</b>: Acetaminophen (APAP) overdose remains a major cause of acute liver injury. Although N-acetylcysteine (NAC) is the clinically established antidote for APAP toxicity, its efficacy is greatest when administered early, and additional therapeutic strategies are still needed for patients with delayed presentation or progressive injury. Because APAP hepatotoxicity involves coupled disturbances in redox control, mitochondrial performance, and cellular metabolism, metabolic enzymes that sustain NADPH availability may critically influence disease severity. Malic enzyme 1 (ME1), a cytosolic NADPH-generating enzyme, has not been functionally defined in this context. <b>Methods</b>: To determine the contribution of ME1 to APAP-induced liver injury (AILI), we used hepatocyte-specific ME1 knockout mice, hepatic overexpression and reconstitution approaches, primary mouse hepatocytes, and an enzymatically inactive ME1 mutant. Liver injury and associated changes in oxidative stress, mitochondrial function, energy metabolism, autophagic flux, and endoplasmic reticulum (ER) stress were evaluated using biochemical, histological, molecular, and ultrastructural analyses, together with pharmacological interventions. <b>Results</b>: Genetic loss of ME1 did not substantially alter early APAP metabolic activation-related indices, including APAP-protein adduct formation, but markedly increased hepatocellular metabolic vulnerability after APAP challenge. This phenotype was characterized by enhanced lipid peroxidation, impaired mitochondrial polarization, reduced ATP availability, defective autophagic flux, and amplified ER stress, leading to more severe liver damage. In contrast, ME1 overexpression or reconstitution promoted a more adaptive metabolic response and limited tissue injury. These effects depended largely on ME1 catalytic activity, as protection was markedly weakened with the mutant enzyme. Pharmacological analyses further supported the involvement of AMPK/mTOR-associated autophagy regulation and ER stress adaptation in the downstream actions of ME1. Malic acid also partially attenuated APAP-induced hepatotoxicity in vivo and in vitro. <b>Conclusions</b>: ME1 functions as an endogenous metabolic factor that influences the outcome of APAP-induced liver injury. Its catalytic activity supports hepatocyte survival primarily by preserving reductive capacity, bioenergetic balance, and adaptive stress responses, rather than by altering APAP metabolic activation.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Examines AMPK/mTOR-associated autophagy and bioenergetic regulation in liver injury, providing some downstream metabolic evidence of AMPK signaling but not focused on its energy-sensing mechanism."
+    },
+    {
+      "id": "PMC13297222",
+      "pmid": null,
+      "pmcid": "PMC13297222",
+      "doi": null,
+      "title": "AMPK Signalling in Heart Failure: From Metabolic Sensor to Context-Dependent Therapeutic Target",
+      "authors": "Arzouni R, Aazar R, Asakrieh S, Cattan S, Jovanovi\u0107 A.",
+      "journal": "Biomedicines",
+      "year": "2026",
+      "abstract": null,
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 2,
+      "relevance_reason": "Title indicates AMPK as a 'metabolic sensor' in heart failure, directly relevant to the question, but abstract is missing so mechanistic depth cannot be confirmed."
+    },
+    {
+      "id": "42074118",
+      "pmid": "42074118",
+      "pmcid": "PMC13116035",
+      "doi": "10.3390/ijms27083475",
+      "title": "Canonical and Alternative Pathways (Insulin and Exercise) of GLUT4 Synthesis, Signaling, Intracellular Clustering, and Recruitment to the Plasma Membrane.",
+      "authors": "Ramos-Jim\u00e9nez A, Rubio-Valles M, Guereca-Arvizuo J, Ju\u00e1rez-Oropeza MA, Ramos-Hern\u00e1ndez JA, Ch\u00e1vez-Guevara IA, Gonz\u00e1lez-Rodr\u00edguez E, Moreno-Brito V, Hern\u00e1ndez Torres RP.",
+      "journal": "International journal of molecular sciences",
+      "year": "2026",
+      "abstract": "Glucose transporter type 4 (GLUT4), encoded by the <i>SLC2A4</i> gene, is the final effector of insulin-stimulated glucose uptake in insulin-sensitive tissues: skeletal muscle, adipose tissue, and cardiac muscle. Its dynamic localization, retained intracellularly under basal conditions and extensively translocated to the plasma membrane upon stimulation, makes it a master regulator of glycemic homeostasis. While the canonical insulin pathway (PI3K/Akt/TBC1D4) is the most potent and specific mechanism in the postprandial state, its dysfunction is centrally associated with insulin resistance and type 2 diabetes mellitus (T2DM). Crucially, robust alternative signaling networks function completely independently of insulin to regulate GLUT4 synthesis and translocation. Prominent among these are contraction-mediated pathways in skeletal muscle, which employ calcium signaling (via CaMKII), mechanical/metabolic stress sensors (via p38 MAPK \u03b3/\u03b4), and AMP-activated protein kinase (AMPK). This review critically integrates current knowledge, linking the molecular architecture and post-translational modifications of GLUT4 to the complex, tissue-specific signaling networks that govern its vesicular trafficking. We emphasize the hierarchy, redundancy, and interdependence of these pathways, highlighting differences between acute translocation and chronic transcriptional adaptations. Finally, we discuss how deciphering insulin-independent mechanisms offers promising therapeutic opportunities, particularly in identifying pharmacological targets that mimic the metabolic benefits of physical exercise.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 1,
+      "relevance_reason": "Focuses primarily on GLUT4 trafficking and insulin signaling; AMPK is mentioned only as one of several pathways involved in contraction-mediated GLUT4 translocation, with no detail on AMPK's own energy-sensing mechanism."
+    },
+    {
+      "id": "42389755",
+      "pmid": "42389755",
+      "pmcid": "PMC13318578",
+      "doi": "10.3389/fphys.2026.1854585",
+      "title": "The myofascial rheostat: hyaluronan molecular weight dynamics and purinergic signalling as a physiological feedback system.",
+      "authors": "Kirkness KB, da Silva FC, Schleip R, Cruvinel-J\u00fanior RH, Scarlata S.",
+      "journal": "Frontiers in physiology",
+      "year": "2026",
+      "abstract": "Fascia, the connective tissue network enveloping muscles, organs, and viscera, functions as a hyaluronan (HA)-rich adaptive interface that senses and responds to inflammatory cues. This narrative review synthesizes ECM literature across niches to examine the calcium-hyaluronan (CHA) axis, a feedback loop linking Ca\u00b2<sup>+</sup> signaling to HA synthesis via HAS2 and molecular weight-dependent signaling through CD44 and RHAMM receptors. We propose that the CHA axis is constrained further by ATP/NAD<sup>+</sup>-mediated feedback and functions as a rheostat regulated by four distinct constraint types (1): Mechanical loading and shear regulate HA turnover, hydration, and viscosity via YAP/TAZ and integrin mechanosensing (2). Inflammatory cytokines drive HAS2/HA accumulation during chronic irritation or injury through CD44/RHAMM signaling (3). Metabolic energy availability provides purinergic brakes via AMPK/SIRT1 that suppress synthesis when ATP is scarce (4). HA clearance mechanisms-hyaluronidases, TMEM2/CEMIP, lymphatic drainage, and interstitial fluid flow-which may be as critical as synthesis itself. This is the first review integrating the domains of research across cell types, with clinical relevance in cancer and wound healing as well as exercise physiology and longevity protocols.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Mentions AMPK/SIRT1 only briefly as part of metabolic constraints on hyaluronan synthesis in fascia; not focused on AMPK's energy-sensing mechanism."
+    },
+    {
+      "id": "42259193",
+      "pmid": "42259193",
+      "pmcid": "PMC13259617",
+      "doi": "10.1016/j.tranon.2026.102850",
+      "title": "The PI3K/AKT signaling networks in cancer glucose metabolism: mechanisms and therapeutic implications.",
+      "authors": "Cheng S, Jiang Q, Huang H, Tong H, Xie M.",
+      "journal": "Translational oncology",
+      "year": "2026",
+      "abstract": "The PI3K/AKT axis is frequently dysregulated and serves as a central regulator in cancer glucose metabolism. This review outlines the composition and activation mechanisms of the PI3K/AKT pathway, its interactions with core metabolic enzymes (hexokinase, pyruvate kinase, phosphofructokinase, aldolase, lactate dehydrogenase) and their non-canonical roles in cancer metabolism. We also dissect crosstalk between PI3K/AKT, the AMPK energy sensor, and major metabolic pathways (pentose phosphate pathway, oxidative phosphorylation, de novo lipogenesis). Further, we summarize latest advances in targeting metabolic enzymes and combined therapies, discuss challenges in targeting PI3K/AKT-mediated metabolic reprogramming, and propose future directions. Collectively, this review provides a theoretical framework for cancer metabolism mechanisms and identifies novel targets for cancer therapies.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "AMPK is mentioned only as part of crosstalk with PI3K/AKT in cancer glucose metabolism; primary focus is PI3K/AKT pathway, not AMPK sensing mechanism in detail."
+    },
+    {
+      "id": "41775704",
+      "pmid": "41775704",
+      "pmcid": "PMC13066103",
+      "doi": "10.1038/s41540-026-00678-3",
+      "title": "Global loss of metabolic responsiveness and elevated enzyme in leptin deficient obese mice during starvation.",
+      "authors": "Li D, Morita K, Kokaji T, Hatano A, Hirayama A, Soga T, Suzuki Y, Matsumoto M, Tsuchiya T, Ozaki H, Ohno S, Inoue H, Inaba Y, Maehara H, Sugimoto H, Pan Y, Kuroda S.",
+      "journal": "NPJ systems biology and applications",
+      "year": "2026",
+      "abstract": "Starvation induces complex metabolic adaptations in skeletal muscle, a key tissue for maintaining energy homeostasis; however, these adaptations are largely impaired in obesity. How obesity alters global metabolic adaptations to starvation in skeletal muscle remains unclear. Here, we analyzed the metabolic adaptations on a trans-omics scale during starvation in skeletal muscle from wild-type (WT) and leptin-deficient obese (ob/ob) mice. We measured multi-omics data during starvation and constructed global trans-omics networks in WT and ob/ob mice. We found that starvation induces \"responsiveness\" in WT mice, characterized by increases or decreases in key regulator metabolites, including ATP and AMP, as well as enzyme proteins, leading to global regulation of metabolic pathways, which was lost in ob/ob mice. In contrast, during starvation, ob/ob mice exhibit \"difference\" in comparison to WT mice, manifested by the persistently elevated expression of metabolic enzymes. These features were similarly found in liver, another key metabolic organ. Thus, global loss of responsiveness and elevated enzyme proteins are systemic features of metabolic dysregulation in ob/ob mice.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Discusses metabolic adaptations to starvation involving ATP/AMP as regulators and trans-omics changes, tangentially related to energy stress sensing, but does not mechanistically address AMPK signaling itself."
+    },
+    {
+      "id": "41594630",
+      "pmid": "41594630",
+      "pmcid": "PMC12839171",
+      "doi": "10.3390/biom16010090",
+      "title": "Natural Product Driven Activation of UCP1 and Tumor Metabolic Suppression: Integrating Thermogenic Nutrient Competition with Cancer Metabolic Reprogramming.",
+      "authors": "Moon DO.",
+      "journal": "Biomolecules",
+      "year": "2026",
+      "abstract": "Metabolic reprogramming allows cancer cells to proliferate rapidly, survive nutrient limitation, and resist stress, making tumor metabolism an important therapeutic target. However, pharmacological inhibition of metabolic enzymes often causes systemic toxicity and compensatory pathway activation. To overcome these limitations, recent studies have highlighted an alternative host-centered strategy based on increasing systemic energy expenditure. Recent studies highlight an alternative strategy in which the host increases energy expenditure through uncoupling protein 1 (UCP1) dependent thermogenesis, thereby lowering systemic glucose, fatty acid, and nucleotide availability for tumors. Engineered beige adipocytes overexpressing UCP1, PR domain-containing protein 16 (PRDM16), or peroxisome proliferator-activated receptor gamma coactivator 1 alpha (PPARGC1A/PGC1A) suppress tumor growth through nutrient competition, suggesting that activating endogenous UCP1 may provide a non-genetic and physiologically aligned anticancer approach. Building on this concept, natural products such as polyphenols, terpenoids, alkaloids, and carotenoids have emerged as promising UCP1 activators that stimulate beige and brown adipocyte thermogenesis through pathways involving AMP-activated protein kinase (AMPK), sirtuin 1 (SIRT1), PGC1A, PRDM16, and mitochondrial biogenesis. In parallel, computational studies further indicate that several plant-derived compounds bind directly to the central cavity of UCP1 with high affinity, offering structural support for their thermogenic action. Importantly, many of these compounds also inhibit cancer cell intrinsic metabolism by reducing glycolysis, oxidative phosphorylation, lipid synthesis, and amino acid dependent anaplerosis. This review integrates UCP1 biology, natural product mediated thermogenesis, molecular docking evidence, and tumor metabolic suppression, proposing a unified framework in which natural compounds impose coordinated metabolic pressure on cancer through both adipocyte-driven nutrient competition and direct inhibition of tumor metabolism.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Mentions AMPK as one of several pathways involved in thermogenesis and cancer metabolism, but the focus is on UCP1 and natural product activators, not AMPK's molecular energy-sensing mechanism."
+    },
+    {
+      "id": "41353445",
+      "pmid": "41353445",
+      "pmcid": "PMC12738695",
+      "doi": "10.1038/s41598-025-28349-z",
+      "title": "Exploring natural AMPK activators from bioactive compounds in fenugreek and oyster mushroom for management of type 2 diabetes.",
+      "authors": "Mazumdar S, Faruque MO, Islam T, Amin MR, Rakib MA, Alauddin M.",
+      "journal": "Scientific reports",
+      "year": "2025",
+      "abstract": "Oral antidiabetic drugs mainly act by stimulating pancreatic \u03b2-cells, but prolonged stimulation may lead to exhaustion and impaired insulin secretion. In contrast, AMP-activated protein kinase (AMPK) lowers blood glucose through an insulin-independent pathway, offering therapeutic potential. This study aims to identify AMPK activators in oyster mushrooms and fenugreek using GC-MS and bioinformatics analysis. The bioactive compounds in both samples were identified through GC-MS analysis. Molecular docking, pharmacokinetics, drug-likeness, toxicity, and molecular dynamics simulation (MDS) were employed to evaluate the therapeutic potential of the identified phytochemicals. The results showed that the ester class of compounds was the most abundant in both fenugreek and oyster mushroom extracts, identified by GC-MS analysis. Molecular docking revealed that the selected ligands exhibited strong binding affinities to the AMPK target protein. Pharmacokinetic and drug-likeness analyses confirmed that most compounds met acceptable ranges for potential AMPK activators. Molecular dynamics simulations further demonstrated that the selected ligands formed more stable ligand-protein complexes with fewer fluctuations compared to the control drug, glibenclamide. Overall, this study suggests that 2',6'-Dihydroxyacetophenone, 1-Methyl-2-phenylbenzimidazole, and N-Methylphthalimide are potential AMPK direct activators capable of mitigating Type 2 diabetes through an insulin-independent pathway. However, further in vitro and in vivo validation is required.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "Identifies natural compounds as AMPK activators via docking studies for diabetes management, but does not address the molecular mechanism of AMPK energy sensing or downstream metabolic regulation in detail."
+    },
+    {
+      "id": "42246162",
+      "pmid": "42246162",
+      "pmcid": "PMC13261341",
+      "doi": "10.3892/mmr.2026.13926",
+      "title": "SIRT1/AMPK/PGC1\u03b1 pathway in ischemic stroke: Elucidating neuroprotective strategies (Review).",
+      "authors": "Abbasi IN, Amin N, Xu Q, Hussain AB, Wu F, Yuan X, Yang Y, Ye S, Fang M, Jiang Y.",
+      "journal": "Molecular medicine reports",
+      "year": "2026",
+      "abstract": "The increased prevalence of stroke around the globe is a notable challenge as there are few treatments and the long\u2011term effects include neurological impairment. Oxidative stress, mitochondrial dysfunction and neuroinflammation are key mechanisms underlying the complex pathophysiology of stroke, yet their precise interactions remain poorly understood. Notably, the silent information regulator 2 homolog 1 (SIRT1)/AMP\u2011activated protein kinase (AMPK)/peroxisome proliferator\u2011activated receptor \u03b3 coactivator 1\u2011\u03b1 (PGC1\u03b1) pathway contributes to the neuronal protection against stroke damage. The possible beneficial effects through modulations of this pathway are explored in the present review, in particular, how flavonoids may provide a promising solution to reducing the consequences of stroke. Over the years, there has been a focus on treatments using alternative methods, leaving behind the traditional drugs\u2011based approaches. These involve researching the impacts of physical activity and caloric intake and assessing the possible advantages of naturally available products. This versatile approach provides new prospects of therapeutic development. The present comprehensive review aimed to understand the complexity of SIRT1/AMPK/PGC1\u03b1 pathway with the aim to identify potential multi\u2011target therapeutic approaches to reduce the notable effects of stroke on global health and wellbeing and offer new promise in the current management of ischemic stroke. The present review demonstrates that SIRT1/AMPK/PGC1\u03b1 is a key neuroprotective target in stroke. Moreover, it reveals that flavonoids combined with exercise and caloric restriction enhance treatment, and that flavonoid nanoparticles crossing the blood\u2011brain barrier offer neuroprotection. Finally, the review focuses on brain PGC1\u03b1, improved delivery and trials performed to advance stroke therapy.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Focuses on SIRT1/AMPK/PGC1a pathway in stroke neuroprotection and flavonoid therapeutics, not on the molecular mechanism of AMPK energy sensing or its direct metabolic regulation."
+    },
+    {
+      "id": "42576627",
+      "pmid": "42576627",
+      "pmcid": null,
+      "doi": "10.1080/15548627.2026.2714544",
+      "title": "Senecavirus a 3C protease cleaves RETREG1 to antagonize ER-phagy and promote viral replication via endoplasmic reticulum calcium signaling.",
+      "authors": "Mao J, Yu J, Zeng P, Yang X, Shi Y, Qu Y, Zhou J, Wang D, Song J, Wang Y, Liu J, Hou L.",
+      "journal": "Autophagy",
+      "year": "2026",
+      "abstract": "Co-evolution between viruses and autophagy has led to the emergence of viral strategies that manipulate host endoplasmic reticulum (ER) homeostasis, ultimately promoting viral replication. ER turnover is achieved through selective autophagy, also referred to as ER-phagy, which is regulated by the RETREG1/FAM134B (reticulophagy regulator 1) family of reticulon proteins. Nevertheless, how viruses target RETREG1, a receptor for ER-phagy, remains largely unclear. In this study, we demonstrate that infection with Senecavirus A (SVA), an emerging picornavirus, triggers the cleavage of RETREG1, which functions as a negative regulator of viral replication. By screening viral proteins, we identified the SVA 3C protease (3C[pro]) as the executor of this cleavage event. Detailed mapping revealed that residues Q428, E430, and G431 of RETREG1 are involved in its cleavage by the 3C[pro], and the resulting two fragments fail to suppress viral replication. Furthermore, proteolytic cleavage of RETREG1 by 3C[pro] impairs its ability to relieve ER stress and mediate ITPR1 degradation via RETREG1-dependent ER-phagy. This disruption leads to increased ER calcium (Ca<sup>2+</sup>) release and subsequent activation of autophagy through the CAMKK2-PRKAA2-MTOR axis, which ultimately facilitates SVA replication. Taken together, these findings indicate that SVA antagonizes the antiviral function of RETREG1-mediated ER-phagy via its 3C[pro], highlighting RETREG1 as a potential therapeutic target for combating SVA infection.<b>Abbreviations:</b> 2-APB: 2-aminoethyl diphenylborinate; PRKAA2/AMPK: protein kinase AMP-activated catalytic subunit alpha 2; ATL3: atlastin GTPase 3; BHK-21: baby hamster kidney-21; CAMKK2: calcium/calmodulin dependent proteinkinase kinase2; CCPG1: cell cycle progression 1; CKAP4/CLIMP63: cytoskeleton associated protein 4; co-IP: co-immunoprecipitation; CQ: chloroquine; DAPI: 4',6-diamidino-2-phenylindole; DM: double mutant; EIF2AK3/PERK: eukaryotic translation initiation factor 2 alpha kinase 3; eGFP: enhanced green fluorescent protein; ER: endoplasmic reticulum; GFP: green fluorescent protein; HSPA5/GRP78/BiP: heat shock protein family A (Hsp70) member 5; HA: hemagglutinin; HDAC4: histone deacetylase 4; HEK-293T: human embryonic kidney 293T; hpi: hours post-infection; IFA: indirect immunofluorescence assay; ITPR1/IP3R1: inositol 1,4,5-trisphosphate receptor type 1; MAP1LC3/LC3: microtubule associated protein 1 light chain 3; LIR: LC3-interacting region; mCherry: monomeric cherry; MTOR: mechanistic target of rapamycin kinase; REEP5: receptor accessory protein 5; RETREG1/FAM134B: reticulophagy regulator 1; RTN3: reticulon 3; SD: standard deviation; SEC61B: SEC61 translocon subunit beta; SEC62: SEC62 preprotein translocation factor; SERP1/RAMP4: stress associated endoplasmic reticulum protein 1; siRNA: small interfering RNA; SQSTM1/p62: sequestosome 1; ST: swine testis; SVA: Senecavirus A; TEM: transmission electron microscopy; TEX264: testis expressed 264, ER-phagy receptor; Tm: tunicamycin; U2OS: human osteosarcoma epithelial cells; UV: ultraviolet; ZVAD-FMK: benzyloxycarbonyl-Val-Ala-Asp(OMe)-fluoromethylketone; \u03bcg: microgram; \u03bcm: micrometer; \u03bcM: micromole.",
+      "publication_type": [
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Involves AMPK (PRKAA2) as part of a CAMKK2-AMPK-MTOR axis activated by ER calcium signaling during viral infection, but the central focus is on ER-phagy and viral antagonism, not AMPK energy sensing/metabolism regulation per se."
+    },
+    {
+      "id": "10.21203/rs.3.rs-9192680/v1",
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.21203/rs.3.rs-9192680/v1",
+      "title": "A phosphorylation switch at MRE11 links ATM-ATR and calcium signaling to safeguard stalled replication fork stability",
+      "authors": "Chai W(, Ray M, Chang C, Wang Z, Li Z, Chi P.",
+      "journal": null,
+      "year": "2026",
+      "abstract": "<title>Abstract</title>  <p>MRE11 safeguards genome stability at stalled replication forks, where its activity must be tightly controlled to prevent nascent strand DNA degradation (NSD). However, the upstream signaling mechanisms that limit NSD remain poorly defined. Here, we identify Ser649 (S649) as a previously unrecognized phosphorylation site that limits MRE11 association with stalled forks. We show that S649 phosphorylation is robustly induced by replication stress or elevated cytosolic calcium levels, and is mediated by the calcium-responsive CaMKK2-AMPK\u03b1 axis in concert with ATR, but independently of CHK1. Loss of S649 phosphorylation enhances MRE11 binding to DNA and increases its association with stalled forks, driving excessive NSD, elevated DNA damage, and increased sensitivity to PARP inhibition. We find that the ATM-mediated S676/S678 phosphorylation primes S649 phosphorylation, which in turn facilitates subsequent phosphorylation of SQ/TQ sites in MRE11. Moreover, we find that CaMKK2-AMPK\u03b1 activation requires ATR but is independent of ATM. Collectively, our findings reveal a hierarchical signaling mechanism that couples calcium signaling with ATM/ATR pathways to prevent NSD at stalled forks and preserve genome integrity.</p>",
+      "publication_type": [
+        "Preprint"
+      ],
+      "open_access": false,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Involves CaMKK2-AMPKa signaling in the context of DNA replication stress and genome stability, not energy sensing or metabolic regulation by AMPK."
+    },
+    {
+      "id": "42289542",
+      "pmid": "42289542",
+      "pmcid": null,
+      "doi": "10.1186/s43046-026-00361-y",
+      "title": "Immune checkpoint crosstalk between LAG-3 and CD39/CD73 in glioblastoma: dual-pathway regulation of metabolic exhaustion and therapeutic reversal strategies.",
+      "authors": "Mukherjee A.",
+      "journal": "Journal of the Egyptian National Cancer Institute",
+      "year": "2026",
+      "abstract": "Glioblastoma (GBM) represents an immunologically \"cold\" and metabolically suppressive tumor characterized by profound T-cell exhaustion, hypoxia-induced adenosinergic signaling, and resistance to checkpoint blockade. Converging evidence identifies lymphocyte-activation gene 3 (LAG-3) and the CD39/CD73 ectonucleotidase cascade as cooperative regulators of immune dysfunction within the GBM microenvironment. LAG-3 attenuates TCR/CD3 signaling and disrupts mitochondrial oxidative phosphorylation, diminishing effector T-cell persistence. Concurrently, CD39/CD73-mediated ATP hydrolysis elevates adenosine levels, activating A\u2082A receptors that inhibit glycolysis, suppress IFN-\u03b3, and promote Treg and M2 macrophage polarization. Spatial and single-cell omics reveal co-localization of LAG-3\u207a exhausted T cells with CD73\u207a stromal and myeloid niches, suggesting a reciprocal immunometabolic feedback loop reinforcing exhaustion. This review elucidates the molecular crosstalk between LAG-3 signaling and the adenosine pathway, emphasizing key metabolic regulators including AMPK, mTOR, and HIF-1\u03b1. It further evaluates therapeutic strategies combining LAG-3 or PD-1 blockade with adenosine receptor antagonists or CD73 inhibitors to restore T-cell bioenergetics and antitumor activity. By integrating mechanistic immunometabolism with translational insights, this review establishes a dual-pathway framework of checkpoint synergy underlying resistance in GBM and proposes rational combination immunotherapies to reverse metabolic and immune exhaustion.",
+      "publication_type": [
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "Mentions AMPK, mTOR, and HIF-1a as metabolic regulators in glioblastoma immune exhaustion, but does not detail AMPK's molecular energy-sensing mechanism; focus is immunometabolism and checkpoint therapy."
+    },
+    {
+      "id": "PMC13108632",
+      "pmid": null,
+      "pmcid": "PMC13108632",
+      "doi": null,
+      "title": "Citrate\u2010Dependent Activation of Acetyl CoA Carboxylase Promotes Renal Lipid Accumulation in a Rat Model of Chronic Kidney Disease",
+      "authors": "Sanz\u2010G\u00f3mez M, Linillos\u2010Pradillo B, Fern\u00e1ndez de la Rosa R, Ar\u00e1nguez I, Kreutz R, Garc\u00eda A, Barbas C, Plaza A, Fern\u00e1ndez\u2010Alfonso M.",
+      "journal": "Acta physiologica (Oxford, England)",
+      "year": "2026",
+      "abstract": null,
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "No abstract provided; title suggests ACC/citrate regulation of lipid metabolism in kidney disease, tangential to AMPK energy sensing without clear mechanistic AMPK sensing detail."
+    },
+    {
+      "id": "42075655",
+      "pmid": "42075655",
+      "pmcid": "PMC13118033",
+      "doi": "10.3390/medicina62040784",
+      "title": "Exercise as a Metabolic Therapy for MASLD: Beyond Weight Loss Toward Sustainable Exercise Strategies.",
+      "authors": "Roh HT, Bae JY.",
+      "journal": "Medicina (Kaunas, Lithuania)",
+      "year": "2026",
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a systemic metabolic disorder characterized by impaired metabolic flexibility involving the liver, skeletal muscle, and adipose tissue. Although weight loss has traditionally been emphasized in its management, emerging evidence suggests that exercise exerts therapeutic effects beyond body weight reduction. This narrative review aims to examine exercise as a metabolic therapy for MASLD by integrating mechanistic insights and clinical evidence. Exercise improves hepatic steatosis, insulin resistance, mitochondrial function, and inflammatory signaling through interconnected pathways, including activation of AMPK-related signaling, enhanced fatty acid oxidation, and muscle-liver crosstalk mediated by myokines. Importantly, these benefits can occur independently of weight loss, supporting a shift from weight-centered to metabolism-focused treatment strategies. Both aerobic and resistance exercise demonstrate efficacy, with combined approaches providing complementary benefits. In conclusion, exercise should be considered a central therapeutic strategy for MASLD by restoring metabolic flexibility rather than solely promoting weight reduction. Future research should focus on optimizing individualized and sustainable exercise prescriptions to enhance long-term clinical outcomes.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Review on exercise as therapy for MASLD mentions AMPK-related signaling and fatty acid oxidation broadly, but does not detail molecular mechanism of AMPK energy sensing."
+    },
+    {
+      "id": "42192854",
+      "pmid": "42192854",
+      "pmcid": "PMC13204640",
+      "doi": "10.3390/brainsci16050542",
+      "title": "Modulation of the PI3K/AKT/mTOR and AMPK/TSC2/mTOR Pathways by N-Acetyl-L-Cysteine as a Protector of Embryonic Bodies from the Toxic Effect of Methylmercury.",
+      "authors": "Sim\u00f5es JLB, Braga GC, Assmann CE, Bagatini MD.",
+      "journal": "Brain sciences",
+      "year": "2026",
+      "abstract": "Methylmercury (MeHg) is a potent environmental contaminant primarily ingested through seafood consumption. Gestational exposure induces profound neurological and developmental deficits in the fetus that often persist throughout childhood. This developmental vulnerability arises from the immature state of the blood-brain barrier and a limited endogenous antioxidant capacity in the developing CNS. Postnatal exposure via breastfeeding further compromises neurodevelopment, specifically impairing visuospatial processing and memory. While fetal and placental mercury accumulation correlates with gestational age, the specific mechanisms of transplacental transport remain poorly defined. Mechanistically, MeHg predominantly accumulates in fetal renal tissue, followed by the brain and liver. This review aims to elucidate MeHg-induced oxidative stress and autophagic collapse mediated by the PI3K/AKT/mTOR and AMPK/TSC2/mTOR pathways. Furthermore, we evaluate neuroprotective candidates, specifically N-acetyl-L-cysteine (NAC) and CCL chemokine modulation, as strategies to mitigate fetal impairment and the associated cellular damage.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Focuses on toxicology of methylmercury and PI3K/AKT/mTOR and AMPK/TSC2/mTOR pathways in neurodevelopment, only tangentially related to AMPK energy sensing mechanism."
+    },
+    {
+      "id": "42072628",
+      "pmid": "42072628",
+      "pmcid": "PMC13114094",
+      "doi": "10.3390/biom16040506",
+      "title": "Adaptive Regulation of mTOR Activity by AMPK, Akt, and ATF6 Pathways in Pi*Z Alpha-1 Antitrypsin Deficient Hepatocytes.",
+      "authors": "Lu Y, Lee J, Mohammad N, Brantly ML.",
+      "journal": "Biomolecules",
+      "year": "2026",
+      "abstract": "Alpha-1 antitrypsin deficiency (AATD) is an inherited disorder characterized by intracellular retention of mutant Z (Pi*Z) alpha-1 antitrypsin (AAT) within hepatocytes, resulting in progressive liver disease. Currently, no approved pharmacological therapies exist for AATD-associated hepatic injury. Emerging preclinical evidence indicates that inhibition of mammalian target of rapamycin (mTOR) ameliorates liver pathology in AATD; however, the status of mTOR activity and its regulatory mechanisms under Pi*Z AAT-induced cellular stress remains incompletely understood. In this study, we investigated alterations in mTOR signaling and its upstream regulatory pathways using a gene-edited human hepatocyte model harboring the Pi*Z mutation (Huh7.5Z cells) and a Pi*Z AAT transgenic mouse model. Attenuation of mTORC1 activity was observed in both cellular and murine Pi*Z models. In vitro analyses demonstrated activation of AMP-activated protein kinase (AMPK\u03b1), a key inhibitory regulator of mTORC1, accompanied by paradoxical activation of Akt and the unfolded protein response (UPR) branch ATF6\u03b1. Pharmacological inhibition of mTOR significantly reduced intracellular Pi*Z AAT accumulation, alleviated ER stress, and suppressed apoptotic signaling through enhancement of autophagy. These findings reveal that hepatocytes adapt to Pi*Z AAT-induced stress through coordinated regulation of mTOR by AMPK, Akt, and ATF6\u03b1 pathways. This study provides mechanistic insight into metabolic and stress-response signaling in AATD and identifies mTOR modulation as a promising therapeutic strategy for AATD-associated liver disease.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Studies mTOR regulation by AMPK, Akt, ATF6 in liver disease model; relevant to AMPK-mTOR crosstalk but not primarily about AMPK energy sensing mechanism."
+    },
+    {
+      "id": "42138190",
+      "pmid": "42138190",
+      "pmcid": "PMC13209479",
+      "doi": "10.3892/ijmm.2026.5861",
+      "title": "Autophagy and metabolic homeostasis: Exploration in obesity\u2011related metabolic diseases (Review).",
+      "authors": "Lu C, Qi X, Tong Y, Lu P, Luo D, Guan Q, Yu C.",
+      "journal": "International journal of molecular medicine",
+      "year": "2026",
+      "abstract": "Autophagy is an evolutionarily conserved catabolic process in which excessive nutrients, toxic protein aggregates, damaged organelles, and invading microorganisms in the cytoplasm can be isolated by the double\u2011membrane structure of autophagosomes and delivered to lysosomes for degradation. Over the past two decades, research on autophagy has made significant progress. Autophagy not only plays a crucial role in maintaining intracellular homeostasis but also contributes to the development of various metabolic diseases. Metabolic imbalance of nutrients in obesity\u2011related metabolic diseases can interfere with the autophagy process through a variety of mechanisms, resulting in further aggravation of the pathological damage of related organs. However, under certain conditions, inhibition of autophagy can have beneficial effects, thereby alleviating some of the harmful consequences of obesity. In this review, we will focus on the latest advances in the study of autophagy in obesity\u2011related metabolic disorders, including type 2 diabetes, non\u2011alcoholic fatty liver disease, and atherosclerosis. We will systematically discuss the definition and types of autophagy, the regulation of autophagy by nutrients, the imbalance of autophagy in obesity\u2011related metabolic diseases and its molecular mechanism, and finally, we will summarize some drugs targeting the autophagy pathway.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "General review of autophagy in metabolic disease; discusses nutrient regulation of autophagy broadly but does not specifically address AMPK energy sensing mechanisms or its downstream metabolic regulation at the molecular level."
+    },
+    {
+      "id": "42278450",
+      "pmid": "42278450",
+      "pmcid": "PMC13257352",
+      "doi": "10.3390/ijms27114924",
+      "title": "De Novo Lipogenesis in Clear Cell Renal Cell Carcinoma: Mechanistic Insights and Therapeutic Implications.",
+      "authors": "Bui KCL, Do YT, Kim JY, Seo JH.",
+      "journal": "International journal of molecular sciences",
+      "year": "2026",
+      "abstract": "Clear cell renal cell carcinoma (ccRCC) is increasingly recognized as a lipid-addicted malignancy in which de novo lipogenesis (DNL) supports tumor growth, survival, and treatment resistance. ccRCC-specific genetic alterations, particularly loss of VHL and activation of hypoxia-inducible factor (HIF) signaling, promote SREBP-mediated upregulation of key lipogenic enzymes, including ATP-citrate lyase (ACLY), acetyl-CoA carboxylase (ACC), fatty acid synthase (FASN), and stearoyl-CoA desaturase 1 (SCD1). These pathways support membrane biogenesis and redox balance while also promoting metabolic flexibility, enabling adaptation to therapeutic and microenvironmental stresses. Emerging preclinical studies suggest that pharmacological inhibition of lipogenic enzymes, either alone or in combination with tyrosine kinase inhibitors, mTOR inhibitors, HIF-2\u03b1 antagonists, or immune checkpoint blockade, may suppress ccRCC progression. However, most therapeutic data remain limited to preclinical models, and clinical validation is still lacking. This review synthesizes recent advances in molecular regulation and therapeutic targeting of DNL in ccRCC and discusses the challenges and future opportunities to improve mechanistic understanding and explore potential therapeutic applications.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Focuses on SREBP-mediated lipogenesis in renal cancer driven by VHL/HIF signaling; AMPK is not mentioned, so it does not address AMPK energy sensing or regulation mechanisms."
+    },
+    {
+      "id": "42376277",
+      "pmid": "42376277",
+      "pmcid": "PMC13313604",
+      "doi": "10.3389/fgene.2026.1831613",
+      "title": "CircRNAs in hepatic lipid metabolism: regulatory mechanisms and clinical implications.",
+      "authors": "Zeng Y, Gao M.",
+      "journal": "Frontiers in genetics",
+      "year": "2026",
+      "abstract": "Hepatic lipid metabolism homeostasis is crucial for maintaining metabolic health, and its disruption is a central factor in the development of metabolic diseases such as non-alcoholic fatty liver disease (NAFLD) and metabolic dysfunction-associated steatotic liver disease (MASLD). Circular RNAs (circRNAs),a novel class of non-coding RNAs characterized by their covalently closed loop structures and remarkable stability, have emerged as key regulators of gene expression. Recent studies have revealed that circRNAs play significant roles in modulating critical hepatic lipid metabolism signaling pathways, including AMPK, mTOR, PPAR, and SREBP. This review systematically summarizes the latest advances in understanding how circRNAs influence these pathways through mechanisms such as acting as molecular sponges for microRNAs, interacting with proteins, and potentially encoding functional peptides. We critically evaluate the experimental models used in key studies, distinguishing between <i>in vitro</i>, <i>in vivo</i>, and clinical evidence, and discuss the context-dependent nature of circRNA function. Furthermore, the potential of circRNAs as diagnostic biomarkers and therapeutic targets for NAFLD and MASLD is discussed, highlighting their clinical relevance alongside a balanced assessment of the challenges facing clinical translation. By integrating current research findings, this review aims to provide a comprehensive theoretical foundation for elucidating the regulatory networks governing hepatic lipid metabolism and for developing innovative intervention strategies against metabolic liver diseases.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "Reviews circRNA regulation of hepatic lipid metabolism pathways including AMPK, but AMPK is only one of several pathways mentioned without mechanistic detail on energy sensing."
+    },
+    {
+      "id": "41928880",
+      "pmid": "41928880",
+      "pmcid": "PMC13038599",
+      "doi": "10.3389/fendo.2026.1785178",
+      "title": "Lipid metabolism-MAFLD crosstalk: mechanisms and therapy.",
+      "authors": "Li B, Piao S, Fu Y, Fu Q, Qin P, Kong W, Ma Y, Zhang Z, Fang X, Hu X.",
+      "journal": "Frontiers in endocrinology",
+      "year": "2026",
+      "abstract": "Metabolic dysfunction-associated fatty liver disease (MAFLD) has become the most prevalent chronic liver disorder worldwide, encompassing a spectrum that ranges from simple steatosis to metabolic dysfunction-associated steatohepatitis (MASH) and hepatic fibrosis. However, its precise pathogenic mechanisms remain incompletely understood, and effective, specific pharmacological treatments are still lacking. Disruption of hepatic lipid metabolic homeostasis represents a central event in the onset and progression of MAFLD. With advances in lipidomics and metabolomics, researchers can now more accurately delineate the aberrant accumulation of specific lipid species within hepatocytes and their pivotal roles in triggering insulin resistance, oxidative stress, and inflammatory responses. This review systematically summarizes the core mechanisms by which hepatic lipid metabolic dysregulation drives MAFLD progression and highlights recent advances in therapeutic strategies targeting lipotoxic pathways, metabolic reprogramming, and related molecular targets. These insights aim to provide a theoretical basis and new perspectives for future research and clinical intervention in this field.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Broad review of lipid metabolism dysregulation in MAFLD; does not specifically detail AMPK's molecular sensing or regulatory mechanisms."
+    },
+    {
+      "id": "42021865",
+      "pmid": "42021865",
+      "pmcid": "PMC13096288",
+      "doi": "10.1007/s43188-026-00349-9",
+      "title": "The oncogenic signalosome: SQSTM1/p62 as a master integrator of signaling, metabolism, and autophagy in cancer.",
+      "authors": "Choi EJ, Jeon SM.",
+      "journal": "Toxicological research",
+      "year": "2026",
+      "abstract": "Sequestosome 1 (SQSTM1/p62), long established as a selective autophagy receptor and ubiquitin-binding scaffold, is now recognized as an emerging regulatory hub that integrates signaling, metabolism, and stress adaptation in cancer. Beyond its canonical role in proteostatic cargo degradation, recent advances have revealed that p62 orchestrates nutrient sensing, redox control, innate immune signaling, and metabolic reprogramming through highly dynamic, context-dependent mechanisms. A nascent paradigm emerging from recent studies is that p62 function is specified by a hierarchical post-translational modification (PTM) code, with phosphorylation acting as the primary regulatory layer. Site-specific phosphorylation events-together with modulatory PTMs such as S-acylation, arginine methylation, and O-GlcNAcylation-reshape p62 interaction networks, liquid-liquid phase separation (LLPS) behavior, and signaling output. Through these mechanisms, p62 operates as a sophisticated signal-metabolism interface that couples stress signaling pathways, including NFE2L2/NRF2, AMPK, mTORC1, and NF-\u03baB to the systemic rewiring of glucose, lipid, amino acid, and nucleotide metabolism. Notably, a phosphorylation-dependent positive feedback loop between p62 and AMPK has emerged as a key driver of metabolic plasticity, enabling tumor cells to survive and proliferate under the stringent metabolic stress conditions of the tumor microenvironment. This review integrates recent mechanistic insights into the PTMs, phase behavior, and signaling hub functions of p62, highlighting how these principles manifest in distinct oncogenic contexts, such as lung, prostate, and brain tumors. We further discuss emerging therapeutic strategies that seek to modulate p62-centered assemblies rather than indiscriminately inhibit p62 function. Collectively, these findings position p62 as a phosphorylation-governed oncogenic nexus whose precise manipulation may enable new strategies for context-dependent precision oncology.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 1,
+      "relevance_reason": "Mentions AMPK as one of several signaling pathways integrated by p62 in cancer metabolism, but lacks specific mechanistic detail on AMPK energy sensing or downstream regulation."
+    },
+    {
+      "id": "42299666",
+      "pmid": "42299666",
+      "pmcid": "PMC13331260",
+      "doi": "10.1161/circresaha.125.328083",
+      "title": "TFEB Antagonizes Cardiac Hypertrophy and Failure by Enhancing Lysosomal Capacity and Mitochondrial Function.",
+      "authors": "Daou D, Das Gupta S, Anand A, May HI, Jiang N, Urquiza-Zurich S, Irion CI, Ferdous A, Garrido-Moreno V, Troncoso MF, Nguyen N, Maya-Ramos L, Dad Zada D, Olivares-Silva F, Chen G, Wu F, Diwan A, Kinter M, Maracaja-Coutinho V, Rothermel BA, Szweda LI, Lavandero S, Gillette TG, Hill JA.",
+      "journal": "Circulation research",
+      "year": "2026",
+      "abstract": "<h4>Background</h4>Pathological cardiac remodeling and afterload-induced increases in energy demand contribute to heart failure (HF). Lysosome-assisted processes, such as autophagy, coupled with alterations in mitochondrial oxidative capacity, are critical regulators of this response. Furthermore, the lysosome is a hub for multiple signaling pathways governing hypertrophic growth. TFEB (transcription factor EB) has emerged as a key regulator of lysosomal genes and mitochondrial function in multiple tissues, especially in response to external stress.<h4>Methods</h4>Leveraging a cardiomyocyte-specific TFEB knockout mouse (CTKO), pressure overload was induced by transverse aortic constriction (TAC) to elucidate the role of TFEB under hypertrophic stress conditions. Echocardiography was employed to assess cardiac function, and hearts were subsequently harvested for transcriptomic, proteomic, and metabolomic analyses. To glean further insight into the molecular mechanisms involved, we studied neonatal rat ventricular myocytes exposed to phenylephrine, an in vitro model of cardiomyocyte hypertrophy.<h4>Results</h4>We report that TFEB is rapidly activated and translocates to the nucleus in cardiomyocytes exposed to hypertrophic stress conditions, triggering a lysosomal gene program independent of autophagy gene changes. At baseline, contractile function measured by echocardiography appeared normal in these mice compared with their Cre-negative littermates. However, in pressure-overload stress induced by TAC, CTKO mice manifested an amplified hypertrophic response, leading rapidly to HF. Unlike WT hearts, CTKO hearts failed to increase lysosomal capacity after TAC. They manifested an increase in the steady-state levels of autophagosome-associated proteins, such as LC3II and p62, as well as accumulation of ubiquitinated proteins, suggesting a defect in protein turnover. Interestingly, CTKO mice harbored altered mitochondrial structure, reduced oxidative capacity, and reduced abundance of peroxisome PGC-1\u03b1-b (proliferator-activated receptor-1 alpha-b). Furthermore, CTKO hearts manifested reduced expression of key enzymes within metabolic pathways essential for normal myocardial metabolism, including fatty acid metabolism, carbon metabolism, and branched-chain amino acid metabolism. Surprisingly, AMPK (AMP-activated protein kinase) signaling, while normal at baseline, was significantly decreased in CTKO hearts after TAC. This reliance on TFEB for growth trigger-induced AMPK signaling was also observed in vitro in cells exposed to phenylephrine, as were the antihypertrophic effects of TFEB activation, supporting a direct role of TFEB in this process. Finally, we report that exogenous activation of AMPK in the absence of TFEB can completely rescue the exacerbated hypertrophic response both in vitro and in vivo, independent of lysosomal function. Notably, blunting of the hypertrophic response did not impact the decreased contractile function observed in TAC-treated CTKO mice, highlighting the importance of TFEB in regulating mitochondrial function in response to stress.<h4>Conclusions</h4>Our findings demonstrate that TFEB antagonizes pathological hypertrophic cardiac remodeling through upregulation of lysosomal capacity, maintaining mitochondrial energetic function, and promoting AMPK signaling.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": false,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "Focuses on TFEB-mediated lysosomal/mitochondrial regulation in cardiac hypertrophy; AMPK signaling is downstream/consequential rather than the mechanistic focus of energy sensing itself."
+    },
+    {
+      "id": "42121908",
+      "pmid": "42121908",
+      "pmcid": "PMC13162928",
+      "doi": "10.3390/cells15090808",
+      "title": "Targeting AMPK Networks for Male Reproductive Health: Mechanisms and Emerging Therapies.",
+      "authors": "Rahman MA, Harrath AH, Jalouli M, Choi J, Choi M, Park S, Kim HJ, Rani A, Akter S, Park MN, Kim B.",
+      "journal": "Cells",
+      "year": "2026",
+      "abstract": "Male infertility is an escalating global health issue, frequently associated with metabolic problems like obesity, diabetes, and age. Recent evidence designates AMP-activated protein kinase (AMPK) as a pivotal regulator linking energy balance to male reproductive function. AMPK regulates essential activities such as spermatogenesis, metabolic support of Sertoli cells, and steroidogenesis in Leydig cells, as well as sperm motility, capacitation, and the acrosome reaction. At the molecular level, AMPK coordinates signaling networks that include mTOR, SIRT1, PGC-1\u03b1, and FOXO to modulate mitochondrial function, oxidative stress, and autophagy-related quality control. Dysregulation of AMPK during metabolic and environmental stress results in compromised spermatogenesis, diminished sperm quality, mitochondrial malfunction, and reduced testosterone synthesis. Targeting AMPK signaling constitutes a possible therapeutic approach for enhancing male reproductive health. Pharmacological agents like metformin and AICAR, together with natural bioactive substances, lifestyle modifications, and exercise mimetics, have shown promise in reestablishing metabolic equilibrium and improving reproductive results. Moreover, combinatorial strategies that integrate antioxidants and autophagy modulators may yield synergistic advantages. Nonetheless, obstacles concerning tissue selectivity, optimum dose, and clinical translation persist. Future perspectives highlight precision medicine, biomarker-directed therapies, and the incorporation of metabolic health into fertility treatment. AMPK-targeted treatments collectively provide a novel and mechanistically sound method for addressing male infertility.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Reviews AMPK's role in male reproductive metabolism and downstream signaling networks (mTOR, SIRT1, PGC-1\u03b1), but does not detail the molecular energy-sensing mechanism of AMPK (AMP/ADP binding, LKB1/CaMKK2 activation)."
+    },
+    {
+      "id": "42041604",
+      "pmid": "42041604",
+      "pmcid": "PMC13115256",
+      "doi": "10.3390/cells15080739",
+      "title": "Metformin Alleviates Cadmium-Induced Autophagic Flux Impairment-Dependent Apoptosis by Activating AMPK in Neuronal Cells.",
+      "authors": "Wu W, Chen X, Ji T, Yu Q, Hou L, Zhou Z, Gong B, Xu M, Gao W, Huang S, Chen L.",
+      "journal": "Cells",
+      "year": "2026",
+      "abstract": "Cadmium (Cd), a common environmental and occupational toxicant, is an important risk factor for neurodegenerative diseases. Metformin has been found to have neuroprotective effect, in addition to antidiabetic function. Our recent studies have identified that metformin ameliorates Cd neurotoxicity via blocking ROS-dependent PP5/AMPK-JNK signaling pathway. Here we further show that metformin protected PC12 cells and primary neurons from Cd-poisoning by mitigating Cd-induced increases in ATG5/LC3-II/p62 levels and autophagosomes. Knockdown of ATG5 dramatically potentiated the inhibitory effects of metformin on Cd-induced LC3-II, cleavage of caspase-3, accumulation of autophagosomes and apoptosis in PC12 cells. Addition of chloroquine (CQ) strengthened the basic and Cd-elevated ATG5/LC3-II/p62 levels, autophagosome accumulation and cell apoptosis, whereas metformin powerfully blocked the events, implying a metformin-promoted autophagic flux-dependent mechanism involved. Further research revealed that metformin prevented Cd-induced autophagic flux impairment and cell apoptosis, which was attributed to restraining Cd inactivation of AMPK. This is supported by the findings that activation of AMPK with AICAR or ectopic expression of constitutively active AMPK\u03b1 (AMPK\u03b1-ca) reinforced the inhibitory effects of metformin on Cd-evoked ATG5/LC3-II/p62/autophagosomes and apoptosis in PC12 cells and/or primary neurons. Taken together, the results indicate that metformin protects neuronal cells from Cd-induced autophagic flux impairment-dependent apoptosis by activating AMPK. Our studies highlight that metformin has a great potential for prevention of Cd toxicity related to neurodegenerative diseases.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 1,
+      "relevance_reason": "Examines AMPK activation's role in autophagy and neuroprotection against cadmium toxicity, but does not address AMPK's molecular energy-sensing mechanism, only its downstream autophagic effects."
+    },
+    {
+      "id": "41898462",
+      "pmid": "41898462",
+      "pmcid": "PMC13027044",
+      "doi": "10.3390/ijms27062599",
+      "title": "Restoring Mitochondrial Homeostasis: Therapeutic Strategies for Metabolic Dysfunction-Associated Fatty Liver Disease.",
+      "authors": "Morgado JS, Machado IF, Rolo AP, Palmeira CM.",
+      "journal": "International journal of molecular sciences",
+      "year": "2026",
+      "abstract": "Metabolic dysfunction-associated fatty liver disease (MAFLD) has become the most prevalent chronic liver disorder worldwide, driven by metabolic dysfunction, excessive lipid accumulation, and progressive hepatocellular injury. A growing body of evidence identifies mitochondrial impairment as a central contributor to MAFLD pathogenesis and disease progression. Reduced oxidative capacity, elevated reactive oxygen species, and accumulation of dysfunctional mitochondria collectively exacerbate steatosis, inflammation, and metabolic inflexibility. In recent years, therapeutic strategies aimed at restoring mitochondrial homeostasis have gained considerable attention, with particular focus on agents capable of inducing mitochondrial biogenesis through pathways involving PGC-1\u03b1, AMPK, SIRT1, and mTOR. This review synthesizes current knowledge on mitochondrial dysfunction in MAFLD and highlights emerging compounds that ameliorate disease phenotypes by enhancing mitochondrial biogenesis. By examining their mechanisms of action and preclinical efficacy, we underscore the therapeutic potential of targeting mitochondrial quality-control pathways, mainly mitochondrial biogenesis, as a promising avenue for mitigating MAFLD progression.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 1,
+      "relevance_reason": "Reviews mitochondrial biogenesis pathways including AMPK-PGC-1\u03b1-SIRT1 axis in liver disease context, but does not detail AMPK's molecular energy-sensing mechanism itself."
+    },
+    {
+      "id": "42292158",
+      "pmid": "42292158",
+      "pmcid": "PMC13262575",
+      "doi": "10.2147/jir.s593467",
+      "title": "Targeting mTOR in Systemic Lupus Erythematosus: From Immune Cell Dysfunction to Clinical Translation.",
+      "authors": "Jiang X, Sun L, Ji J, Zhao C, Wang Y, Zhang H, Wu Q, Su Q, Li F, Zhang S, Cheng T.",
+      "journal": "Journal of inflammation research",
+      "year": "2026",
+      "abstract": "Systemic lupus erythematosus (SLE) is an autoimmune disease mainly characterized by the production of autoantibodies and the deposition of immune complexes, leading to damage to multiple organs and tissues. The mammalian target of rapamycin (mTOR), a serine/threonine kinase, regulates cell growth, proliferation, and survival. The dysfunction of immune cells, such as T cells, B cells, macrophages, and dendritic cells, plays a crucial role in the pathogenesis of systemic lupus erythematosus (SLE) by leading to the overproduction of autoantibodies, deposition of immune complexes, and subsequent tissue damage. The mTOR signaling plays an important role in SLE pathogenesis by affecting the proliferation and differentiation of immune cells and the secretion of inflammatory cytokines. Numerous studies have confirmed that mTOR inhibition can significantly relieve the clinical symptoms and delay disease progression in patients with SLE. Treatment with mTOR inhibitors effectively reduces disease activity and enables glucocorticoid-sparing. However, its therapeutic efficacy in lupus nephritis remains to be investigated. Furthermore, some studies have reported limited efficacy or adverse effects of mTOR inhibitors in certain SLE subsets. Given that mTOR-independent pathways (e.g. JAK-STAT, NF-\u03baB) are also implicated in SLE pathogenesis, combination therapeutic strategies may be necessary. Consequently, further research into the role of mTOR in SLE and the potential of mTOR-targeted therapy is warranted. In this Review, we summarized the biological functions of mTOR, its effects on various immune cells populations, and the therapeutic effects of mTOR inhibitors in SLE, with the aim of providing a reference for the further exploration of therapeutic targets in SLE treatment.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on mTOR signaling in immune cells in lupus; does not address AMPK energy sensing or its downstream metabolic regulation."
+    },
+    {
+      "id": "PMC13295585",
+      "pmid": null,
+      "pmcid": "PMC13295585",
+      "doi": null,
+      "title": "Alternol-Induced Oxidative Modification of SQSTM1/p62 Is Associated with Nrf2 Signaling and Autophagy-Related Responses in Prostate Cancer Cells",
+      "authors": "Liu W, Zhao J, Li C, Xu H, Chen R, Zeng X, Yang J, Zhong C, Wang X, Li B.",
+      "journal": "Antioxidants (Basel, Switzerland)",
+      "year": "2026",
+      "abstract": null,
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on oxidative modification of p62/Nrf2 and autophagy in prostate cancer cells; no mention of AMPK or energy sensing mechanisms."
+    },
+    {
+      "id": "42356569",
+      "pmid": "42356569",
+      "pmcid": "PMC13305526",
+      "doi": "10.3390/ph19060952",
+      "title": "Circadian Influences on Chronic Kidney Disease Progression: Molecular Signaling Pathways of Melatonin and Their Therapeutic Potential.",
+      "authors": "Lu KC, Lu CL, Hou YC, Huang YS, Chang YT, Zheng CM, Wu CC.",
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "year": "2026",
+      "abstract": "Chronic kidney disease (CKD) remains a leading cause of premature mortality and global disease burden, yet the molecular mechanisms underlying its progression are still incompletely understood. Accumulating evidence highlights circadian disruption as an underappreciated driver of CKD that warrants systematic re-examination. The kidney harbors an autonomous circadian oscillator, principally regulated by the CLOCK:BMAL1 transcription factor complex, which coordinates glomerular filtration, tubular electrolyte handling, blood pressure rhythmicity, inflammatory tone, and cellular repair. In CKD, retained uremic toxins, sustained oxidative stress, and persistent NF-\u03baB activation collectively suppress this clock machinery, generating a self-reinforcing cycle of renal injury and circadian dysregulation. CKD is also accompanied by progressive attenuation of nocturnal melatonin secretion, weakening a central hormonal cue for peripheral clock entrainment and cytoprotection. Melatonin acts both as a chronobiotic and as a pleiotropic cytoprotective molecule. Through MT1/MT2 receptors, the nuclear receptor ROR\u03b1, and receptor-independent antioxidant pathways, it may enhance Nrf2/HO-1 signaling, restrain NF-\u03baB and NLRP3 inflammasome activity, suppress TGF-\u03b21/Smad2/3-mediated fibrogenesis, preserve mitochondrial integrity, and engage SIRT1-linked clock regulation. Current clinical studies suggest that nightly melatonin supplementation can improve sleep quality and selected oxidative or circadian surrogate endpoints in hemodialysis patients; however, whether melatonin slows CKD progression or preserves renal function remains unproven. This review synthesizes the molecular interface between circadian dysregulation and CKD progression and articulates a rationale for adequately powered clinical trials evaluating melatonin as a candidate chronotherapeutic adjunct rather than an established renoprotective therapy.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on circadian clock genes and melatonin signaling in CKD; AMPK is not mentioned, irrelevant to the question."
+    },
+    {
+      "id": "41660276",
+      "pmid": "41660276",
+      "pmcid": "PMC12872831",
+      "doi": "10.3389/fcell.2026.1729198",
+      "title": "The effect of 4.3 GHz high-power microwave exposure on human corneal epithelial cells.",
+      "authors": "Gao A, Zhao X, Wu S, Liu X, Wang X, Tan L, Li Z, Dong G, Wang C.",
+      "journal": "Frontiers in cell and developmental biology",
+      "year": "2026",
+      "abstract": "<h4>Introduction</h4>High-power microwave (HPM) exposure can produce biological effects in cells, but the specific characteristics and mechanisms of these effects in ocular tissues remain poorly defined. This study aimed to investigate the biological responses of human corneal epithelial cells (HCE-T) to 4.3 GHz HPM exposure, with a focus on moderate-dose effects.<h4>Methods</h4>HCE-T cells were exposed to 4.3 GHz HPM at average specific absorption rates (SARs) of 1.64, 3.28, and 8.2 W/kg. Cellular responses were evaluated by measuring cell viability, reactive oxygen species (ROS) generation, mitochondrial membrane potential, and apoptosis at multiple time points. Transcriptomic analysis was performed to identify underlying molecular pathways.<h4>Results</h4>Moderate-dose exposure (3.28 W/kg) resulted in the most pronounced cellular effects, including early and significant ROS elevation, marked collapse of mitochondrial membrane potential, the highest apoptosis rate, and sustained inhibition of proliferation. Transcriptomic profiling showed strong suppression of the mTOR signaling pathway, upregulation of TSC2, and activation of Polycomb-mediated chromatin remodeling, suggestive of autophagy induction and irreversible cell cycle arrest. In contrast, low-dose exposure (1.64 W/kg) primarily activated DNA repair and adaptive pathways, while high-dose exposure (8.2 W/kg) predominantly disrupted metabolic and membrane signaling with a trend toward recovery.<h4>Discussion</h4>These findings demonstrate that moderate-dose 4.3 GHz HPM exposure induces a uniquely strong stress response in HCE-T cells, characterized by oxidative stress, mitochondrial dysfunction, and activation of stress-related signaling pathways. These results highlight the importance of considering specific exposure conditions in assessing HPM bioeffects and ocular safety.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Study on microwave exposure effects on corneal epithelial cells; mTOR/TSC2 pathway mentioned but unrelated to AMPK energy sensing mechanism."
+    },
+    {
+      "id": "42196470",
+      "pmid": "42196470",
+      "pmcid": "PMC13207866",
+      "doi": "10.3390/ijms27104492",
+      "title": "The Role of Sigmar1 in Autophagy Regulation and Disease Therapy.",
+      "authors": "Ge H, Lin Y, Li J, Zhang R, Xu C.",
+      "journal": "International journal of molecular sciences",
+      "year": "2026",
+      "abstract": "Sigmar1 is a multifunctional molecular chaperone protein located on the Mitochondria-associated endoplasmic reticulum membranes (MAM). Recent studies have shown that Sigmar1 is not only a regulatory protein involved in cellular stress responses but also plays a significant role in the process of autophagy. It regulates the initiation and progression of autophagy by influencing multiple autophagy-related signaling pathways and interacting with key proteins such as LC3 and GABARAP. This regulation exhibits a dual nature. On one hand, it can induce protective autophagy, helping cells cope with stress such as oxidative stress and endoplasmic reticulum stress, thereby playing a protective role in the progression of diseases such as neurodegenerative disorders and cardiovascular diseases. On the other hand, in certain cancers, Sigmar1 may also promote tumor cell survival through autophagy regulation, thereby exacerbating disease progression. Consequently, developing agonists and antagonists targeting Sigmar1 has become a highly promising therapeutic strategy. This review provides a systematic overview of recent advances in the biological characterization of Sigmar1 and its molecular mechanisms in regulating autophagy. It summarizes the multifaceted roles of Sigmar1 in various diseases and discusses current research progress and the application prospects of Sigmar1 agonists and antagonists, aiming to establish a theoretical foundation for the development of novel Sigmar1-based therapeutic strategies for human diseases.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on Sigmar1 and autophagy regulation with no mention of AMPK or cellular energy sensing mechanisms."
+    },
+    {
+      "id": "41633353",
+      "pmid": "41633353",
+      "pmcid": "PMC12872087",
+      "doi": "10.1080/0886022x.2026.2620218",
+      "title": "Targeting mitochondrial quality control in diabetic kidney disease: emerging therapeutic opportunities.",
+      "authors": "Luo J, Lu F, Cuciureanu M, Xu X, Dong H, Gong M.",
+      "journal": "Renal failure",
+      "year": "2026",
+      "abstract": "Diabetic kidney disease (DKD) is one of the most common microvascular complications among individuals with diabetes and has become a leading cause of end-stage renal disease (ESRD). The mechanisms underlying DKD are complex, and effective therapeutic strategies remain limited. Mitochondrial dysfunction occurs earlier than proteinuria and renal morphological changes, and is considered a key event in the progression of DKD. Mitochondrial dysfunction in diabetic kidneys involves several processes, including excessive production of mitochondrial reactive oxygen species, reduced mitochondrial biogenesis, impaired mitophagy, and disturbances in mitochondrial dynamics. Recently, mitochondria-targeted drugs, including antioxidants, CD38 inhibitors, glucose-linked transport 2 sodium inhibitor (SGLT2i), and compounds derived from traditional Chinese medicine, have shown positive effects in animal experiments or clinical trials. This review aims to highlight the role of mitochondrial quality control and dysfunction in DKD, the specific mitochondrial regulators of different renal cell types, as well as the therapeutic potential of some emerging drugs and the limitations of existing preclinical evidence, thereby identifying promising therapeutic targets and strategies for the disease.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 0,
+      "relevance_reason": "Reviews mitochondrial quality control in diabetic kidney disease without reference to AMPK or its energy-sensing mechanisms."
+    },
+    {
+      "id": "42129838",
+      "pmid": "42129838",
+      "pmcid": "PMC13169740",
+      "doi": "10.1186/s12986-026-01123-2",
+      "title": "Molecular and cellular mechanisms of muscle-adipose tissue crosstalk driving sarcopenic obesity: an integrative review of human, animal, and in vitro models.",
+      "authors": "Seliem MA, Ragab MA.",
+      "journal": "Nutrition & metabolism",
+      "year": "2026",
+      "abstract": "Sarcopenic Obesity is a complex geriatric syndrome that is not simply the co-occurrence of sarcopenia and obesity but is a synergistic pathophysiological relationship in which the sum of the risk factors is greater than the sum of the individual conditions. This integrative review proposes that sarcopenic obesity is fundamentally an illness of impaired bidirectional communication between skeletal muscle and adipose tissue that function as dynamic endocrine organs that interact through a vast repertoire of bioactive molecules. We critically analyze the molecular signaling pathways responsible for this crosstalk and the simultaneous hyperactivation of the Ubiquitin-Proteasome System and NF-\u03baB pathways. Furthermore, highlighting the paradigm-shifting role of the Exosomal miRNA Regulatory Network, we explored how adipose-derived extracellular vesicles deliver atromiRs (e.g., miR-27a, Let-7d-3p) to myocytes and cause insulin resistance and regenerative failure, and the loss of myocyte-derived miR-146a-5p eliminates an important brake on adipogenesis. Also, we explored cellular mechanisms such as macrophage phenotypic switching (metaflammation), mitochondrial lipotoxicity, and the newly emerging gut-microbiota-muscle axis. Finally, we explored advanced experimental models, such as organ-on-a-chip systems, and explored the clinical paradox of GLP-1 receptor agonist-induced muscle loss. We conclude that future therapeutic frontiers are in the area of combination therapies and miRNA mimics to reinstate this broken molecular dialogue.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 0,
+      "relevance_reason": "Focuses on muscle-adipose tissue crosstalk and miRNA regulation in sarcopenic obesity without mention of AMPK or its sensing mechanisms."
+    },
+    {
+      "id": "41948367",
+      "pmid": "41948367",
+      "pmcid": "PMC13050704",
+      "doi": "10.3389/fphys.2026.1774714",
+      "title": "Recalibrating cell fate: targeting the mitochondrial signaling hub with natural active compounds to inhibit regulated cell death in diabetic kidney disease.",
+      "authors": "Dai Y, Wu C, Zheng J, Zhao K, Hua S, Sun J, Zhu H, Luo J, Shi J, Han L, Wang L, Liu P.",
+      "journal": "Frontiers in physiology",
+      "year": "2026",
+      "abstract": "Diabetic kidney disease (DKD) is the leading cause of end-stage renal disease worldwide. The progression of DKD is closely related to various cell death (RCD) pathways such as apoptosis, pyroptosis and ferroptosis. Although historically viewed as distinct events, we propose that mitochondria function as the central hub integrating hyperglycemic, lipotoxic, and pro-inflammatory insults. We delineate how initial hyperglycemic and hemodynamic insults compromise mitochondrial quality control, triggering a vicious cycle: dysfunctional mitochondria release ROS and damage-associated molecular patterns to initiate regulated cell death and inflammation, which in turn further impairs mitochondrial bioenergetics, thereby amplifying diabetic kidney injury. Mechanistically, mitochondrial outer membrane permeabilization triggers intrinsic apoptosis, while the cytosolic leakage of mitochondrial reactive oxygen species (mtROS) and mitochondrial DNA (mtDNA) primes the NOD-like receptor family pyrin domain containing 3 (NLRP3) inflammasome to drive pyroptosis. In parallel, organelle-level metabolic and redox instabilities fuel the lipid peroxidation characteristic of ferroptosis. We highlight the sophisticated crosstalk within this network, such as the Caspase-3/Gasdermin E switch, arguing that these pathways function as a network of molecular crosstalk and functional interdependence with distinct spatiotemporal dynamics, rather than a singular execution program. Regarding therapeutic interventions, we summarize preclinical evidence for natural active compounds like berberine and quercetin. These phytochemicals act as network-level modulators of mitochondrial targets to restore cellular homeostasis. Finally, we critically address the \"translational gap\" posed by poor oral bioavailability and lack of human target validation. We also explore emerging biophysical concepts, such as liquid-liquid phase separation, as a speculative yet novel frontier for organizing pathological metabolic signals. Therefore, disrupting this mitochondrial feedback loop, when coupled with advanced delivery strategies, represents a strategic therapeutic avenue to arrest DKD progression.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 0,
+      "relevance_reason": "Centers on mitochondrial signaling in regulated cell death pathways in diabetic kidney disease, with no reference to AMPK activity or energy sensing."
+    }
+  ],
+  "selected_papers": [
+    {
+      "id": "41873906",
+      "pmid": "41873906",
+      "pmcid": "PMC13142926",
+      "doi": "10.1042/bcj20250342",
+      "title": "Binding of 14-3-3 stabilises recombinant AMPK\u03b32-containing complexes.",
+      "authors": "Chen SY, Bennett J, Navaratnam N, Fiadeiro R, Woods A, Montoya A, Shliaha PV, Kunzelmann S, Howell SA, Mehmood S, Purkiss AG, Wilson JR, Gamblin SJ, Carling D.",
+      "journal": "The Biochemical journal",
+      "year": "2026",
+      "abstract": "AMP-activated protein kinase (AMPK) plays an important role in maintaining energy homeostasis in mammals. AMPK is a heterotrimer of an \u03b1 catalytic subunit and two regulatory subunits, \u03b2 and \u03b3. In mammals, each subunit has different isoforms (\u03b11/\u03b12, \u03b21/ \u03b22, and \u03b31/\u03b32/\u03b33) encoded by separate genes, leading to the potential expression of 12 AMPK complexes. Here, we show that AMPK containing the long forms of \u03b32 (\u03b32a, encoding a protein of 569 amino acids, and \u03b32c, 525 amino acids) binds to 14-3-3. In contrast to AMPK containing the short form of \u03b32 (\u03b32b, 328 amino acids), bacterial expression of AMPK containing the long forms of \u03b32 requires co-expression with 14-3-3 and prior phosphorylation of Thr172 within the \u03b1 subunit. AMPK\u03b32-14-3-3 complexes have reduced activity compared with AMPK\u03b31 or AMPK\u03b32b but retain allosteric activation by AMP and the AMPK activator, 991. We found that two predicted 14-3-3 binding sites within \u03b32a (T97 and S122) were phosphorylated in the bacterially expressed AMPK complex. Furthermore, we show that a peptide spanning these two phosphorylated sites binds to 14-3-3 in vitro and determined the crystal structure of this 14-3-3-peptide co-complex. These results indicate that 14-3-3 binds to the N-terminal region of \u03b32a/c, reducing the activity of AMPK relative to AMPK\u03b31 and AMPK\u03b32b. Our findings reveal a new mode of regulation of AMPK containing the long forms of \u03b32. While the biological significance of 14-3-3 binding to AMPK\u03b32a/c complexes remains to be determined, our studies provide the starting point to begin to address this issue.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 3,
+      "relevance_reason": "Directly examines AMPK gamma2 subunit structure and regulation via 14-3-3 binding and Thr172 phosphorylation, providing molecular-level mechanistic insight into AMPK complex regulation and activity, relevant to energy sensing machinery."
+    },
+    {
+      "id": "42093562",
+      "pmid": "42093562",
+      "pmcid": "PMC13161187",
+      "doi": "10.1042/bcj20250267",
+      "title": "Illuminating compartmentalized AMPK signaling in single cells.",
+      "authors": "Jhawar A, Parks K, Schmitt DL.",
+      "journal": "The Biochemical journal",
+      "year": "2026",
+      "abstract": "AMP-activated protein kinase (AMPK) is a crucial regulator of cellular energy balance, affecting numerous downstream targets across various subcellular locations. Under cellular energy stress, AMPK becomes fully activated when it binds AMP and is phosphorylated by upstream kinases, including liver kinase B1 and calcium/calmodulin-dependent protein kinase kinase 2 (CaMKK2), and works to restore metabolic equilibrium. Additionally, CaMKK2 can activate AMPK independent of AMP in response to calcium signaling. In the present review, we summarize how genetically encoded kinase activity reporters for measuring AMPK activity have evolved for a comprehensive measurement of spatial and temporal AMPK activity in single cells. These reporters have provided important insights into AMPK activity dependent upon upstream kinases, location, and signaling cues. We also discuss the use of genetic actuators such as the AMPK inhibitory peptide that can be targeted to suppress AMPK activity at specific compartments. Together, these advances have established AMPK as a key regulator of metabolism with distinct spatial and temporal signaling patterns, suggesting compartmentalization of AMPK activity in the cell.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 2,
+      "relevance_score": 3,
+      "relevance_reason": "Directly addresses AMPK activation mechanisms (AMP binding, phosphorylation by LKB1 and CaMKK2, calcium-dependent activation) and compartmentalized signaling, providing mechanistic and spatial insight into energy sensing and downstream regulation."
+    },
+    {
+      "id": "39362600",
+      "pmid": "39362600",
+      "pmcid": "PMC11752127",
+      "doi": "10.1016/j.molmet.2024.102042",
+      "title": "The metabolic sensor AMPK: Twelve enzymes in one.",
+      "authors": "Smiles WJ, Ovens AJ, Oakhill JS, Kofler B.",
+      "journal": "Molecular metabolism",
+      "year": "2024",
+      "abstract": "<h4>Background</h4>AMP-activated protein kinase (AMPK) is an evolutionarily conserved regulator of energy metabolism. AMPK is sensitive to acute perturbations to cellular energy status and leverages fundamental bioenergetic pathways to maintain cellular homeostasis. AMPK is a heterotrimer comprised of \u03b1\u03b2\u03b3-subunits that in humans are encoded by seven individual genes (isoforms \u03b11, \u03b12, \u03b21, \u03b22, \u03b31, \u03b32 and \u03b33), permitting formation of at least 12 different complexes with personalised biochemical fingerprints and tissue expression patterns. While the canonical activation mechanisms of AMPK are well-defined, delineation of subtle, as well as substantial, differences in the regulation of heterogenous AMPK complexes remain poorly defined.<h4>Scope of review</h4>Here, taking advantage of multidisciplinary findings, we dissect the many aspects of isoform-specific AMPK function and links to health and disease. These include, but are not limited to, allosteric activation by adenine nucleotides and small molecules, co-translational myristoylation and post-translational modifications (particularly phosphorylation), governance of subcellular localisation, and control of transcriptional networks. Finally, we delve into current debate over whether AMPK can form novel protein complexes (e.g., dimers lacking the \u03b1-subunit), altogether highlighting opportunities for future and impactful research.<h4>Major conclusions</h4>Baseline activity of \u03b11-AMPK is higher than its \u03b12 counterpart and is more sensitive to synergistic allosteric activation by metabolites and small molecules. \u03b12 complexes however, show a greater response to energy stress (i.e., AMP production) and appear to be better substrates for LKB1 and mTORC1 upstream. These differences may explain to some extent why in certain cancers \u03b11 is a tumour promoter and \u03b12 a suppressor. \u03b21-AMPK activity is toggled by a 'myristoyl-switch' mechanism that likely precedes a series of signalling events culminating in phosphorylation by ULK1 and sensitisation to small molecules or endogenous ligands like fatty acids. \u03b22-AMPK, not entirely beholden to this myristoyl-switch, has a greater propensity to infiltrate the nucleus, which we suspect contributes to its oncogenicity in some cancers. Last, the unique N-terminal extensions of the \u03b32 and \u03b33 isoforms are major regulatory domains of AMPK. mTORC1 may directly phosphorylate this region in \u03b32, although whether this is inhibitory, especially in disease states, is unclear. Conversely, \u03b33 complexes might be preferentially regulated by mTORC1 in response to physical exercise.",
+      "publication_type": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 50,
+      "relevance_score": 3,
+      "relevance_reason": "Directly reviews AMPK as a metabolic energy sensor, detailing subunit composition, activation by adenine nucleotides, post-translational modifications, and downstream regulatory mechanisms\u2014core to the question."
+    },
+    {
+      "id": "41390359",
+      "pmid": "41390359",
+      "pmcid": "PMC12817758",
+      "doi": "10.1186/s11658-025-00832-5",
+      "title": "CDCP1 allosterically regulates the AMPK \u03b11 subunit to enhance fatty acid oxidation in osteoblasts.",
+      "authors": "Li X, Zhu W, Ma J, Sun Z, Wang L, Jiao G, Chen Y.",
+      "journal": "Cellular & molecular biology letters",
+      "year": "2025",
+      "abstract": "BACKGROUND: Lipid metabolism disorders in osteoblasts may lead to osteoporosis. CUB domain-containing protein 1 (CDCP1) is associated with various intracellular signaling pathways. We investigated how CDCP1 regulates lipid metabolism and osteoblast function. METHODS: This study utilized gene overexpression (via lentivirus) and loss-of-function (CRISPR/Cas9-mediated knockout) techniques to investigate the involvement of CDCP1 in lipid metabolism and osteogenesis. Transcriptomic and metabolomic analyses were performed to examine the mechanism of action of CDCP1. Furthermore, proximity ligation assays, GST pull-down, and molecular docking were employed to identify the interaction between CDCP1 and AMP-activated protein kinase (AMPK). RESULTS: CDCP1 alleviated bone loss in mice. In vitro, CDCP1 promoted the phosphorylation of AMPK. Phosphorylated AMPK can enhance the activity of carnitine palmitoyltransferase, leading to increased fatty acid oxidation and promoting osteogenesis. Mechanistically, CDCP1 prevents the formation of the autoinhibitory conformation of the autoinhibitory domain by binding to the \u03b13 helix, thereby protecting AMPK phosphorylation from self-inhibition. CONCLUSIONS: Our research revealed a new molecular mechanism linking CDCP1 and allosteric control of AMPK. These findings reveal for the first time the mechanism by which CDCP1 affects osteogenesis through lipid metabolism regulation, suggesting its potential as a therapeutic target for osteoporosis.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 1,
+      "relevance_score": 3,
+      "relevance_reason": "Directly investigates molecular mechanism by which CDCP1 allosterically regulates AMPK alpha1 subunit phosphorylation to enhance fatty acid oxidation, providing mechanistic insight into AMPK activation and downstream metabolic regulation."
+    },
+    {
+      "id": "42042063",
+      "pmid": "42042063",
+      "pmcid": "PMC13114581",
+      "doi": "10.3390/cimb48040403",
+      "title": "TRIM24 Regulates Adaptation to Glucose Deprivation in Association with Aspartate Accumulation and Impaired AMPK Signaling.",
+      "authors": "Yu X, An D, Ren D, He P, Yang Y, Chen N, Wang R, Wu S, Feng J, Feng M.",
+      "journal": "Current issues in molecular biology",
+      "year": "2026",
+      "abstract": "Glucose deprivation is a major metabolic stress that requires coordinated adaptive responses to maintain cellular homeostasis and survival, yet the role of tripartite motif-containing 24 (TRIM24) in this process remains unclear. To address this question, we generated CRISPR-Cas9-mediated TRIM24-knockout MCF-7 and HEK293 cell lines, performed targeted metabolomic profiling and aspartate assays, used 5-aminoimidazole-4-carboxamide-1-\u03b2-D-ribofuranoside (AICAR), aminooxyacetic acid (AOA), aspartate supplementation, and glutamic-oxaloacetic transaminase 2 (GOT2) knockdown to probe AMPK signaling and aspartate metabolism, and examined starvation responses in constitutive Trim24 knockout mice on a C57BL/6 background. Loss of TRIM24 sensitized cells to glucose deprivation. Re-expression of TRIM24 partially restored cell viability under glucose deprivation in both MCF-7 and HEK293 cells. Under glucose-free conditions, TRIM24 deficiency was associated with impaired AMP-activated protein kinase (AMPK) pathway activation, increased intracellular aspartate accumulation, and altered ATP/AMP levels. Pharmacological reactivation of AMPK by AICAR improved the survival of TRIM24-deficient cells under glucose deprivation. Reducing intracellular aspartate by AOA treatment or GOT2 knockdown restored AMPK pathway activation and improved adaptation to glucose deprivation, whereas exogenous aspartate suppressed AMPK signaling and increased ATP/AMP levels. In vivo, starvation of Trim24-deficient mice was associated with reduced AMPK pathway activation and increased aspartate levels. Together, these findings support a model in which TRIM24 contributes to adaptation to glucose deprivation and in which abnormal aspartate accumulation contributes to impaired AMPK pathway activation in TRIM24-deficient cells.",
+      "publication_type": [
+        "research-article",
+        "Journal Article"
+      ],
+      "open_access": true,
+      "cited_by_count": 0,
+      "relevance_score": 3,
+      "relevance_reason": "Directly investigates AMPK pathway activation under glucose deprivation, linking ATP/AMP ratios, aspartate accumulation, and TRIM24 to AMPK signaling, providing mechanistic insight into cellular energy stress sensing."
+    }
+  ],
+  "literature_evidence": [
+    {
+      "paper_id": "41873906",
+      "claim": "AMPK complexes containing the long forms of the gamma2 subunit (gamma2a and gamma2c) bind 14-3-3 proteins, and this binding requires prior phosphorylation of Thr172 within the alpha catalytic subunit.",
+      "question_aspect": "Molecular regulation of AMPK complex assembly and activation state via subunit-specific interactions and phosphorylation",
+      "evidence_type": "biochemical",
+      "support": "The abstract states that AMPK containing long forms of gamma2 (gamma2a, gamma2c) binds 14-3-3, and that bacterial expression of these complexes requires co-expression with 14-3-3 and prior phosphorylation of Thr172 within the alpha subunit, unlike the short gamma2b form.",
+      "limitations": "Findings are based on bacterially expressed recombinant complexes; biological significance of 14-3-3 binding in vivo remains undetermined per the abstract.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "41873906",
+      "claim": "14-3-3 binding to the N-terminal region of gamma2a/c reduces AMPK activity relative to AMPK gamma1 or gamma2b complexes, while retaining allosteric activation by AMP and the small-molecule activator 991.",
+      "question_aspect": "Molecular-level regulation of AMPK downstream activity and allosteric AMP sensing",
+      "evidence_type": "structural",
+      "support": "The abstract reports that AMPK gamma2-14-3-3 complexes have reduced activity compared with AMPK gamma1 or gamma2b but retain allosteric activation by AMP and 991, and describes a crystal structure of a 14-3-3-phosphopeptide co-complex spanning phosphorylated T97 and S122 sites in gamma2a.",
+      "limitations": "The abstract does not specify the magnitude of AMP responsiveness change or how this translates to cellular energy sensing physiology beyond in vitro biochemical assays.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "41873906",
+      "claim": "Two specific residues within gamma2a (T97 and S122), predicted as 14-3-3 binding sites, are phosphorylated in the bacterially expressed AMPK complex and mediate 14-3-3 binding via a peptide spanning these sites.",
+      "question_aspect": "Molecular mechanism of AMPK gamma subunit regulation via phosphorylation-dependent protein interactions",
+      "evidence_type": "structural",
+      "support": "The abstract states that two predicted 14-3-3 binding sites within gamma2a (T97 and S122) were phosphorylated in the bacterially expressed complex, and that a peptide spanning these phosphorylated sites binds 14-3-3 in vitro, with a crystal structure determined for this co-complex.",
+      "limitations": "The physiological relevance and cellular signaling pathways triggering phosphorylation at these sites are not addressed in the abstract.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "42093562",
+      "claim": "AMPK is fully activated under cellular energy stress through binding of AMP combined with phosphorylation by upstream kinases LKB1 and CaMKK2.",
+      "question_aspect": "Core molecular mechanism of AMPK energy sensing and activation",
+      "evidence_type": "review",
+      "support": "The abstract states that under cellular energy stress, AMPK becomes fully activated when it binds AMP and is phosphorylated by upstream kinases, including LKB1 and CaMKK2, to restore metabolic equilibrium.",
+      "limitations": "As a review, this is a synthesis rather than new experimental data; specific molecular details of AMP binding sites or phosphorylation mechanisms are not elaborated in the abstract.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "42093562",
+      "claim": "CaMKK2 can activate AMPK independent of AMP binding, in response to calcium signaling, representing an AMP-independent activation pathway.",
+      "question_aspect": "Alternative/non-canonical molecular pathway for AMPK activation beyond direct energy (AMP) sensing",
+      "evidence_type": "review",
+      "support": "The abstract explicitly states that CaMKK2 can activate AMPK independent of AMP in response to calcium signaling.",
+      "limitations": "The abstract does not detail the molecular mechanism of calcium-dependent CaMKK2 activation or how this integrates with canonical AMP sensing at a structural level.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "42093562",
+      "claim": "AMPK activity and downstream metabolic regulation are spatially and temporally compartmentalized within single cells, as revealed by genetically encoded kinase activity reporters.",
+      "question_aspect": "Spatial/temporal organization of AMPK signaling in regulating downstream metabolism",
+      "evidence_type": "review",
+      "support": "The abstract states that genetically encoded kinase activity reporters have provided insights into AMPK activity dependent upon upstream kinases, location, and signaling cues, establishing AMPK as having distinct spatial and temporal signaling patterns suggesting compartmentalization.",
+      "limitations": "The abstract does not specify which downstream metabolic targets are affected by compartmentalized signaling or provide direct experimental data, being a summary review of the reporter technology field.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "39362600",
+      "claim": "AMPK exists as at least 12 distinct heterotrimeric complexes formed from combinations of alpha, beta, and gamma subunit isoforms, each with distinct biochemical properties and tissue expression patterns.",
+      "question_aspect": "AMPK structure/subunit composition underlying energy sensing",
+      "evidence_type": "review",
+      "support": "Abstract states AMPK is a heterotrimer of alpha-beta-gamma subunits encoded by seven genes, permitting formation of at least 12 different complexes with personalised biochemical fingerprints and tissue expression patterns.",
+      "limitations": "Review-level synthesis; no new primary data provided in the abstract to support mechanistic detail beyond general statement.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "39362600",
+      "claim": "AMPK is allosterically activated by adenine nucleotides (e.g., AMP) and small molecules, with isoform-specific differences: alpha1-AMPK has higher baseline activity and greater sensitivity to allosteric activators, while alpha2-AMPK shows greater responsiveness to AMP production during energy stress and is a better substrate for upstream kinase LKB1.",
+      "question_aspect": "Molecular mechanism of energy (AMP) sensing by AMPK",
+      "evidence_type": "review",
+      "support": "Abstract explicitly describes allosteric activation by adenine nucleotides and small molecules, and states baseline activity of alpha1-AMPK is higher than alpha2, but alpha2 shows greater response to AMP production and is a better substrate for LKB1 and mTORC1 upstream.",
+      "limitations": "Summary claims from a review; specific biochemical data (e.g., binding constants) not detailed in the abstract.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "39362600",
+      "claim": "Beta1-AMPK activity is regulated by a reversible 'myristoyl-switch' mechanism, which precedes phosphorylation events (e.g., by ULK1) that sensitize AMPK to small molecules and endogenous ligands such as fatty acids.",
+      "question_aspect": "Post-translational/regulatory mechanisms controlling AMPK activation",
+      "evidence_type": "review",
+      "support": "Abstract states beta1-AMPK activity is toggled by a myristoyl-switch mechanism likely preceding phosphorylation by ULK1 and sensitisation to small molecules or endogenous ligands like fatty acids.",
+      "limitations": "Mechanism described at a conceptual level in a review; abstract does not provide direct experimental evidence for the switch mechanism itself.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "41390359",
+      "claim": "CDCP1 binds to the alpha3 helix of AMPK's autoinhibitory domain, preventing formation of the autoinhibitory conformation and thereby protecting AMPK phosphorylation from self-inhibition, which enhances AMPK activation.",
+      "question_aspect": "Allosteric regulation of AMPK activation at the molecular/structural level",
+      "evidence_type": "biochemical",
+      "support": "Abstract states CDCP1 prevents formation of the autoinhibitory conformation of the autoinhibitory domain by binding to the alpha3 helix, protecting AMPK phosphorylation from self-inhibition, demonstrated via proximity ligation assays, GST pull-down, and molecular docking.",
+      "limitations": "Findings are specific to osteoblasts and CDCP1 interaction; abstract does not establish whether this mechanism generalizes to canonical energy-stress-induced AMPK activation (e.g., via AMP/ADP binding).",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "41390359",
+      "claim": "CDCP1-mediated AMPK phosphorylation enhances carnitine palmitoyltransferase activity, leading to increased fatty acid oxidation, linking AMPK activation to downstream lipid metabolic regulation in osteoblasts.",
+      "question_aspect": "Downstream metabolic regulation by activated AMPK",
+      "evidence_type": "biochemical",
+      "support": "Abstract states phosphorylated AMPK can enhance the activity of carnitine palmitoyltransferase, leading to increased fatty acid oxidation and promoting osteogenesis, based on in vitro experiments with gene overexpression and CRISPR/Cas9 knockout.",
+      "limitations": "Evidence is context-specific to osteoblasts and bone metabolism; abstract does not describe broader applicability across tissue types or direct measurement of AMPK kinase activity kinetics.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "42042063",
+      "claim": "TRIM24 loss impairs AMPK pathway activation under glucose deprivation, and this impairment correlates with altered ATP/AMP levels, linking cellular energy charge sensing to AMPK signaling status.",
+      "question_aspect": "AMPK sensing of cellular energy stress via ATP/AMP levels",
+      "evidence_type": "biochemical",
+      "support": "Abstract states that under glucose-free conditions, TRIM24 deficiency was associated with impaired AMPK pathway activation and altered ATP/AMP levels in CRISPR-Cas9-mediated TRIM24-knockout cell lines.",
+      "limitations": "Abstract does not specify the molecular mechanism (e.g., direct AMP/ATP binding to AMPK subunits) by which ATP/AMP alterations affect AMPK activation; correlation with TRIM24 loss does not establish causality regarding AMPK's intrinsic energy-sensing mechanism.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "42042063",
+      "claim": "Aspartate accumulation suppresses AMPK pathway activation, while reducing aspartate levels (via AOA treatment or GOT2 knockdown) restores AMPK activation and improves ATP/AMP homeostasis under glucose deprivation.",
+      "question_aspect": "Metabolic regulation of AMPK activation by intracellular metabolite levels",
+      "evidence_type": "biochemical",
+      "support": "Abstract reports that exogenous aspartate suppressed AMPK signaling and increased ATP/AMP levels, whereas AOA treatment or GOT2 knockdown reduced intracellular aspartate, restored AMPK pathway activation, and improved adaptation to glucose deprivation.",
+      "limitations": "The abstract does not describe the molecular mechanism linking aspartate levels to AMPK activation (e.g., whether aspartate directly or indirectly affects AMP/ATP ratios or upstream kinases); findings are correlative from pharmacological and genetic manipulations without structural or direct biochemical characterization of AMPK itself.",
+      "source_scope": "abstract"
+    },
+    {
+      "paper_id": "42042063",
+      "claim": "Pharmacological AMPK activation via AICAR improves cell survival under glucose deprivation in TRIM24-deficient cells, supporting a functional role for AMPK activation in metabolic adaptation to energy stress.",
+      "question_aspect": "Downstream functional consequences of AMPK activation during energy stress",
+      "evidence_type": "other",
+      "support": "Abstract states that pharmacological reactivation of AMPK by AICAR improved the survival of TRIM24-deficient cells under glucose deprivation.",
+      "limitations": "AICAR is an AMP-mimetic activator, but the abstract does not detail downstream metabolic targets or pathways through which AMPK activation confers survival benefit.",
+      "source_scope": "abstract"
+    }
+  ],
+  "uniprot": {
+    "source": "UniProt",
+    "accession": "Q13131",
+    "entry": "AAPK1_HUMAN",
+    "gene": "PRKAA1",
+    "protein_name": "5'-AMP-activated protein kinase catalytic subunit alpha-1",
+    "organism": "Homo sapiens",
+    "organism_id": 9606,
+    "function": [
+      "Catalytic subunit of AMP-activated protein kinase (AMPK), an energy sensor protein kinase that plays a key role in regulating cellular energy metabolism (PubMed:17307971, PubMed:17712357, PubMed:24563466, PubMed:31492851, PubMed:37821951, PubMed:40233740). In response to reduction of intracellular ATP levels, AMPK activates energy-producing pathways and inhibits energy-consuming processes: inhibits protein, carbohydrate and lipid biosynthesis, as well as cell growth and proliferation (PubMed:17307971, PubMed:17712357). AMPK acts via direct phosphorylation of metabolic enzymes, and by longer-term effects via phosphorylation of transcription regulators (PubMed:17307971, PubMed:17712357). Regulates lipid synthesis by phosphorylating and inactivating lipid metabolic enzymes such as ACACA, ACACB, GYS1, HMGCR and LIPE; regulates fatty acid and cholesterol synthesis by phosphorylating acetyl-CoA carboxylase (ACACA and ACACB) and hormone-sensitive lipase (LIPE) enzymes, respectively (By similarity). Promotes lipolysis of lipid droplets by mediating phosphorylation of isoform 1 of CHKA (CHKalpha2) (PubMed:34077757). Regulates insulin-signaling and glycolysis by phosphorylating IRS1, PFKFB2 and PFKFB3 (By similarity). AMPK stimulates glucose uptake in muscle by increasing the translocation of the glucose transporter SLC2A4/GLUT4 to the plasma membrane, possibly by mediating phosphorylation of TBC1D4/AS160 (By similarity). Regulates transcription and chromatin structure by phosphorylating transcription regulators involved in energy metabolism such as CRTC2/TORC2, FOXO3, histone H2B, HDAC5, MEF2C, MLXIPL/ChREBP, EP300, HNF4A, p53/TP53, SREBF1, SREBF2 and PPARGC1A (PubMed:11518699, PubMed:11554766, PubMed:15866171, PubMed:17711846, PubMed:18184930). Acts as a key regulator of glucose homeostasis in liver by phosphorylating CRTC2/TORC2, leading to CRTC2/TORC2 sequestration in the cytoplasm (By similarity). In response to stress, phosphorylates 'Ser-36' of histone H2B (H2BS36ph), leading to promote transcription (By similarity). Acts as a key regulator of cell growth and proliferation by phosphorylating FNIP1, TSC2, RPTOR, WDR24 and ATG1/ULK1: in response to nutrient limitation, negatively regulates the mTORC1 complex by phosphorylating RPTOR component of the mTORC1 complex and by phosphorylating and activating TSC2 (PubMed:14651849, PubMed:18439900, PubMed:20160076, PubMed:21205641). Also phosphorylates and inhibits GATOR2 subunit WDR24 in response to nutrient limitation, leading to suppress glucose-mediated mTORC1 activation (PubMed:36732624). In response to energetic stress, phosphorylates FNIP1, inactivating the non-canonical mTORC1 signaling, thereby promoting nuclear translocation of TFEB and TFE3, and inducing transcription of lysosomal or autophagy genes (PubMed:37079666). In response to nutrient limitation, promotes autophagy by phosphorylating and activating ATG1/ULK1 (PubMed:21205641). In that process, it also activates WDR45/WIPI4 (PubMed:28561066). Phosphorylates CASP6, thereby preventing its autoprocessing and subsequent activation (PubMed:32029622). In response to nutrient limitation, phosphorylates transcription factor FOXO3 promoting FOXO3 mitochondrial import (By similarity). Also acts as a regulator of cellular polarity by remodeling the actin cytoskeleton; probably by indirectly activating myosin (PubMed:17486097). AMPK also acts as a regulator of circadian rhythm by mediating phosphorylation of CRY1, leading to destabilize it (By similarity). May regulate the Wnt signaling pathway by phosphorylating CTNNB1, leading to stabilize it (By similarity). Also has tau-protein kinase activity: in response to amyloid beta A4 protein (APP) exposure, activated by CAMKK2, leading to phosphorylation of MAPT/TAU; however the relevance of such data remains unclear in vivo (By similarity). Also phosphorylates CFTR, EEF2K, KLC1, NOS3 and SLC12A1 (PubMed:12519745, PubMed:20074060). Regulates hepatic lipogenesis. Activated via SIRT3, represses sterol regulatory element-binding protein (SREBP) transcriptional activities and ATP-consuming lipogenesis to restore cellular energy balance. Upon stress, regulates mitochondrial fragmentation through phosphorylation of MTFR1L (PubMed:36367943). Phosphorylates ALDH7A1 in response to cellular stress, such as hypoxia or ferroptotic stress, promoting ALDH7A1 recruitment to membranes (PubMed:31492851, PubMed:40233740)"
+    ],
+    "catalytic_activity": [
+      {
+        "reaction": "L-seryl-[protein] + ATP = O-phospho-L-seryl-[protein] + ADP + H(+)",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "reaction": "L-threonyl-[protein] + ATP = O-phospho-L-threonyl-[protein] + ADP + H(+)",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "reaction": "L-seryl-[acetyl-CoA carboxylase] + ATP = O-phospho-L-seryl-[acetyl-CoA carboxylase] + ADP + H(+)",
+        "ec_number": null
+      },
+      {
+        "reaction": "L-seryl-[3-hydroxy-3-methylglutaryl-coenzyme A reductase] + ATP = O-phospho-L-seryl-[3-hydroxy-3-methylglutaryl-coenzyme A reductase] + ADP + H(+)",
+        "ec_number": "2.7.11.31"
+      },
+      {
+        "reaction": "L-seryl-[tau protein] + ATP = O-phospho-L-seryl-[tau protein] + ADP + H(+)",
+        "ec_number": "2.7.11.26"
+      },
+      {
+        "reaction": "L-threonyl-[tau protein] + ATP = O-phospho-L-threonyl-[tau protein] + ADP + H(+)",
+        "ec_number": "2.7.11.26"
+      }
+    ],
+    "functional_sites": [
+      {
+        "type": "Active site",
+        "start": 150,
+        "end": 150,
+        "description": "Proton acceptor",
+        "ligand": null,
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00159"
+          },
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "PROSITE-ProRule",
+            "id": "PRU10027"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 33,
+        "end": 41,
+        "description": "",
+        "ligand": {
+          "name": "ATP",
+          "id": "ChEBI:CHEBI:30616"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00159"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "start": 56,
+        "end": 56,
+        "description": "",
+        "ligand": {
+          "name": "ATP",
+          "id": "ChEBI:CHEBI:30616"
+        },
+        "evidence": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00159"
+          }
+        ]
+      }
+    ],
+    "pdb_structures": [
+      {
+        "pdb_id": "4RED",
+        "method": "X-ray",
+        "resolution": "2.95 A",
+        "chains": "A/B=22-362"
+      },
+      {
+        "pdb_id": "4RER",
+        "method": "X-ray",
+        "resolution": "4.05 A",
+        "chains": "A=20-559"
+      },
+      {
+        "pdb_id": "4REW",
+        "method": "X-ray",
+        "resolution": "4.58 A",
+        "chains": "A=20-559"
+      },
+      {
+        "pdb_id": "5EZV",
+        "method": "X-ray",
+        "resolution": "2.99 A",
+        "chains": "A/C=359-401"
+      },
+      {
+        "pdb_id": "6C9F",
+        "method": "X-ray",
+        "resolution": "2.92 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "6C9G",
+        "method": "X-ray",
+        "resolution": "2.70 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "6C9H",
+        "method": "X-ray",
+        "resolution": "2.65 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "6C9J",
+        "method": "X-ray",
+        "resolution": "3.05 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "7JHG",
+        "method": "EM",
+        "resolution": "3.47 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "7JHH",
+        "method": "EM",
+        "resolution": "3.92 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "7JIJ",
+        "method": "X-ray",
+        "resolution": "5.50 A",
+        "chains": "A=22-559"
+      },
+      {
+        "pdb_id": "7M74",
+        "method": "EM",
+        "resolution": "3.93 A",
+        "chains": "A=22-559"
+      }
+    ]
+  },
+  "structures": [
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "4RED",
+      "title": "Crystal structure of human AMPK alpha1 KD-AID with K43A mutation",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        2.95
+      ],
+      "deposit_date": "2014-09-22T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "4RER",
+      "title": "Crystal structure of the phosphorylated human alpha1 beta2 gamma1 holo-AMPK complex bound to AMP and cyclodextrin",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        4.047
+      ],
+      "deposit_date": "2014-09-23T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "4REW",
+      "title": "Crystal structure of the non-phosphorylated human alpha1 beta2 gamma1 holo-AMPK complex",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        4.58
+      ],
+      "deposit_date": "2014-09-24T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "5EZV",
+      "title": "X-ray crystal structure of AMP-activated protein kinase alpha-2/alpha-1 RIM chimaera (alpha-2(1-347)/alpha-1(349-401)/alpha-2(397-end) beta-1 gamma-1) co-crystallized with C2 (5-(5-hydroxyl-isoxazol-3-yl)-furan-2-phosphonic acid)",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        2.99
+      ],
+      "deposit_date": "2015-11-26T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "6C9F",
+      "title": "AMP-activated protein kinase bound to pharmacological activator R734",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        2.924
+      ],
+      "deposit_date": "2018-01-26T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "6C9G",
+      "title": "AMP-activated protein kinase bound to pharmacological activator R739",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        2.7
+      ],
+      "deposit_date": "2018-01-26T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "6C9H",
+      "title": "non-phosphorylated AMP-activated protein kinase bound to pharmacological activator R734",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        2.65
+      ],
+      "deposit_date": "2018-01-26T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "6C9J",
+      "title": "AMP-activated protein kinase bound to pharmacological activator R734",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        3.05
+      ],
+      "deposit_date": "2018-01-26T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "7JHG",
+      "title": "Cryo-EM structure of ATP-bound fully inactive AMPK in complex with Dorsomorphin (Compound C) and Fab-nanobody",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        3.47
+      ],
+      "deposit_date": "2020-07-20T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "7JHH",
+      "title": "Cryo-EM structure of ATP-bound fully inactive AMPK in complex with Fab and nanobody",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        3.92
+      ],
+      "deposit_date": "2020-07-20T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "7JIJ",
+      "title": "ATP-bound AMP-activated protein kinase",
+      "experimental_methods": [
+        "X-RAY DIFFRACTION"
+      ],
+      "resolution": [
+        5.5
+      ],
+      "deposit_date": "2020-07-23T00:00:00.000+00:00"
+    },
+    {
+      "source": "RCSB PDB",
+      "pdb_id": "7M74",
+      "title": "ATP-bound AMP-activated protein kinase",
+      "experimental_methods": [
+        "ELECTRON MICROSCOPY"
+      ],
+      "resolution": [
+        3.93
+      ],
+      "deposit_date": "2021-03-26T00:00:00.000+00:00"
+    }
+  ]
+}

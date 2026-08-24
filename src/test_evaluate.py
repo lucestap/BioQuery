@@ -5,6 +5,8 @@ from evaluate import precision_at_k
 from clean import deduplicate_papers, simplify_paper
 from search import search_multiple_queries
 
+from evaluate import mean_precision_at_k, precision_at_k
+
 with open(
     "examples/data/pfk1_ranked_papers.json",
     "r",
@@ -194,4 +196,146 @@ print(
     "AMPK Baseline "
     f"P@5={precision_at_k(ampk_baseline_labels, 5):.2f}, "
     f"P@10={precision_at_k(ampk_baseline_labels, 10):.2f}"
+)
+
+
+p53_bioquery_labels = [
+    1, 1, 1, 1, 1,
+    1, 0, 1, 1, 0,
+]
+
+ampk_bioquery_labels = [
+    1, 1, 1, 1, 1,
+    1, 1, 1, 1, 0,
+]
+
+baseline_label_sets = [
+    baseline_labels,
+    p53_baseline_labels,
+    ampk_baseline_labels,
+]
+
+bioquery_label_sets = [
+    manual_labels,
+    p53_bioquery_labels,
+    ampk_bioquery_labels,
+]
+
+print("\n" + "=" * 60)
+print("AGGREGATE EVALUATION")
+print("=" * 60)
+
+print(
+    "Baseline mean Precision@5: "
+    f"{mean_precision_at_k(baseline_label_sets, 5):.2f}"
+)
+
+print(
+    "BioQuery mean Precision@5: "
+    f"{mean_precision_at_k(bioquery_label_sets, 5):.2f}"
+)
+
+print(
+    "Baseline mean Precision@10: "
+    f"{mean_precision_at_k(baseline_label_sets, 10):.2f}"
+)
+
+print(
+    "BioQuery mean Precision@10: "
+    f"{mean_precision_at_k(bioquery_label_sets, 10):.2f}"
+)
+
+
+evaluation_results = {
+    "cases": {
+        "pfk1": {
+            "baseline_precision_at_5": precision_at_k(
+                baseline_labels,
+                5,
+            ),
+            "baseline_precision_at_10": precision_at_k(
+                baseline_labels,
+                10,
+            ),
+            "bioquery_precision_at_5": precision_at_k(
+                manual_labels,
+                5,
+            ),
+            "bioquery_precision_at_10": precision_at_k(
+                manual_labels,
+                10,
+            ),
+        },
+        "p53": {
+            "baseline_precision_at_5": precision_at_k(
+                p53_baseline_labels,
+                5,
+            ),
+            "baseline_precision_at_10": precision_at_k(
+                p53_baseline_labels,
+                10,
+            ),
+            "bioquery_precision_at_5": precision_at_k(
+                p53_bioquery_labels,
+                5,
+            ),
+            "bioquery_precision_at_10": precision_at_k(
+                p53_bioquery_labels,
+                10,
+            ),
+        },
+        "ampk": {
+            "baseline_precision_at_5": precision_at_k(
+                ampk_baseline_labels,
+                5,
+            ),
+            "baseline_precision_at_10": precision_at_k(
+                ampk_baseline_labels,
+                10,
+            ),
+            "bioquery_precision_at_5": precision_at_k(
+                ampk_bioquery_labels,
+                5,
+            ),
+            "bioquery_precision_at_10": precision_at_k(
+                ampk_bioquery_labels,
+                10,
+            ),
+        },
+    },
+    "aggregate": {
+        "baseline_mean_precision_at_5": mean_precision_at_k(
+            baseline_label_sets,
+            5,
+        ),
+        "baseline_mean_precision_at_10": mean_precision_at_k(
+            baseline_label_sets,
+            10,
+        ),
+        "bioquery_mean_precision_at_5": mean_precision_at_k(
+            bioquery_label_sets,
+            5,
+        ),
+        "bioquery_mean_precision_at_10": mean_precision_at_k(
+            bioquery_label_sets,
+            10,
+        ),
+    },
+}
+
+
+with open(
+    "examples/data/evaluation_results.json",
+    "w",
+    encoding="utf-8",
+) as file:
+    json.dump(
+        evaluation_results,
+        file,
+        indent=2,
+    )
+
+print(
+    "\nSaved evaluation results to "
+    "examples/data/evaluation_results.json"
 )

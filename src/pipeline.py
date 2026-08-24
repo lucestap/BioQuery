@@ -9,6 +9,8 @@ from search import search_multiple_queries
 from synthesis import synthesize_investigation
 from uniprot import search_uniprot, simplify_uniprot_record
 
+import json
+
 def run_bioquery(
     topic: str,
     question: str,
@@ -18,6 +20,7 @@ def run_bioquery(
     organism_id: int,
     papers_per_query: int = 5,
     evidence_papers: int = 5,
+    checkpoint_path: str | None = None,
 ) -> dict:
     """Run the BioQuery biological investigation workflow."""
 
@@ -151,19 +154,7 @@ def run_bioquery(
         f"experimental structures."
     )
 
-    print("7. Synthesizing investigation...")
-
-    brief = synthesize_investigation(
-        question=question,
-        existing_knowledge=existing_knowledge,
-        literature_evidence=literature_evidence,
-        uniprot_record=protein,
-        structures=structures,
-    )
-
-    print("   BioQuery investigation complete.")
-
-    return {
+    intermediate_result = {
         "input": {
             "topic": topic,
             "question": question,
@@ -183,5 +174,38 @@ def run_bioquery(
         "literature_evidence": literature_evidence,
         "uniprot": protein,
         "structures": structures,
+    }
+
+    if checkpoint_path is not None:
+        with open(
+            checkpoint_path,
+            "w",
+            encoding="utf-8",
+        ) as file:
+            json.dump(
+                intermediate_result,
+                file,
+                indent=2,
+            )
+
+        print(
+            f"   Saved pre-synthesis checkpoint to "
+            f"{checkpoint_path}"
+        )
+
+    print("7. Synthesizing investigation...")
+
+    brief = synthesize_investigation(
+        question=question,
+        existing_knowledge=existing_knowledge,
+        literature_evidence=literature_evidence,
+        uniprot_record=protein,
+        structures=structures,
+    )
+
+    print("   BioQuery investigation complete.")
+
+    return {
+        **intermediate_result,
         "research_brief": brief,
     }

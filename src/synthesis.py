@@ -123,5 +123,6 @@ Do not include Markdown formatting or text outside the JSON.
         response_text = response_text.removesuffix("```")
         response_text = response_text.strip()
 
+    
     return json.loads(response_text) 
    
