@@ -323,6 +323,42 @@ evaluation_results = {
     },
 }
 
+evaluation_results["brief_quality"] = {
+    "rubric": {
+        "scale": "0-3",
+        "dimensions": [
+            "evidence_grounding",
+            "source_diversity",
+            "biological_specificity",
+            "uncertainty_handling",
+        ],
+        "annotator": "human",
+    },
+    "cases": {
+        "pfk1": {
+            "evidence_grounding": 3,
+            "source_diversity": 3,
+            "biological_specificity": 2,
+            "uncertainty_handling": 3,
+            "total": 11,
+        },
+        "p53": {
+            "evidence_grounding": 2,
+            "source_diversity": 3,
+            "biological_specificity": 2,
+            "uncertainty_handling": 3,
+            "total": 10,
+        },
+        "ampk": {
+            "evidence_grounding": 2,
+            "source_diversity": 3,
+            "biological_specificity": 2,
+            "uncertainty_handling": 3,
+            "total": 10,
+        },
+    },
+    "mean_total": 10.33,
+}
 
 with open(
     "examples/data/evaluation_results.json",
