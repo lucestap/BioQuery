@@ -10,7 +10,11 @@ def search_uniprot(
     gene: str,
     organism_id: int = 9606,
 ) -> list[dict]:
-    """Search UniProt for reviewed proteins matching a gene and organism."""
+    """Retrieve reviewed UniProt entries matching a gene and organism.
+
+    ``organism_id`` accepts an NCBI taxonomy identifier; 9606 (human) is
+    provided only as a convenient default rather than a pipeline restriction.
+    """
 
     params = {
         "query": (
@@ -34,8 +38,13 @@ def search_uniprot(
 
     return data.get("results", [])
 
+
 def simplify_uniprot_record(record: dict) -> dict:
-    """Convert a UniProt response into a compact BioQuery protein record."""
+    """Extract protein identity, function, functional sites, and PDB links.
+
+    The compact representation retains curated biological annotations and
+    their evidence metadata while discarding fields not used by BioQuery V1.
+    """
 
     protein_description = record.get("proteinDescription", {})
     recommended_name = protein_description.get("recommendedName", {})
@@ -50,6 +59,8 @@ def simplify_uniprot_record(record: dict) -> dict:
     organism = record.get("organism", {})
 
     function_texts = []
+
+
 
     for comment in record.get("comments", []):
         if comment.get("commentType") == "FUNCTION":
@@ -71,6 +82,9 @@ def simplify_uniprot_record(record: dict) -> dict:
 
     functional_sites = []
 
+    # Retain only site annotations that can contribute directly to molecular
+    # interpretation of catalytic or ligand-binding mechanisms.
+
     for feature in record.get("features", []):
         if feature.get("type") not in {"Binding site", "Active site"}:
             continue
@@ -89,6 +103,9 @@ def simplify_uniprot_record(record: dict) -> dict:
         )
 
     pdb_structures = []
+
+    # UniProt provides the curated bridge from protein identity to relevant
+    # experimental structures used by the RCSB retrieval stage.
 
     for reference in record.get("uniProtKBCrossReferences", []):
         if reference.get("database") != "PDB":

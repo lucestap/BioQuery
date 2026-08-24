@@ -2,12 +2,11 @@ from __future__ import annotations
 
 import requests
 
-
 RCSB_ENTRY_URL = "https://data.rcsb.org/rest/v1/core/entry"
 
 
 def fetch_pdb_entry(pdb_id: str) -> dict:
-    """Fetch metadata for a PDB structure from RCSB PDB."""
+    """Retrieve experimental structure metadata for one RCSB PDB entry."""
 
     url = f"{RCSB_ENTRY_URL}/{pdb_id}"
 
@@ -20,8 +19,11 @@ def fetch_pdb_entry(pdb_id: str) -> dict:
 
     return response.json()
 
+# V1 keeps structure identity and experimental metadata rather than
+# downloading coordinate files or performing structural calculations.
+
 def simplify_pdb_entry(entry: dict) -> dict:
-    """Convert an RCSB PDB entry into a compact BioQuery structure record."""
+    """Convert an RCSB response into a compact BioQuery structure record."""
 
     experimental_methods = [
         experiment.get("method")

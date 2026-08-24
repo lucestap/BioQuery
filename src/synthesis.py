@@ -6,6 +6,7 @@ import os
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+
 def synthesize_investigation(
     question: str,
     existing_knowledge: str,
@@ -13,11 +14,24 @@ def synthesize_investigation(
     uniprot_record: dict,
     structures: list[dict],
 ) -> dict:
-    """Synthesize evidence from literature and biological databases."""
+    """Synthesize a cross-source, evidence-grounded research brief.
+
+    The synthesizer integrates structured literature evidence with curated
+    UniProt annotations and RCSB PDB metadata. It is instructed to preserve
+    source boundaries, expose uncertainty, and avoid claims unsupported by
+    the supplied evidence.
+    """
+
+    # Synthesis operates on structured evidence rather than the original
+    # retrieval set, preserving the separation between retrieval and reasoning.
 
     evidence_json = json.dumps(literature_evidence, indent=2)
     uniprot_json = json.dumps(uniprot_record, indent=2)
     structures_json = json.dumps(structures, indent=2)
+
+    # This is the only stage asked to answer the biological question; earlier
+    # LLM stages are restricted to planning, relevance assessment, or extraction.
+    
     prompt = f"""
 You are synthesizing a biological investigation from structured evidence.
 
@@ -104,6 +118,9 @@ Do not include Markdown formatting or text outside the JSON.
         ],
     )
 
+    # Explicitly select text output because Anthropic responses may contain
+    # other content-block types.
+
     text_blocks = [
         block.text
         for block in message.content
@@ -116,6 +133,8 @@ Do not include Markdown formatting or text outside the JSON.
             f"Stop reason: {message.stop_reason}"
         )
 
+    # Strip occasional JSON Markdown fences before deterministic parsing.
+    
     response_text = text_blocks[0].strip()
 
     if response_text.startswith("```json"):

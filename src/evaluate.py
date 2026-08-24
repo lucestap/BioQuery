@@ -5,7 +5,7 @@ def precision_at_k(
     relevance_labels: list[int],
     k: int,
 ) -> float:
-    """Calculate the fraction of the top-k papers labelled relevant."""
+    """Return the proportion of human-labelled relevant papers in the top k."""
 
     if k <= 0:
         raise ValueError("k must be greater than zero.")
@@ -23,11 +23,12 @@ def precision_at_k(
 
     return relevant / len(top_k)
 
+
 def mean_precision_at_k(
     label_sets: list[list[int]],
     k: int,
 ) -> float:
-    """Calculate mean precision@k across evaluation cases."""
+    """Return mean Precision@k across independently labelled case studies."""
 
     if not label_sets:
         return 0.0

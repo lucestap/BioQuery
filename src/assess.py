@@ -6,11 +6,17 @@ import os
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+
 def assess_paper_batch(
     question: str,
     papers: list[dict],
 ) -> list[dict]:
-    """Assess how directly retrieved papers address a biological question."""
+    """Score a batch of papers for question-specific relevance.
+
+    Judgements are restricted to the supplied paper metadata and abstracts
+    so relevance assessment does not rely on the model's outside knowledge.
+    """
+    # Pass compact, standardized records rather than raw Europe PMC responses.
 
     papers_json = json.dumps(papers, indent=2)
 
@@ -69,19 +75,20 @@ Do not include Markdown formatting or any text outside the JSON.
         ],
     )
 
-
+    # Anthropic responses can contain non-text blocks, so explicitly select
+    # the text output rather than assuming the first block contains JSON.
 
     text_blocks = [
-    block.text
-    for block in message.content
-    if block.type == "text"
-]
+        block.text
+        for block in message.content
+        if block.type == "text"
+    ]
 
     if not text_blocks:
         raise RuntimeError(
-        f"Claude returned no text response. "
-        f"Stop reason: {message.stop_reason}"
-    )
+            f"Claude returned no text response. "
+            f"Stop reason: {message.stop_reason}"
+        )
 
     response_text = text_blocks[0].strip()
 
@@ -94,13 +101,17 @@ Do not include Markdown formatting or any text outside the JSON.
 
     return result["assessments"]
 
+
 def assess_papers(
     question: str,
     papers: list[dict],
     batch_size: int = 8,
 ) -> list[dict]:
-    """Assess papers in batches and combine the results."""
+    """Assess candidate papers in batches and combine the results.
 
+    Batching keeps prompt and output sizes predictable and avoids sending
+    large retrieval sets through a single LLM request.
+    """
     all_assessments = []
 
     for start in range(0, len(papers), batch_size):

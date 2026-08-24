@@ -11,7 +11,15 @@ def extract_evidence_batch(
     question: str,
     papers: list[dict],
 ) -> list[dict]:
-    """Extract question-relevant evidence from selected paper abstracts."""
+    """Extract structured, question-relevant claims from paper abstracts.
+
+    Each evidence record preserves paper provenance and explicitly records
+    both supporting information and limitations. V1 is abstract-grounded;
+    the function must not infer evidence from unavailable full text.
+    """
+
+    # The extractor receives only papers already selected by the relevance
+    # stage; relevance itself is not treated as scientific evidence.
 
     papers_json = json.dumps(papers, indent=2)
 
@@ -82,6 +90,9 @@ Do not include Markdown formatting or any text outside the JSON.
         ],
     )
 
+    # Select the model's text output explicitly because a response may
+    # contain other Anthropic content-block types.
+
     text_blocks = [
         block.text
         for block in message.content
@@ -107,12 +118,17 @@ Do not include Markdown formatting or any text outside the JSON.
 
     return result["evidence"]
 
+
 def extract_evidence(
     question: str,
     papers: list[dict],
     batch_size: int = 2,
 ) -> list[dict]:
-    """Extract evidence from papers in small batches."""
+    """Extract evidence in small batches and combine the records.
+
+    Extraction can produce several evidence records per paper, so smaller
+    batches reduce the risk of truncated model responses.
+    """
 
     all_evidence = []
 

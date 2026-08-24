@@ -7,7 +7,7 @@ EUROPE_PMC_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
 
 def search_europe_pmc(query: str, page_size: int = 5) -> list[dict]:
-    """Search Europe PMC and return publication records."""
+    """Retrieve publication records from Europe PMC for one query."""
 
     params = {
         "query": query,
@@ -22,6 +22,9 @@ def search_europe_pmc(query: str, page_size: int = 5) -> list[dict]:
         timeout=30,
     )
 
+    # Fail explicitly on API errors rather than passing incomplete retrieval
+    # results into later evidence-processing stages.
+
     response.raise_for_status()
 
     data = response.json()
@@ -29,13 +32,17 @@ def search_europe_pmc(query: str, page_size: int = 5) -> list[dict]:
     return data.get("resultList", {}).get("result", [])
 
 
-from clean import deduplicate_papers, simplify_paper
+
 
 def search_multiple_queries(
     queries: list[str],
     page_size: int = 10,
 ) -> list[dict]:
-    """Run multiple Europe PMC searches and combine the results."""
+    """Run multiple Europe PMC searches and combine the raw results.
+
+    Deduplication is intentionally handled downstream so the retrieval layer
+    remains responsible only for communicating with Europe PMC.
+    """
 
     all_results = []
 
@@ -50,31 +57,3 @@ def search_multiple_queries(
     return all_results
 
 
-if __name__ == "__main__":
-    queries = [
-        '"PFK1" allosteric regulation',
-        '"phosphofructokinase-1" structural mechanism',
-        '"PFK1" regulatory sites',
-    ]
-
-    raw_results = search_multiple_queries(
-        queries,
-        page_size=10,
-    )
-
-    print(f"\nRaw results: {len(raw_results)}")
-
-    unique_results = deduplicate_papers(raw_results)
-
-    print(f"Unique results: {len(unique_results)}")
-
-    papers = [
-        simplify_paper(paper)
-        for paper in unique_results
-    ]
-
-    for i, paper in enumerate(papers[:10], start=1):
-        print(f"\n{i}. {paper['title']}")
-        print(f"Year: {paper['year']}")
-        print(f"PMID: {paper['pmid']}")
-        print(f"DOI: {paper['doi']}")

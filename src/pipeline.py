@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+
 from assess import assess_papers
 from clean import deduplicate_papers, simplify_paper
 from extract import extract_evidence
@@ -9,7 +11,6 @@ from search import search_multiple_queries
 from synthesis import synthesize_investigation
 from uniprot import search_uniprot, simplify_uniprot_record
 
-import json
 
 def run_bioquery(
     topic: str,
@@ -22,7 +23,16 @@ def run_bioquery(
     evidence_papers: int = 5,
     checkpoint_path: str | None = None,
 ) -> dict:
-    """Run the BioQuery biological investigation workflow."""
+    """Run an evidence-grounded biological investigation end to end.
+
+The workflow plans targeted literature searches, retrieves and ranks
+candidate papers, extracts structured evidence, enriches the investigation
+with UniProt and RCSB PDB data, and synthesizes a research brief.
+
+If ``checkpoint_path`` is provided, the pre-synthesis state is saved so
+successful retrieval and evidence-extraction work is preserved if the
+final synthesis step fails.
+    """
 
     print("1. Planning investigation...")
 
@@ -69,6 +79,9 @@ def run_bioquery(
         papers=unique_papers,
     )
 
+    # Join LLM relevance judgements back to the original Europe PMC
+    # records by ID, keeping bibliographic metadata under Python control.
+    
     assessments_by_id = {
         assessment["id"]: assessment
         for assessment in assessments
@@ -95,6 +108,9 @@ def run_bioquery(
         reverse=True,
     )
 
+    # Only the highest-ranked candidates proceed to evidence extraction;
+    # the broader retrieval set remains available for inspection.
+
     selected_papers = ranked_papers[:evidence_papers]
 
     print(
@@ -115,6 +131,9 @@ def run_bioquery(
     )
 
     print("5. Retrieving UniProt annotation...")
+
+    # Protein annotation is retrieved independently of the literature
+    # pipeline to provide a second, curated biological evidence source.
 
     uniprot_results = search_uniprot(
         gene=gene,
@@ -138,6 +157,9 @@ def run_bioquery(
 
     print("6. Retrieving PDB structures...")
 
+    # Follow UniProt's curated PDB cross-references rather than performing
+    # an unconstrained structure search.
+
     structures = []
 
     for pdb_reference in protein["pdb_structures"]:
@@ -153,6 +175,9 @@ def run_bioquery(
         f"   Retrieved {len(structures)} "
         f"experimental structures."
     )
+
+    # Preserve the complete investigation trail for auditability and
+    # optional checkpointing before the final LLM synthesis step.
 
     intermediate_result = {
         "input": {

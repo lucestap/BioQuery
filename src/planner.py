@@ -6,13 +6,19 @@ import os
 from anthropic import Anthropic
 from dotenv import load_dotenv
 
+
 def generate_investigation_plan(
     topic: str,
     question: str,
     existing_knowledge: str,
     depth: str,
 ) -> dict:
-    """Generate a structured investigation plan for a biological question."""
+    """Plan the evidence needed to investigate a biological question.
+
+    The planner decomposes the question into distinct evidence dimensions
+    and generates targeted literature searches. It deliberately does not
+    answer the biological question itself.
+    """
     prompt = f"""
 You are planning a focused biological investigation.
 
@@ -59,6 +65,9 @@ Do not include Markdown formatting or any text outside the JSON.
         api_key=os.environ["ANTHROPIC_API_KEY"]
     )
 
+    # Claude is used here for investigation design rather than biological
+    # synthesis; evidence is retrieved from external sources downstream.
+
     message = client.messages.create(
         model="claude-sonnet-5",
         max_tokens=2000,
@@ -70,11 +79,21 @@ Do not include Markdown formatting or any text outside the JSON.
         ],
     )
 
-    response_text = next(
+    # Tolerate occasional Markdown fencing even though the prompt requests
+    # raw JSON, keeping downstream parsing deterministic.
+
+    text_blocks = [
         block.text
         for block in message.content
         if block.type == "text"
-    ).strip()
+    ]
+
+    if not text_blocks:
+        raise RuntimeError(
+            f"Claude returned no text response. "
+            f"Stop reason: {message.stop_reason}"
+        )
+
 
     if response_text.startswith("```json"):
         response_text = response_text.removeprefix("```json")

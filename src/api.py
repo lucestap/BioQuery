@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+from uuid import uuid4
+
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from pydantic import BaseModel
-from uuid import uuid4
 
 from pipeline import run_bioquery
 
@@ -22,6 +23,9 @@ class InvestigationRequest(BaseModel):
     gene: str
     organism_id: int
 
+# V1 keeps job state in memory for lightweight local/Make.com orchestration.
+# A production deployment would replace this with persistent job storage.
+
 jobs: dict[str, dict] = {}
 
 
@@ -36,7 +40,11 @@ def run_investigation_job(
     job_id: str,
     request: InvestigationRequest,
 ) -> None:
-    """Run a BioQuery investigation and store its result."""
+    """Execute a long-running investigation and update its job state.
+
+    Background execution prevents automation clients such as Make.com from
+    holding a single HTTP connection open for the full investigation.
+    """
 
     try:
         result = run_bioquery(
@@ -66,12 +74,16 @@ def investigate(
     request: InvestigationRequest,
     background_tasks: BackgroundTasks,
 ) -> dict:
+    """Start an asynchronous BioQuery investigation and return its job ID."""
     job_id = str(uuid4())
 
     jobs[job_id] = {
         "status": "running",
     }
 
+    # Return control to the caller immediately while BioQuery continues in
+    # the background; Make.com can retrieve the result using the job ID.
+    
     background_tasks.add_task(
         run_investigation_job,
         job_id,
@@ -85,6 +97,7 @@ def investigate(
 
 @app.get("/results/{job_id}")
 def get_result(job_id: str) -> dict:
+    """Return the current state or completed result for an investigation."""
     job = jobs.get(job_id)
 
     if job is None:

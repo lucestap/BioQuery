@@ -4,7 +4,7 @@ from typing import Any
 
 
 def simplify_paper(paper: dict[str, Any]) -> dict[str, Any]:
-    """Convert a Europe PMC record into a clean BioQuery paper record."""
+    """Convert a raw Europe PMC response into a compact evidence record."""
 
     journal_info = paper.get("journalInfo", {})
     journal = journal_info.get("journal", {})
@@ -24,8 +24,12 @@ def simplify_paper(paper: dict[str, Any]) -> dict[str, Any]:
         "cited_by_count": paper.get("citedByCount"),
     }
 
+
 def paper_identifier(paper: dict[str, Any]) -> str | None:
-    """Return the most reliable identifier available for a paper."""
+    """Return a stable identifier, preferring PMID, then DOI, then title."""
+
+    # Prefer database identifiers over normalized titles to avoid relying on
+    # fuzzy matching during deterministic deduplication.
 
     if paper.get("pmid"):
         return f"pmid:{paper['pmid']}"
@@ -40,10 +44,15 @@ def paper_identifier(paper: dict[str, Any]) -> str | None:
 
     return None
 
+
 def deduplicate_papers(
     papers: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """Remove duplicate papers using stable identifiers."""
+    """Remove duplicate records while preserving first-seen retrieval order.
+
+    V1 matches PMID, DOI, or normalized title. It does not attempt to link
+    preprints with their later published versions.
+    """
 
     seen: set[str] = set()
     unique: list[dict[str, Any]] = []
