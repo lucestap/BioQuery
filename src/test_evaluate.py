@@ -126,3 +126,72 @@ evaluation_cases = {
         ],
     },
 }
+
+print("\n" + "=" * 60)
+print("Q2: P53 BASELINE")
+print("=" * 60)
+
+p53_raw = search_multiple_queries(
+    evaluation_cases["p53"]["baseline_queries"],
+    page_size=10,
+)
+
+p53_papers = deduplicate_papers(
+    [
+        simplify_paper(paper)
+        for paper in p53_raw
+    ]
+)
+
+for i, paper in enumerate(p53_papers[:10], start=1):
+    print(f"\n{i}. {paper['title']}")
+    print(f"   PMID: {paper['pmid']}")
+    print(f"   DOI: {paper['doi']}")
+
+
+print("\n" + "=" * 60)
+print("Q3: AMPK BASELINE")
+print("=" * 60)
+
+ampk_raw = search_multiple_queries(
+    evaluation_cases["ampk"]["baseline_queries"],
+    page_size=10,
+)
+
+ampk_papers = deduplicate_papers(
+    [
+        simplify_paper(paper)
+        for paper in ampk_raw
+    ]
+)
+
+for i, paper in enumerate(ampk_papers[:10], start=1):
+    print(f"\n{i}. {paper['title']}")
+    print(f"   PMID: {paper['pmid']}")
+    print(f"   DOI: {paper['doi']}")
+
+
+p53_baseline_labels = [
+    1, 0, 0, 1, 0,
+    0, 1, 1, 0, 0,
+]
+
+ampk_baseline_labels = [
+    0, 0, 0, 0, 1,
+    0, 0, 0, 0, 0,
+]
+
+p53_baseline_duplicates = [0] * 10
+ampk_baseline_duplicates = [0] * 10
+
+print(
+    "\nP53 Baseline "
+    f"P@5={precision_at_k(p53_baseline_labels, 5):.2f}, "
+    f"P@10={precision_at_k(p53_baseline_labels, 10):.2f}"
+)
+
+print(
+    "AMPK Baseline "
+    f"P@5={precision_at_k(ampk_baseline_labels, 5):.2f}, "
+    f"P@10={precision_at_k(ampk_baseline_labels, 10):.2f}"
+)
