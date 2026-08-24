@@ -73,14 +73,8 @@ Structured evidence extraction (Claude)
                    |
                    v
          Evidence-grounded research brief
+```
 
-
-
-### Then put the evaluation early
-
-Add:
-
-```markdown
 ## Evaluation
 
 BioQuery was evaluated on three prospectively specified biological case studies spanning different question types:
@@ -97,6 +91,12 @@ For each case, I defined three manual keyword queries **before running BioQuery*
 
 ### Retrieval results
 
+| Case | Baseline P@5 | BioQuery P@5 | Baseline P@10 | BioQuery P@10 |
+| --- | ---: | ---: | ---: | ---: |
+| PFK-1 | 0.60 | 0.80 | 0.30 | 0.70 |
+| p53 | 0.40 | 1.00 | 0.40 | 0.80 |
+| AMPK | 0.20 | 1.00 | 0.10 | 0.90 |
+
 | Method | Mean Precision@5 | Mean Precision@10 |
 | --- | ---: | ---: |
 | Three-query keyword baseline | 0.40 | 0.27 |
@@ -106,11 +106,6 @@ Across these three case studies, BioQuery substantially increased the proportion
 
 These results are a **small case-study evaluation, not a general benchmark**. Labels were assigned by a single human annotator, and the dataset contains only three biological questions.
 
-| Case | Baseline P@5 | BioQuery P@5 | Baseline P@10 | BioQuery P@10 |
-| --- | ---: | ---: | ---: | ---: |
-| PFK-1 | 0.80 | 0.80 | 0.40 | 0.70 |
-| p53 | 0.40 | 1.00 | 0.40 | 0.80 |
-| AMPK | 0.00 | 1.00 | 0.00 | 0.90 |
 
 
 ### Research brief quality
